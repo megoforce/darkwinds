@@ -9,4 +9,4 @@ We are happy to have you here.
 
 File all bugs/feature requests at [Darkwind's GitHub repo][darkwinds-gh]. 
 
-[darkwinds-gh]:   https://github.com/darkwinds/darkwinds
+[darkwinds-gh]:   https://github.com/megoforce/darkwinds
