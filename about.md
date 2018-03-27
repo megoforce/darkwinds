@@ -4,12 +4,5 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
-
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+Darkwinds is an online trading card game wheretwo players confront each other in a sea battleof ships.While the smart contract handles the owner-ship  of  tokens,  game  matches  occur  off-chain,in a webGL website running the Metamask webextension  or  compatible  thin  wallets.   A  game2
+server  is  responsible  for  matchmaking  betweentwo   adversaries,   validating   the   signature   ofboth  players,  thus  verfying  the  ownership  ofboth  player  decks.While  the  official  gameserver will be the only endorsed way of playingDarkwinds, other developers are free to read theABIs and access players cards to create differentgame  modes,  tournaments  or  applications  thatconnect to the game.Game  servers  only  require  a  signed  messagefrom  the  user  wallet  to  verify  ownership.   Theuser private keys are never read or stored.
