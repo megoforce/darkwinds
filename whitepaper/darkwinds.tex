@@ -1,0 +1,78 @@
+\title{
+        Darkwinds \\
+        \large A trading card game on the Ethereum Blockchain
+        }
+\author{DRAFT\\Cristian Gonzalez, MEGO Corp.}
+\date{\today}
+
+\documentclass[11pt,twocolumn]{article}
+
+\begin{document}
+\maketitle
+\pagebreak
+
+\pagebreak
+\twocolumn
+\section{Introduction}
+\begin{quote}"I happily played World of Warcraft during 2007-2010, but one day Blizzard removed the damage component from my beloved warlock's Siphon Life spell. I cried myself to sleep, and on that day I realized what horrors centralized services can bring."
+        \begin{flushright}
+                {---Vitalik Buterin, Creator of Ethereum}
+              \end{flushright}
+        \end{quote}
+
+Collectible card games have existed in popular demand since decades. After the massification of the Internet, many of them were successfully digitized like \textit{Magic: The Gathering} and \textit{Pokemon} and new ones were created emulating the look and feel of the physical collectibles in form of a multiplayer videogame.
+However, being of electronic nature, it's physical existence is an entry on a database, and the amount of each card each player owns is a counter inside a central server. Using databases to create trading card games can produce a fun experience at the cost of conceptual problems:
+
+\begin{itemize}
+        \item Only the owner of the software can allow/deny the use of the digital card within it's ecosystem.
+        \item The digital card existence depends on the game systems to be online.
+        \item The game owner can prohibit trading or markets for cards, which is usually enforced.
+        \item The game owner can control the issuance of cards witout transparency to the user.
+\end{itemize}
+
+Thanks to Blockchain technology we can make a trading card game where all cards are stored in a Ethereum smart contract, where players obtain true ownership of the game object and are free to trade in an outside the game program.\\
+
+By being a blockchain asset, each card will have the following qualities:
+
+\begin{itemize}
+        \item It's securely stored in an Ethereum wallet.
+        \item The owner and only the owner has perpetual rights for transfer, trade or sale of the token
+        \item It can be read by other applications, like a mobile wallet for ERC721 tokens.
+        \item It's existence doesn't depend on the availability of the game owner systems.
+\end{itemize}
+
+Each card is composed of a serial number and a model id that corresponds to a card model. There can be many cards of the same model, with different serial numbers. Card models are a struct of an IPFS image with additional card metadata for actions (ex: deals 3 damage points to enemy target).\\
+
+The smart contract also controls immutable rules on the issuance of cards, including the total limit of cards to be issued and the rarity of card models.
+
+
+\section{The Game}
+Darkwinds is an online trading card game where two players confront each other in a sea battle of ships.\\
+
+While the smart contract handles the ownership of tokens, game matches occur off-chain, in a webGL website running the Metamask web extension or compatible thin wallets. A game server is responsible for matchmaking between two adversaries, validating the signature of both players, thus verfying the ownership of both player decks. While the official game server will be the only endorsed way of playing Darkwinds, other developers are free to read the ABIs and access players cards to create different game modes, tournaments or applications that connect to the game.\\
+
+Game servers only require a signed message from the user wallet to verify ownership. The user private keys are never read or stored.
+
+
+\section{The Darkwinds token}
+The following are functions that the contract performs in addition to the standard ERC721 functionality.
+\subsection{getCard}
+Gets all the metadata for the card relevant to the game mechanics (actions, cost of invocation, effects, etc.)
+\subsection{getBoosterPack}
+Spends a determined amount of ETH to get a booster pack with 10,25 or 50 cards.
+\subsection{trade}
+Adds a specific card owned by the user to an auction list for it to be traded for other card using a pairing algorythm.
+
+\section{Darkwinds token metadata}
+\section{Card Generation}
+Cards are generated with a KECCAK-256 operation on the last block timestamp, plus a few other operations that result in a limited distribution on certain rare cards. However, since the block timestamp is only incrementing it's possible to approximate the final distribution of cards.
+
+While it's possible to determine exactly when cards are being released, efforts are probably not practical. 
+
+The smart contract stops generating cards when the hard cap of 1,000,000 is reached.
+\begin{thebibliography}{1}
+
+        \bibitem{notes} The ERC721 non-fungible token standard. https://github.com/ethereum/eips/issues/721, Dieter Shirley, 2017.
+      
+        \end{thebibliography}
+\end{document}
