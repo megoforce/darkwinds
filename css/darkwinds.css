@@ -1,0 +1,423 @@
+body {
+    background-color: rgba(226, 196, 130, 0.387);
+    margin: 0;
+    padding: 0;
+    color:black;
+}
+a {
+    color:rgb(169, 144, 51);
+}
+a:hover {
+    color:rgb(184, 149, 23);
+}
+/*Typography*/
+p {
+    font-family: 'Quando', serif;
+    font-size: 18px;
+    padding:8px 0px 15px 0px;
+    color:rgba(0, 0, 0, 0.661);
+}
+h1,h2,h3,h4,h6 {
+    font-family: 'Quando', serif;
+}
+h1 {
+    font-weight: medium;
+    font-size: 45px;
+}
+h2 {
+    font-weight: medium;
+    font-size: 25px;
+    margin-bottom:15px;
+    margin-top:18px;
+    letter-spacing: 2px;
+}
+h3 {
+    font-weight: regular;
+    font-size: 20px;
+    padding: 0 15 0 15;
+}
+h4 {
+    font-weight: regular;
+    font-size: 14px;
+}
+/*solo para newsletter*/
+h5 {
+    font-family: 'Quando', serif;
+    font-weight: medium;
+    font-size: 25px;
+    margin-bottom:30px;
+    letter-spacing: 2px;
+}
+h6 {
+    font-size: 8px;
+    font-family: sans-serif;
+}
+#main-banner {
+    background-image: url("https://2.bp.blogspot.com/-Plvot5J7rNI/V-Q0UStzV1I/AAAAAAAABvQ/W-Ywsqh4B9AOUQmq3Snzp9z2EBtLno0BgCLcB/s1600/TEMPESTAD%2B12.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    text-shadow: 2px 2px #000000b7;
+    text-align: center;
+    padding: 10px 0px 20px 0px;
+    display: flex;
+    position:relative;
+    max-height:800px;
+    padding-top:150px;
+    padding-bottom:150px;
+}
+#main-banner img{
+    width:55%;
+    height: auto;
+    margin-bottom:-15px;
+}
+.button-primary-web {
+    border-radius: 5px;
+    width:auto;
+    margin: 15px 15px 15px 15px;
+    border: 3px solid rgb(246, 6, 6);
+    background-color:rgb(213, 7, 7);
+    color: white;
+    font-size: 25px;
+    font-family: 'Quando', serif;
+    padding: 8px 10px 8px 10px;
+}
+.button-primary-web:hover {
+    background-color:rgb(246, 6, 6);
+}
+.button-primary-web-header:hover {
+    background-color: #D8B76F;
+}
+.button-secondary-web {
+    border-radius: 5px;
+    width:auto;
+    margin:20px 5px 30px 5px;
+    border: 3px solid rgb(50, 97, 180);
+    background-color:rgb(22, 72, 189);
+    color: white;
+    font-size: 15px;
+    font-family: 'Quando', serif;
+    padding: 4px 4px 4px 4px;
+}
+.button-secondary-web:hover {
+    border-radius: 5px;
+    width:auto;
+    margin:20px 5px 30px 5px;
+    border: 3px solid rgb(34, 104, 225);
+    background-color: rgb(34, 104, 225);
+    color: white;
+    font-size: 15px;
+    font-family: 'Quando', serif;
+    padding: 4px 4px 4px 4px;
+}
+hr {
+    width:40%;
+    margin-bottom:30px;
+}
+#logo-left {
+    width:80%;
+    display: inline-block;
+}
+header {
+    padding-top:10px;
+    align-items: center;
+    font-family: "quando",serif;
+    letter-spacing: 1px;
+    background-color: #111;
+    font-size:13px;
+    margin-bottom:-1px;
+    height:56px;
+}
+header ul {
+    text-decoration: none;
+    list-style: none;
+    padding:0;
+    margin:0;
+    width:100%;
+    list-style: none;
+}
+header li {
+    padding-bottom:-10px;
+    padding-left:10px;
+    display: inline;
+}
+header a:hover {
+    text-decoration: underline;
+}
+header a {
+    color:#EEE;
+    margin-top:-10px;
+}
+#header-icon-left {
+    height:56px;
+    width:auto;
+    display: inline-block;
+    margin-top:-10px;
+    margin-left:-25px;
+    margin-right:18px;
+}
+#header-play-now {
+    text-align: right;
+}
+.button-primary-web-header {
+    border-radius: 5px;
+    width:auto;
+    margin:-2px 5px 4px 5px;
+    border: 3px solid #D8B76F;
+    background-color:rgb(216, 169, 67);
+    color: white;
+    font-size: 18px;
+    font-family: 'Quando', serif;
+    padding: 4px 4px;
+}
+
+#play-now {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding:40px 0px 0px 0px;
+}
+.ball {
+    width: 50%;
+    margin-bottom:40px;
+}
+#what-is {
+    background-size: 110%;
+    background-color: rgb(232, 197, 121);
+}
+.start-cards {
+    width:90%;
+    margin: 0 auto;
+}
+#why-play {
+    background-color: rgba(226, 196, 130, 0.719);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+#demo {
+    background-color: rgba(226, 196, 130, 0.582);
+}
+#pricing {
+    background-color: rgba(226, 196, 130, 0.39);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+#play-now-2 {
+    background-image: url('/img/landing/becomebg.jpg');
+    background-color: rgb(237, 186, 83);
+    background-repeat: no-repeat;
+    background-size: 120%;
+}
+#newsletter {
+    background-color: rgba(246, 8, 242, 0.401);
+    background-image: url("/img/landing/banner00.jpg");
+    background-repeat: no-repeat;
+    background-size: 110%;
+    color:white;
+    padding-top:30px;
+    text-shadow: 2px 2px #000000b7;
+    padding-bottom:30px;
+}
+.button-subscribe{
+    border-radius: 5px;
+    width:100%;
+    border: 3px solid rgb(50, 97, 180);
+    background-color:rgb(22, 72, 189);
+    color: rgb(235, 233, 225);
+    font-size: 15px;
+    font-family: 'Quando', serif;
+    padding: 3px 5px 3px 5px;
+}
+.button-subscribe:hover{
+    border-radius: 5px;
+    width:100%;
+    border: 3px solid rgb(34, 104, 225);
+    background-color: rgb(34, 104, 225);
+    color: rgb(235, 233, 225);
+    font-size: 15px;
+    font-family: 'Quando', serif;
+    padding: 3px 5px 3px 5px;
+}
+input {
+    width: 100%;
+}
+#what-is, #why-play, #demo, #pricing, #play-now-2 {
+    padding:30px 20px 20px 20px;
+    text-align: center;
+}
+span {
+    text-align: center;
+}
+.disclaimer {
+    font-family: "roboto";
+    color:rgba(255, 255, 255, 0.233);
+    font-size: 10px;
+}
+#rope {
+    width:100%;
+    height: 9px;
+    background-image: url("/img/landing/rope.png");
+    background-repeat: repeat-x;
+    margin-top:-2px;
+    position: absolute;
+}
+#chain {
+    width:100%;
+    height: 15px;
+    background-image: url("/img/landing/chain.png");
+    background-repeat: repeat-x;
+    margin-top:-8px;
+    position: absolute;
+}
+footer {
+    background-image: url("/img/landing/header-bg.jpg");
+}
+#footer-landing {
+    background-color:#1e1e1e;
+    padding-top:40px;
+    padding-bottom:40px;
+    inline-size: 3;
+    color: rgba(255, 255, 255, 0.483);
+}
+#footer-landing h3 {
+    color:rgba(255, 255, 255, 0.757);
+}
+#footer-landing a {
+    display: inline-block;
+    color:rgba(255, 255, 255, 0.623);
+    text-decoration: none;
+    line-height: 2;
+    font-family: "roboto";
+}
+#footer-landing a:hover {
+    display: inline-block;
+    color:rgba(255, 255, 255, 0.623);
+    text-decoration: underline;
+}
+#footer-landing p {
+    color:rgba(255, 255, 255, 0.47);
+    text-align: center;
+}
+#footer-landing ul {
+    list-style: none;
+    margin-left:-40px;
+}
+
+
+
+#logo-mego {
+    text-align: center;
+    margin:10px 10px 10px 10px;
+}
+#logo-mego img {
+    display: inline;
+    width: 200px;
+    height:auto;
+}
+
+#logo-mego img:first-child {
+    margin-right:20px;
+}
+/* header */
+.row {
+    margin-left:0;
+    margin-right:0;
+}
+/* Slideshow */
+
+.slide{
+    width:100%;
+    opacity: 1;
+}
+.fade {
+    animation: fading 1s 1;
+}
+.slider{
+    position: relative;
+}
+.slider-selector-container{
+    position: absolute;
+    left: 0%;
+    bottom: 0;
+    height: 28px;
+    text-align: center !important;
+    font-size: 18px !important;
+    width: 100%;
+}
+
+.slider-circle{
+    border-radius: 50%;
+    border: 1px solid #fff !important;
+    display: inline-block;
+    margin: 0 2px;
+    width: 14px;
+    height: 14px;
+    cursor: pointer;
+}
+.slider-circle:hover, .slider-circle-selected{
+    background-color: #fff;
+}
+@keyframes fading {
+    0% {
+       opacity: 0
+   }
+    100% {
+       opacity: 1
+   }
+}
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+    .text {
+       font-size: 11px
+   }
+}
+.col-sm-3 {
+    margin-bottom: -25px;
+}
+/* media queries */
+@media (max-width: 400px) {
+    .slim-header {
+        display: block;
+        padding-top:10px;
+        padding-bottom:10px;
+        font-size: 12px;
+   }
+}
+@media (max-width: 800px) {
+    #main-banner {
+        background-repeat: no-repeat;
+        background-size: 180%;
+        max-height: 250px;
+        display: block;
+   }
+}
+@media (max-width: 800px) {
+    #main-banner img{
+        width:90%;
+        height: auto;
+   }
+}
+@media (max-width: 800px) {
+    #main-banner h1 {
+        font-size: 30px;
+   }
+}
+@media (max-width: 800px) {
+    #main-banner h2 {
+        font-size: 15px;
+   }
+}
+@media (max-width: 400px) {
+    .button-primary-web {
+        display: block;
+        width: 100%;
+   }
+}
+@media (max-width: 780px) {
+    #play-now-2, #newsletter {
+        background-size:300%;
+   }
+}
+button, .button-subscribe{
+    cursor:pointer;
+}

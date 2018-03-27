@@ -1,38 +1,40 @@
-<footer class="site-footer">
-
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
+<div class="container-fluid" id="footer-landing">
+  <div class="container">
+      <div class="row">
+          <div class="col-md-4">
+              <h3>The game</h3>
+              <ul>
+                  <li><a href="#">What is Dark Winds</a></li>
+                  <li><a href="#">Try the demo</a></li>
+                  <li><a href="#">Wiki</a></li>
+                  <li><a href="#">FAQ</a></li>
+              </ul>
+          </div>
+          <div class="col-md-4">
+              <h3>Community</h3>
+              <ul>
+                  <li><a href="#">Discord</a></li>
+              </ul>
+          </div>
+          <div class="col-md-4">
+              <h3>Support</h3>
+              <ul>
+                  <li><a href="#">Contact</a></li>
+                  <li><a href="#">Privacy Policy</a></li>
+              </ul>
+          </div>
       </div>
 
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
+      <div class="row">
+          <div class="col-md-12">
+              <p>Copyright 2018 MEGO Games. All rights reserved. </p>
+          </div>
       </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
+      <div class="row">
+          <div class="col-md-12" id="logo-mego">
+              <a href="http://mego.cl"><img src="/img/logo/logo-mego-150.png"/></a>
+              <a href="http://tapinator.com/"><img src="/img/logo/tapm.png"/></a>
+          </div>
       </div>
-    </div>
-
   </div>
-
-</footer>
+</div>
