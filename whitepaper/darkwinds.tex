@@ -1,3 +1,4 @@
+
 \title{
         Darkwinds \\
         \large A trading card game on the Ethereum Blockchain
@@ -6,7 +7,109 @@
 \date{\today}
 
 \documentclass[11pt,twocolumn]{article}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\usepackage{filecontents}
 
+\begin{filecontents}{datax.dat}
+    0,25003
+    1,26542
+    2,26450
+    3,26645
+    4,26389
+    5,26589
+    6,28048
+    7,28027
+    8,28187
+    9,28052
+    10,28159
+    11,29579
+    12,29669
+    13,29795
+    14,29411
+    15,29749
+    16,31188
+    17,31149
+    18,31199
+    19,31223
+    20,31265
+    21,31130
+    22,31147
+    23,31336
+    24,31139
+    25,31231
+    26,31138
+    27,31448
+    28,30967
+    29,31334
+    30,31059
+    31,31262
+    32,31238
+    33,31153
+    34,31317
+    35,31088
+    36,31145
+    37,31370
+    38,31044
+    39,31356
+    40,31080
+    41,31222
+    42,31311
+    43,31046
+    44,31385
+    45,31162
+    46,31082
+    47,31416
+    48,31113
+    49,31406
+    50,30954
+    51,31251
+    52,31461
+    53,30972
+    54,31384
+    55,31200
+    56,31075
+    57,31401
+    58,31058
+    59,31314
+    60,31062
+    61,31199
+    62,31382
+    63,31164
+    64,31266
+    65,31260
+    66,31088
+    67,31216
+    68,31291
+    69,31048
+    70,31255
+    71,31176
+    72,31312
+    73,31235
+    74,31058
+    75,31272
+    76,31249
+    77,31239
+    78,31255
+    79,31019
+    80,6350
+    81,4628
+    82,4761
+    83,4658
+    84,4621
+    85,4719
+    86,3189
+    87,3059
+    88,3099
+    89,3172
+    90,3180
+    91,1499
+    92,1575
+    93,1603
+    94,1536
+    95,1553
+    \end{filecontents}
+    
 \begin{document}
 \maketitle
 \pagebreak
@@ -70,6 +173,25 @@ Cards are generated with a KECCAK-256 operation on the last block timestamp, plu
 While it's possible to determine exactly when cards are being released, efforts are probably not practical. 
 
 The smart contract stops generating cards when the hard cap of 1,000,000 is reached.
+
+\onecolumn
+\begin{figure}[!htb]
+    \centering 
+
+\begin{tikzpicture}
+    \begin{axis}[xlabel={Card Model},ylabel={Card distribution}]
+    
+    % Graph column 2 versus column 0
+    \addplot table[x index=0,y index=1,col sep=comma] {datax.dat};
+   
+    
+    \end{axis}
+\end{tikzpicture}
+\label{figa2} 
+\end{figure}
+
+
+
 \begin{thebibliography}{1}
 
         \bibitem{notes} The ERC721 non-fungible token standard. https://github.com/ethereum/eips/issues/721, Dieter Shirley, 2017.
