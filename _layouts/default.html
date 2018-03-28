@@ -1,17 +1,16 @@
-
 <!DOCTYPE html>
 <html>
 
 <head>
-  {% include head.html %}
-        <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
-        <style type="text/css">
-            #mc_embed_signup{background:none; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
+    {% include head.html %}
+    <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+        #mc_embed_signup{background:none; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
             /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
             We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-        </style>
-        <script>
-            function open_whitepaper() {
+    </style>
+    <script>
+        function open_whitepaper() {
                 document.location.href="/whitepaper/darkwinds.pdf"
             }
 
@@ -41,90 +40,97 @@
                 },4000);
 
             });
-        </script>
+    </script>
 </head>
 
 <body>
 
-  {% include header.html %}
+    {% include header.html %}
 
-        <!--end of header and main banner-->
-        <!--START OF CONTENT CENTERED-->
-        <!-- DIVS FOR HOME CONTENT -->
+    <!--end of header and main banner-->
+    <!--START OF CONTENT CENTERED-->
+    <!-- DIVS FOR HOME CONTENT -->
 
-        <div id="main-banner">
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <img id="logo-big" src="/img/logo/vertical_swhite.png" />
-                        <h2>The epic pirate battle on the blockchain.</h2>
-                    </div>
+    <div id="main-banner">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <img id="logo-big" src="/img/logo/vertical_swhite.png" />
+                    <h2>The epic pirate battle on the blockchain.</h2>
                 </div>
             </div>
         </div>
+    </div>
 
-        <div id="chain">
-        </div>
+    <div id="chain">
+    </div>
 
-        <div>
-            <div class="container" id="play-now">
-                <div class="row">
-                    <div class="col-md-3">
-                    </div>
-                    <div class="col-md-6">
-                        <h3>Darkwinds is a multiplayer trading card game with Ethereum cryptocollectibles.</h3>
-                        <button class="button-primary-web" id="playnowbutton" onClick="javascript:playNow()">Join Beta</button>
-                    </div>
-
-                    <div class="col-md-3">
-                    </div>
+    <div>
+        <div class="container" id="play-now">
+            <div class="row">
+                <div class="col-md-3">
                 </div>
-                <hr>
-                <div class="row">
-                    <div class="col-sm-3">
-                    </div>
-                    <div class="col-sm-3">
-                        <a href="https://metamask.io/"><img class="ball" src="/img/landing/ball-mask.png"/></a>
-                    </div>
-                    <div class="col-sm-3">
-                        <img class="ball" src="/img/landing/ball-cors.png" />
-                    </div>
-                    <div class="col-sm-3">
-                    </div>
+                <div class="col-md-6">
+                    <h3>Darkwinds is a multiplayer trading card game with Ethereum cryptocollectibles.</h3>
+                    <button class="button-primary-web" id="playnowbutton" onClick="javascript:playNow()">Join Beta</button>
                 </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <p>Available for Firefox and Chrome with the <a>Metamask</a> extension.</p>
-                    </div>
+
+                <div class="col-md-3">
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-sm-3">
+                </div>
+                <div class="col-sm-3">
+                    <a href="https://metamask.io/"><img class="ball" src="/img/landing/ball-mask.png"/></a>
+                </div>
+                <div class="col-sm-3">
+                    <img class="ball" src="/img/landing/ball-cors.png" />
+                </div>
+                <div class="col-sm-3">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <p>Available for Firefox and Chrome with the <a>Metamask</a> extension.</p>
                 </div>
             </div>
         </div>
+    </div>
 
-        <div id="what-is">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <h2>Cryptocollectible cards</h2>
-                        </br>
-                        <p>Each Darkwinds card is a ERC721 Ethereum cryptocollectible, which means you are free to transfer, trade, sell outside the game.</p>
-                        <p>Each card is a unique token stored on a Smart Contract, and only 1,000,000 first edition cards will be generated.</p>
-                        <button class="button-secondary-web" onClick="javascript:open_whitepaper()">Read the whitepaper</button>
-                    </div>
-                    <div class="col-md-6">
-                        <img class="start-cards" src="/img/landing/cards.png" />
-                    </div>
+    <div id="what-is">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>Cryptocollectible cards</h2>
+                    </br>
+                    <p>Each Darkwinds card is a ERC721 Ethereum cryptocollectible, which means you are free to transfer, trade, sell outside the game.</p>
+                    <p>Each card is a unique token stored on a Smart Contract, and only 1,000,000 first edition cards will be generated.</p>
+                    <button class="button-secondary-web" onClick="javascript:open_whitepaper()">Read the whitepaper</button>
+                </div>
+                <div class="col-md-6">
+                    <img class="start-cards" src="/img/landing/cards.png" />
                 </div>
             </div>
         </div>
+    </div>
 
-        <div class="row">
-            <div id="why-play" class="col-md-12">
-                <h2>Active development</h2>
-                <p>While you can purchase the final cards and play online, we are playtesting the game rules in open beta until the consolidation date. We'll be also adding new features each week in progress towards our milestones.</p>
+    <div id="why-play">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="/img/landing/rudder_200px.gif" />
+                </div>
+                <div class="col-md-6">
+                    <h2>Active development</h2>
+                    <p>While you can purchase the final cards and play online, we are playtesting the game rules in open beta until the consolidation date. We'll be also adding new features each week in progress towards our milestones.</p>
+                </div>
             </div>
         </div>
+    </div>
 
-        <!-- <div class="row">
+    <!-- <div class="row">
             <div class="slider">
                 <img src = "/img/landing/becomebg.jpg" class = "slide fade" />
                 <img src = "/img/landing/becomebg.jpg" class = "slide fade" />
@@ -138,68 +144,27 @@
                 </div>
             </div>
         </div> -->
-        
 
-        <div id="pricing">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <h2>Pricing</h2>
-                        <p>Access to Dark Winds is free. You'll only spend money while purchasing cards using your ETH wallet provided by Metamask. Create the ultimate strategy and you can go to the top of our Ranking.</p>
-                        <button class="button-secondary-web" onClick=location.href="/faq">More info</button>
-                    </div>
-                    <div class="col-md-6">
-                    </div>
+    <div id="pricing">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>Pricing</h2>
+                    <p>Access to Dark Winds is free. You'll only spend money while purchasing cards using your ETH wallet provided by Metamask. Create the ultimate strategy and you can go to the top of our Ranking.</p>
+                    <button class="button-secondary-web" onClick=location.href="/faq">More info</button>
+                </div>
+                <div class="col-md-6">
+                    <img id="pricing-img" src="/img/logo/ico_met.png" />
                 </div>
             </div>
         </div>
-
-        <div id="play-now-2">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h2>Become a crypto pirate</h2>
-                        <button class="button-primary-web" id="playnowbutton" onClick="javascript:playNow()">Join Beta</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div id="newsletter">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h5>Join our newsletter</h5>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-md-6">
-                        <form action="https://mego.us3.list-manage.com/subscribe/post?u=5f8be72ce6c44eb5f1b21584e&amp;id=8afc0413f8" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-
-                            <div id="mc_embed_signup_scroll">
-                                <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-                                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                            </div>
-                    </div>
-
-                    <div class="col-md-6">
-                        <div style="position: absolute; left: -5000px;" aria-hidden="true">
-                            <input type="text" name="b_5f8be72ce6c44eb5f1b21584e_8afc0413f8" tabindex="-1" value="">
-                        </div>
-
-                        <div class="clear">
-                            <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button-subscribe">
-                        </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-        <!--FOOTER-->
-        {% include footer.html %}
-      </body>
+    </div>
+    <!--BECOME-->
+    {% include become.html %}
+    <!--SUBSCRIBE-->
+    {% include subscribe.html %}
+    <!--FOOTER-->
+    {% include footer.html %}
+</body>
 
 </html>

@@ -1,5 +1,5 @@
 body {
-    background-color: rgba(226, 196, 130, 0.387);
+    background-color: white;
     margin: 0;
     padding: 0;
     color:black;
@@ -53,7 +53,7 @@ h6 {
     font-family: sans-serif;
 }
 #main-banner {
-    background-image: url("https://2.bp.blogspot.com/-Plvot5J7rNI/V-Q0UStzV1I/AAAAAAAABvQ/W-Ywsqh4B9AOUQmq3Snzp9z2EBtLno0BgCLcB/s1600/TEMPESTAD%2B12.jpg") ;
+    background-image: url("/img/landing/royaltyfreesea.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     color:white;
@@ -198,9 +198,14 @@ header a {
     background-color: rgba(226, 196, 130, 0.582);
 }
 #pricing {
-    background-color: rgba(226, 196, 130, 0.39);
+    background-color: rgba(182, 145, 43, 0.295);
     background-repeat: no-repeat;
     background-position: bottom left;
+}
+#pricing-img{
+    width: 50%;
+    margin-top:0px;
+    margin-bottom: 0px;
 }
 #play-now-2 {
     background-color: rgb(237, 186, 83);
@@ -208,8 +213,8 @@ header a {
     background-size: 120%;
 }
 #newsletter {
-    background-color: rgba(246, 8, 242, 0.401);
-    background-image: url("/img/landing/banner00.jpg");
+    background-color: rgba(0, 0, 0, 0.401);
+    background-image: url("/img/landing/royaltyfreesea.jpg");
     background-repeat: no-repeat;
     background-size: 110%;
     color:white;

@@ -4,7 +4,7 @@ title: Frequently Asked Questions
 permalink: /faq/
 layout: page
 ---
-
+<br/>
 # Getting Started
 
 
@@ -43,7 +43,7 @@ For U.S. citizens only: you are able to purchase ETH directly from the MetaMask 
 
 For everyone else: you need to buy ETH from an exchange using normal fiat currency. Copy your MetaMask address by clicking on the large ‘…’ next to your account, then select ‘Copy Address to clipboard’. Go to your exchange, click ‘Accounts’, and select your ETH Wallet and click ‘send’. Paste the MetaMask address in the box with the amount you’d like to transfer.
 
-https://youtu.be/PtdMDtCVck0
+[Here is](https://youtu.be/PtdMDtCVck0) a really quick video that explains how to send ETH from Coinbase to Metamask, we suggest you to check it out if you still have questions. 
 
 # Understanding Dark Winds and cryptocollectibles
 ## What is a cryptocollectible? Is my Dark Winds card a cryptocollectible?
