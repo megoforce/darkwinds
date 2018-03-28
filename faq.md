@@ -1,4 +1,9 @@
-Frequently Asked Questions
+---
+layout: page
+title: Frequently Asked Questions
+permalink: /faq/
+---
+
 Getting Started
 What is Dark Winds?
 Dark Winds is a digital collectible card game powered by the Ethereum blockchain.
