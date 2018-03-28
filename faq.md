@@ -2,6 +2,7 @@
 layout: page
 title: Frequently Asked Questions
 permalink: /faq/
+layout: page
 ---
 
 Getting Started
