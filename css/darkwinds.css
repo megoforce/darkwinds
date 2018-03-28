@@ -183,22 +183,22 @@ header a {
 }
 #what-is {
     background-size: 110%;
-    background-color: rgb(27, 29, 75);
+    background-color: rgb(232, 197, 121);
 }
 .start-cards {
     width:90%;
     margin: 0 auto;
 }
 #why-play {
-    background-color: rgba(27, 29, 75, 0.736);
+    background-color: rgba(226, 196, 130, 0.719);
     background-repeat: no-repeat;
     background-position: bottom left;
 }
 #demo {
-    background-color: rgb(27, 29, 75);
+    background-color: rgba(226, 196, 130, 0.582);
 }
 #pricing {
-    background-color: rgba(50, 87, 132, 0.5);
+    background-color: rgba(182, 145, 43, 0.295);
     background-repeat: no-repeat;
     background-position: bottom left;
 }
