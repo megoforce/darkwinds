@@ -203,9 +203,9 @@ header a {
     background-position: bottom left;
 }
 #pricing-img{
-    width: 70%;
-    margin-top:-50px;
-    margin-bottom: -50px;
+    width: 50%;
+    margin-top:0px;
+    margin-bottom: 0px;
 }
 #play-now-2 {
     background-color: rgb(237, 186, 83);
