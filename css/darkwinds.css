@@ -1,5 +1,5 @@
 body {
-    background-color: rgba(226, 196, 130, 0.387);
+    background-color: white;
     margin: 0;
     padding: 0;
     color:black;
@@ -183,22 +183,22 @@ header a {
 }
 #what-is {
     background-size: 110%;
-    background-color: rgb(232, 197, 121);
+    background-color: rgb(27, 29, 75);
 }
 .start-cards {
     width:90%;
     margin: 0 auto;
 }
 #why-play {
-    background-color: rgba(226, 196, 130, 0.719);
+    background-color: rgba(27, 29, 75, 0.736);
     background-repeat: no-repeat;
     background-position: bottom left;
 }
 #demo {
-    background-color: rgba(226, 196, 130, 0.582);
+    background-color: rgb(27, 29, 75);
 }
 #pricing {
-    background-color: rgba(226, 196, 130, 0.39);
+    background-color: rgba(50, 87, 132, 0.5);
     background-repeat: no-repeat;
     background-position: bottom left;
 }
