@@ -202,14 +202,19 @@ header a {
     background-repeat: no-repeat;
     background-position: bottom left;
 }
+#pricing-img{
+    width: 70%;
+    margin-top:-50px;
+    margin-bottom: -50px;
+}
 #play-now-2 {
     background-color: rgb(237, 186, 83);
     background-repeat: no-repeat;
     background-size: 120%;
 }
 #newsletter {
-    background-color: rgba(246, 8, 242, 0.401);
-    background-image: url("/img/landing/banner00.jpg");
+    background-color: rgba(0, 0, 0, 0.401);
+    background-image: url("/img/landing/royaltyfreesea.jpg");
     background-repeat: no-repeat;
     background-size: 110%;
     color:white;
