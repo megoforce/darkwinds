@@ -331,6 +331,23 @@ footer {
     margin-left:0;
     margin-right:0;
 }
+.landing-card {
+    position: absolute;
+    
+    width:260px;
+    height:auto;
+}
+.landing-card-1 {
+    transform: rotate(-20deg);
+    left:50px;
+}
+.landing-card-2 {
+    transform: rotate(20deg);
+    left:250px;
+}
+.landing-card-3 {
+    left:150px;
+}
 /* Slideshow */
 
 .slide{
@@ -390,14 +407,18 @@ footer {
         padding-bottom:10px;
         font-size: 12px;
    }
+   
 }
 @media (max-width: 800px) {
     #main-banner {
         background-repeat: no-repeat;
         background-size: 180%;
-        max-height: 250px;
+        max-height: 500px;
         display: block;
    }
+   #why-play {
+    margin-top:300px;
+}
 }
 @media (max-width: 800px) {
     #main-banner img{
