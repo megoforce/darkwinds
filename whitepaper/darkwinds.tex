@@ -12,102 +12,102 @@
 \usepackage{filecontents}
 
 \begin{filecontents}{datax.dat}
-    0,25003
-    1,26542
-    2,26450
-    3,26645
-    4,26389
-    5,26589
-    6,28048
-    7,28027
-    8,28187
-    9,28052
-    10,28159
-    11,29579
-    12,29669
-    13,29795
-    14,29411
-    15,29749
-    16,31188
-    17,31149
-    18,31199
-    19,31223
-    20,31265
-    21,31130
-    22,31147
-    23,31336
-    24,31139
-    25,31231
-    26,31138
-    27,31448
-    28,30967
-    29,31334
-    30,31059
-    31,31262
-    32,31238
-    33,31153
-    34,31317
-    35,31088
-    36,31145
-    37,31370
-    38,31044
-    39,31356
-    40,31080
-    41,31222
-    42,31311
-    43,31046
-    44,31385
-    45,31162
-    46,31082
-    47,31416
-    48,31113
-    49,31406
-    50,30954
-    51,31251
-    52,31461
-    53,30972
-    54,31384
-    55,31200
-    56,31075
-    57,31401
-    58,31058
-    59,31314
-    60,31062
-    61,31199
-    62,31382
-    63,31164
-    64,31266
-    65,31260
-    66,31088
-    67,31216
-    68,31291
-    69,31048
-    70,31255
-    71,31176
-    72,31312
-    73,31235
-    74,31058
-    75,31272
-    76,31249
-    77,31239
-    78,31255
-    79,31019
-    80,6350
-    81,4628
-    82,4761
-    83,4658
-    84,4621
-    85,4719
-    86,3189
-    87,3059
-    88,3099
-    89,3172
-    90,3180
-    91,1499
-    92,1575
-    93,1603
-    94,1536
-    95,1553
+        0,40062
+        1,40818
+        2,41101
+        3,41044
+        4,41086
+        5,40869
+        6,41829
+        7,42071
+        8,41995
+        9,41869
+        10,41751
+        11,42834
+        12,43049
+        13,42940
+        14,43120
+        15,42870
+        16,43833
+        17,44021
+        18,44062
+        19,44074
+        20,43830
+        21,44584
+        22,45134
+        23,44863
+        24,45117
+        25,44837
+        26,45829
+        27,46187
+        28,46063
+        29,46197
+        30,46171
+        31,46906
+        32,47459
+        33,46999
+        34,47182
+        35,46952
+        36,47947
+        37,48331
+        38,48152
+        39,48122
+        40,47973
+        41,48936
+        42,49403
+        43,48959
+        44,49142
+        45,48829
+        46,49834
+        47,50184
+        48,49997
+        49,49763
+        50,9908
+        51,8989
+        52,9306
+        53,8808
+        54,9136
+        55,8918
+        56,8071
+        57,8113
+        58,8052
+        59,7774
+        60,7904
+        61,6946
+        62,7266
+        63,6868
+        64,7117
+        65,6929
+        66,6073
+        67,6125
+        68,5983
+        69,5848
+        70,5963
+        71,4942
+        72,5175
+        73,4947
+        74,5106
+        75,5012
+        76,3964
+        77,4003
+        78,3966
+        79,3940
+        80,3993
+        81,2964
+        82,3086
+        83,2897
+        84,3079
+        85,3040
+        86,2024
+        87,1990
+        88,1993
+        89,1989
+        90,2015
+        91,1004
+        92,1051
+        93,924
+        94,1010
+        95,1027
     \end{filecontents}
     
 \begin{document}
@@ -144,7 +144,7 @@ By being a blockchain asset, each card will have the following qualities:
         \item It's existence doesn't depend on the availability of the game owner systems.
 \end{itemize}
 
-Each card is composed of a serial number and a model id that corresponds to a card model. There can be many cards of the same model, with different serial numbers. Card models are a struct of an IPFS image with additional card metadata for actions (ex: deals 3 damage points to enemy target).\\
+Each card is composed of a serial number and a model id that corresponds to a card model. There can be many cards of the same model, with different serial numbers. Card models are contain metadata for it's appearance (an image file) and it's game action properties (ex: deals 3 damage points to enemy target).\\
 
 The smart contract also controls immutable rules on the issuance of cards, including the total limit of cards to be issued and the rarity of card models.
 
@@ -157,39 +157,39 @@ While the smart contract handles the ownership of tokens, game matches occur off
 Game servers only require a signed message from the user wallet to verify ownership. The user private keys are never read or stored.
 
 
-\section{The Darkwinds token}
-The following are functions that the contract performs in addition to the standard ERC721 functionality.
+\section{Anatomy of a Darkwinds token}
+The card smart contract performs all the functions according to the ERC721 \cite{notes} standard. The cards are generated with a payable function called getBoosterPack and the amount of cards returned to the owner is determined by the price of cards, which is set by the owner using the setCardPrice function
 \subsection{getCard}
 Gets all the metadata for the card relevant to the game mechanics (actions, cost of invocation, effects, etc.)
 \subsection{getBoosterPack}
-Spends a determined amount of ETH to get a booster pack with 10,25 or 50 cards.
-\subsection{trade}
-Adds a specific card owned by the user to an auction list for it to be traded for other card using a pairing algorythm.
-
+Spends a determined amount of ETH to get a booster pack. Normally it will contain 10, 25 or 50 cards but the contract can be excecuted for a specific amount of cards multiplying the desired amount of cards with the cost.
+\subsection{changeCardCost}
+A function designed for the owner to change the price of the card, and by consequence the price of booster packs. By default is 1 finney.
 \section{Card Generation}
-Cards are generated with a KECCAK-256 operation on the last block timestamp, plus a few other operations that result in a limited distribution on certain rare cards. However, since the block timestamp is only incrementing it's possible to approximate the final distribution of cards.
+Cards are generated with a KECCAK-256 operation on the last block timestamp,  that result in a limited distribution on certain rare cards. However, since the block timestamp is only incrementing it's possible to approximate the final distribution of cards.
 
 While it's possible to determine exactly when cards are being released, efforts are probably not practical. 
 
 The smart contract stops generating cards when the hard cap of 1,000,000 is reached.
-
-\onecolumn
 \begin{figure}[!htb]
-    \centering 
-
+\centering 
+    
 \begin{tikzpicture}
-    \begin{axis}[xlabel={Card Model},ylabel={Card distribution}]
-    
-    % Graph column 2 versus column 0
-    \addplot table[x index=0,y index=1,col sep=comma] {datax.dat};
-   
-    
-    \end{axis}
+\begin{axis}[xlabel={Card Model},  scaled y ticks=base 10:-3,
+        ytick scale label code/.code={},
+        yticklabel={\pgfmathprintnumber{\tick}.000}]
+
+% Graph column 2 versus column 0
+\addplot table[x index=0,y index=1,col sep=comma] {datax.dat};
+
+
+\end{axis}
 \end{tikzpicture}
-\label{figa2} 
+\caption{Distribution of 1 million cards estimated by a Monte Carlo simulation} \label{fig:A}
 \end{figure}
 
 
+\onecolumn
 
 \begin{thebibliography}{1}
 
