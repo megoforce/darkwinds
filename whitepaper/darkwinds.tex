@@ -166,7 +166,7 @@ Spends a determined amount of ETH to get a booster pack. Normally it will contai
 \subsection{changeCardCost}
 A function designed for the owner to change the price of the card, and by consequence the price of booster packs. By default is 1 finney.
 \section{Card Generation}
-Cards are generated with a KECCAK-256 operation on the last block timestamp,  that result in a limited distribution on certain rare cards. However, since the block timestamp is only incrementing it's possible to approximate the final distribution of cards.
+Cards are generated with a KECCAK-256 operation on the last block timestamp and a modulo operation of 50. Every 5 cards we add another 50 modulo on the contract nonce in attempt to make a rare card. If both modulo operations are larger than 25, a rare card appears. The higher the model ID, the rarer the card is as shown in Figure A.
 
 While it's possible to determine exactly when cards are being released, efforts are probably not practical. 
 
