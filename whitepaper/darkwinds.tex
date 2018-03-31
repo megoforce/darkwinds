@@ -164,16 +164,16 @@ While the smart contract handles the ownership of tokens, game matches occur off
 Game servers only require a signed message from the user wallet to verify ownership. The user private keys are never read or stored.
 
 
-\section{Anatomy of a Darkwinds token}
+\section{Anatomy of a Darkwinds card}
 \begin{figure}[!htb]
 \centering 
 \includegraphics[scale=0.3]{wp/card} 
 
-\caption{Card Model ID \#19 (Jordmundgander)} \label{fig:A}
+\caption{First draft of Card Model \#19 (Jordmundgander)} \label{fig:A}
 \end{figure}
 
 
-The card smart contract performs all the functions according to the ERC721 \cite{nft} standard. The cards are generated with a payable function called getBoosterPack and the amount of cards returned to the owner is determined by the price of cards, which is set by the owner using the setCardPrice function
+The card smart contract performs all the functions according to the ERC721 \cite{nft} standard. All cards are generated with a payable function called \textbf{getBoosterPack} and the amount of cards returned to the owner is determined by the price of cards, which is set by the contract owner using the \textbf{setCardPrice} function
 \subsection{getCard}
 Gets all the metadata for the card relevant to the game mechanics (actions, cost of invocation, effects, etc.)
 \subsection{getBoosterPack}
@@ -181,7 +181,7 @@ Spends a determined amount of ETH to get a booster pack. Normally it will contai
 \subsection{changeCardCost}
 A function designed for the owner to change the price of the card, and by consequence the price of booster packs. By default is 1 finney.
 \section{Card Generation}
-Cards are generated with a KECCAK-256 operation on the last block timestamp and a modulo operation of 50. Every 5 cards we add another 50 modulo on the contract nonce in attempt to make a rare card. If both modulo operations are larger than 25, a rare card appears. The higher the model ID, the rarer the card is as shown in Figure A.
+Cards are generated with a KECCAK-256 operation on the last block timestamp and a modulo operation of 50. Every 5 cards we add another 50 modulo on the contract nonce in attempt to make a rare card. If both modulo operations are larger than 25, a rare card appears. Cards with Model ID higher than 50 are not often generated as shown in Figure A.
 
 While it's possible to determine exactly when cards are being released, efforts are probably not practical. 
 
@@ -202,7 +202,12 @@ The smart contract stops generating cards when the hard cap of 1,000,000 is reac
 \end{tikzpicture}
 \caption{Distribution of 1 million cards estimated by a Monte Carlo simulation} \label{fig:B}
 \end{figure}
+\section{Consolidation of game rules}
+After the ERC721 smart contract is deployed, drafting for a new contract will start. This contract will contain the rules and the extended metadata for each Darkwinds card. This will include the abilites, energy cost, power, resistance and final image. 
 
+The process where said contract is drafted will be called ``playtesting'' and ends in a final deployment of the game rules on the Blockchain. Estimated date for this event is October 28, 2018. After this date, the game software will read the inventory of each player from contract A and the game rules for each card in contract B. 
+
+Players, if desired, can use a different rule contract on unnoficial servers.
 
 \onecolumn
 
