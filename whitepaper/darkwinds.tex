@@ -11,6 +11,8 @@
 \usepackage{tikz}
 \usepackage{pgfplots}
 \usepackage{filecontents}
+\usepackage{caption}
+
 
 \begin{filecontents}{datax.dat}
         0,16124
@@ -118,7 +120,8 @@
 \pagebreak
 \pagebreak
 \hspace*{-1.0in}
-\includegraphics[scale=0.1]{art/princess} \\
+\includegraphics[scale=0.1]{art/princess} 
+
 \pagebreak
 \section{Introduction}
 \begin{quote}"I happily played World of Warcraft during 2007-2010, but one day Blizzard removed the damage component from my beloved warlock's Siphon Life spell. I cried myself to sleep, and on that day I realized what horrors centralized services can bring."
@@ -162,7 +165,15 @@ Game servers only require a signed message from the user wallet to verify owners
 
 
 \section{Anatomy of a Darkwinds token}
-The card smart contract performs all the functions according to the ERC721 \cite{notes} standard. The cards are generated with a payable function called getBoosterPack and the amount of cards returned to the owner is determined by the price of cards, which is set by the owner using the setCardPrice function
+\begin{figure}[!htb]
+\centering 
+\includegraphics[scale=0.3]{wp/card} 
+
+\caption{Card Model ID \#19 (Jordmundgander)} \label{fig:A}
+\end{figure}
+
+
+The card smart contract performs all the functions according to the ERC721 \cite{nft} standard. The cards are generated with a payable function called getBoosterPack and the amount of cards returned to the owner is determined by the price of cards, which is set by the owner using the setCardPrice function
 \subsection{getCard}
 Gets all the metadata for the card relevant to the game mechanics (actions, cost of invocation, effects, etc.)
 \subsection{getBoosterPack}
@@ -189,7 +200,7 @@ The smart contract stops generating cards when the hard cap of 1,000,000 is reac
 
 \end{axis}
 \end{tikzpicture}
-\caption{Distribution of 1 million cards estimated by a Monte Carlo simulation} \label{fig:A}
+\caption{Distribution of 1 million cards estimated by a Monte Carlo simulation} \label{fig:B}
 \end{figure}
 
 
@@ -197,7 +208,7 @@ The smart contract stops generating cards when the hard cap of 1,000,000 is reac
 
 \begin{thebibliography}{1}
 
-        \bibitem{notes} The ERC721 non-fungible token standard. https://github.com/ethereum/eips/issues/721, Dieter Shirley, 2017.
+        \bibitem{nft} The ERC721 non-fungible token standard. https://github.com/ethereum/eips/issues/721, Dieter Shirley, 2017.
       
         \end{thebibliography}
 \end{document}
