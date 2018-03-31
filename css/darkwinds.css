@@ -401,12 +401,30 @@ footer {
 }
 /* media queries */
 @media (max-width: 400px) {
-    .slim-header {
+    header {
+        display: none;
+    }
+ 
+   .button-primary-web {
         display: block;
-        padding-top:10px;
-        padding-bottom:10px;
-        font-size: 12px;
-   }
+        width: 100%;
+    }
+    .landing-card {
+        width:150px;
+        height:auto;
+    }
+    .landing-card-1 {
+        left:20px;
+    }
+    .landing-card-2 {
+        left:140px;
+    }
+    .landing-card-3 {
+        left:70px;
+    }
+    .button-primary-web {
+        width:93%;
+    }
    
 }
 @media (max-width: 800px) {
@@ -417,36 +435,27 @@ footer {
         display: block;
    }
    #why-play {
-    margin-top:300px;
-}
-}
-@media (max-width: 800px) {
+    margin-top:160px;
+   }
     #main-banner img{
         width:90%;
         height: auto;
    }
-}
-@media (max-width: 800px) {
+
     #main-banner h1 {
         font-size: 30px;
    }
-}
-@media (max-width: 800px) {
+
     #main-banner h2 {
         font-size: 15px;
    }
-}
-@media (max-width: 400px) {
-    .button-primary-web {
-        display: block;
-        width: 100%;
-   }
-}
-@media (max-width: 780px) {
-    #play-now-2, #newsletter {
+   #play-now-2, #newsletter {
         background-size:300%;
-   }
+    }
+
 }
+
+
 button, .button-subscribe{
     cursor:pointer;
 }
