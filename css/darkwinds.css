@@ -52,9 +52,13 @@ h6 {
     font-size: 8px;
     font-family: sans-serif;
 }
+
 .subtitle{
     font-variant: small-caps;
+    color: rgba(52, 26, 3, 0.74);
+
 }
+
 .subtitle-white{
     font-variant: small-caps;
     color: white;
