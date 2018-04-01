@@ -52,8 +52,12 @@ h6 {
     font-size: 8px;
     font-family: sans-serif;
 }
-#subtitle{
+.subtitle{
     font-variant: small-caps;
+}
+.subtitle-white{
+    font-variant: small-caps;
+    color: white;
 }
 #main-banner {
     background-image: url("/img/landing/royaltyfreesea.jpg");
