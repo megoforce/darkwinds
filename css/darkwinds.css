@@ -52,6 +52,17 @@ h6 {
     font-size: 8px;
     font-family: sans-serif;
 }
+
+.subtitle{
+    font-variant: small-caps;
+    color: rgba(52, 26, 3, 0.74);
+
+}
+
+.subtitle-white{
+    font-variant: small-caps;
+    color: white;
+}
 #main-banner {
 
     background-color: #111;
@@ -170,7 +181,10 @@ header a {
     font-family: 'Quando', serif;
     padding: 4px 4px;
 }
-
+#what-is, #why-play, #demo, #pricing, #play-now-2 {
+    padding:30px 20px 20px 20px;
+    text-align: center;
+}
 #play-now {
     align-items: center;
     justify-content: center;
@@ -182,8 +196,9 @@ header a {
     margin-bottom:40px;
 }
 #what-is {
-    background-size: 110%;
     background-color: rgb(232, 197, 121);
+    padding-top:70px;
+    padding-bottom: 40px;
 }
 .start-cards {
     width:90%;
@@ -227,6 +242,9 @@ header a {
     text-shadow: 2px 2px #000000b7;
     padding-bottom:30px;
 }
+#rudder {
+    padding-top:50px;
+}
 .button-subscribe{
     border-radius: 5px;
     width:100%;
@@ -249,10 +267,6 @@ header a {
 }
 input {
     width: 100%;
-}
-#what-is, #why-play, #demo, #pricing, #play-now-2 {
-    padding:30px 20px 20px 20px;
-    text-align: center;
 }
 span {
     text-align: center;
