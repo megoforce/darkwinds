@@ -231,6 +231,9 @@ header a {
     text-shadow: 2px 2px #000000b7;
     padding-bottom:30px;
 }
+#rudder {
+    padding-top:50px;
+}
 .button-subscribe{
     border-radius: 5px;
     width:100%;
