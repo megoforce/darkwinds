@@ -53,9 +53,8 @@ h6 {
     font-family: sans-serif;
 }
 #main-banner {
-    background-image: url("/img/landing/royaltyfreesea.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+
+    background-color: #111;
     color:white;
     text-shadow: 2px 2px #000000b7;
     text-align: center;
@@ -133,12 +132,13 @@ header ul {
     list-style: none;
     padding:0;
     margin:0;
+    margin-top:16px;                                                                    
     width:100%;
     list-style: none;
+    text-align: center;
 }
 header li {
-    padding-bottom:-10px;
-    padding-left:10px;
+    padding:10px;
     display: inline;
 }
 header a:hover {
@@ -149,11 +149,11 @@ header a {
     margin-top:-10px;
 }
 #header-icon-left {
-    height:56px;
+    height:64px;
     width:auto;
     display: inline-block;
     margin-top:-10px;
-    margin-left:-25px;
+    margin-left:18px;
     margin-right:18px;
 }
 #header-play-now {
