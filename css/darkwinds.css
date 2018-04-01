@@ -170,7 +170,10 @@ header a {
     font-family: 'Quando', serif;
     padding: 4px 4px;
 }
-
+#what-is, #why-play, #demo, #pricing, #play-now-2 {
+    padding:30px 20px 20px 20px;
+    text-align: center;
+}
 #play-now {
     align-items: center;
     justify-content: center;
@@ -182,8 +185,9 @@ header a {
     margin-bottom:40px;
 }
 #what-is {
-    background-size: 110%;
     background-color: rgb(232, 197, 121);
+    padding-top:70px;
+    padding-bottom: 40px;
 }
 .start-cards {
     width:90%;
@@ -249,10 +253,6 @@ header a {
 }
 input {
     width: 100%;
-}
-#what-is, #why-play, #demo, #pricing, #play-now-2 {
-    padding:30px 20px 20px 20px;
-    text-align: center;
 }
 span {
     text-align: center;
