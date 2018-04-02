@@ -330,7 +330,10 @@ footer {
     margin-left:-40px;
 }
 
-
+.cardcontainer{
+    padding-bottom:250px;
+    height: auto;
+}
 
 #logo-mego {
     text-align: center;
@@ -435,9 +438,6 @@ footer {
         max-height: 500px;
         display: block;
    }
-   #what-is {
-       padding-bottom:300px;
-   }
     #main-banner img{
         width:90%;
         height: auto;
@@ -466,50 +466,35 @@ footer {
     .landing-card-3 {
         left:70px;
     }
+    #what-is{
+        padding-bottom:80px;
+    }
 }
 
+
+@media (max-width: 750px) { /*iphone 5*/
+
+    #cardcontainer {
+        padding-bottom:230px;
+    }
+    .landing-card {
+        width: 26%;
+
+}
 
 button, .button-subscribe{
     cursor:pointer;
 }
 
-@media (max-width: 400px) {
-    .button-primary-web {
-        display: block;
-        width: 100%;
-    }
+@media (max-width: 320px) { /*iphone 5*/
     
-    .button-primary-web {
-        width:93%;
-    }
-
     .landing-card {
-        width:100px;
-        height:auto;
+        width: 38%;
     }
 
     #cardcontainer {
         margin-top: 30px;
-    }
-
-    #what-is{
-        padding-bottom:200px;
-    }
-
-    .subtitle{
-        font-size:22px;
-    }
-}
-
-@media (max-width: 320px) {
-    
-    .landing-card {
-        width:90px;
-        height:auto;
-    }
-
-    #cardcontainer {
-        margin-top: 30px;
+        padding-bottom:180px;
     }
 
     .subtitle{
@@ -517,6 +502,26 @@ button, .button-subscribe{
     }
 
     #what-is{
-        padding-bottom:180px;
+        padding-bottom:0px;
     }
 }
+
+@media (min-width: 375px) { /*iphone 5*/
+    
+    .landing-card {
+        width: 47%;
+    }
+
+    #cardcontainer {
+        margin-top: 30px;
+        padding-bottom:190px;
+
+    }
+
+    .subtitle{
+        font-size:20px;
+    }
+}
+
+
+
