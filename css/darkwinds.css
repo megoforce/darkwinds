@@ -56,19 +56,15 @@ h6 {
     font-size: 8px;
     font-family: sans-serif;
 }
-
 .subtitle{
     font-variant: small-caps;
     color: rgba(52, 26, 3, 0.74);
-
 }
-
 .subtitle-white{
     font-variant: small-caps;
     color: white;
 }
 #main-banner {
-
     background-color: #111;
     color:white;
     text-shadow: 2px 2px #000000b7;
@@ -147,7 +143,7 @@ header ul {
     list-style: none;
     padding:0;
     margin:0;
-    margin-top:16px;                                                                    
+    margin-top:16px;
     width:100%;
     list-style: none;
     text-align: center;
@@ -329,21 +325,17 @@ footer {
     list-style: none;
     margin-left:-40px;
 }
-
 .cardcontainer{
     padding-bottom:250px;
     height: auto;
 }
-
 #logo-mego {
     text-align: center;
 }
 #logo-mego img {
     display: inline;
     height:auto;
-    
 }
-
 #logo-mego img:first-child {
     margin-right:20px;
     margin-bottom:15px;
@@ -355,7 +347,6 @@ footer {
 }
 .landing-card {
     position: absolute;
-    
     width:260px;
     height:auto;
 }
@@ -371,7 +362,6 @@ footer {
     left:150px;
 }
 /* Slideshow */
-
 .slide{
     width:100%;
     opacity: 1;
@@ -391,7 +381,6 @@ footer {
     font-size: 18px !important;
     width: 100%;
 }
-
 .slider-circle{
     border-radius: 50%;
     border: 1px solid #fff !important;
@@ -406,10 +395,10 @@ footer {
 }
 @keyframes fading {
     0% {
-       opacity: 0
+        opacity: 0 
    }
     100% {
-       opacity: 1
+        opacity: 1 
    }
 }
 /* page */
@@ -419,19 +408,17 @@ footer {
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
     .text {
-       font-size: 11px
+        font-size: 11px 
    }
 }
 .col-sm-3 {
     margin-bottom: -25px;
 }
 /* media queries */
-
 @media (max-width: 800px) {
     header {
         display: none;
-    }
-
+   }
     #main-banner {
         background-repeat: no-repeat;
         background-size: 180%;
@@ -442,86 +429,71 @@ footer {
         width:90%;
         height: auto;
    }
-
     #main-banner h1 {
         font-size: 30px;
    }
-
     #main-banner h2 {
         font-size: 15px;
    }
-   #play-now-2, #newsletter {
+    #play-now-2, #newsletter {
         background-size:300%;
-    }
+   }
     .landing-card {
         width:150px;
         height:auto;
-    }
+   }
     .landing-card-1 {
         left:20px;
-    }
+   }
     .landing-card-2 {
         left:140px;
-    }
+   }
     .landing-card-3 {
         left:70px;
-    }
+   }
     #what-is{
         padding-bottom:80px;
-    }
+   }
 }
-
-
-@media (max-width: 750px) { /*iphone 5*/
-
+@media (max-width: 750px) {
+   /*iphone 5*/
     #cardcontainer {
         padding-bottom:230px;
-    }
+   }
     .landing-card {
         width: 26%;
-
+   }
+    button, .button-subscribe{
+        cursor:pointer;
+   }
 }
-
-button, .button-subscribe{
-    cursor:pointer;
-}
-
-@media (max-width: 320px) { /*iphone 5*/
+    @media (max-width: 320px) {
+       /*iphone 5*/
+        .landing-card {
+            width: 38%;
+       }
+        #cardcontainer {
+            margin-top: 30px;
+            padding-bottom:180px;
+       }
+        .subtitle{
+            font-size:20px;
+       }
+        #what-is{
+            padding-bottom:0px;
+       }
+   }
+    @media (min-width: 375px) {
+       /*iphone 5*/
+        .landing-card {
+            width: 47%;
+       }
+        #cardcontainer {
+            margin-top: 30px;
+            padding-bottom:190px;
+       }
+        .subtitle{
+            font-size:20px;
+       }
+   }
     
-    .landing-card {
-        width: 38%;
-    }
-
-    #cardcontainer {
-        margin-top: 30px;
-        padding-bottom:180px;
-    }
-
-    .subtitle{
-        font-size:20px;
-    }
-
-    #what-is{
-        padding-bottom:0px;
-    }
-}
-
-@media (min-width: 375px) { /*iphone 5*/
-    
-    .landing-card {
-        width: 47%;
-    }
-
-    #cardcontainer {
-        margin-top: 30px;
-        padding-bottom:190px;
-
-    }
-
-    .subtitle{
-        font-size:20px;
-    }
-}
-
-
-
