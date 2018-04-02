@@ -60,6 +60,3 @@ You need to have at least 10 cards to build a deck in order to play the game.
 
 ## Will my collection on home PC be the same that the one on my laptop?
 No. Your collection is uniquely tied to the MetaMask wallet installed. The only way to use the same wallet on both devices is to use the seed of an existing MetaMask wallet.
-
-## Do I need an Internet connection to play the game?
-Yes. The game is an online game that pairs you against an opponent from anywhere in the world.
