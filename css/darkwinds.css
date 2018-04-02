@@ -423,33 +423,22 @@ footer {
 }
 /* media queries */
 @media (max-width: 400px) {
-    header {
-        display: none;
-    }
- 
+   
    .button-primary-web {
         display: block;
         width: 100%;
     }
-    .landing-card {
-        width:150px;
-        height:auto;
-    }
-    .landing-card-1 {
-        left:20px;
-    }
-    .landing-card-2 {
-        left:140px;
-    }
-    .landing-card-3 {
-        left:70px;
-    }
+    
     .button-primary-web {
         width:93%;
     }
    
 }
 @media (max-width: 800px) {
+    header {
+        display: none;
+    }
+ 
     #main-banner {
         background-repeat: no-repeat;
         background-size: 180%;
@@ -474,7 +463,19 @@ footer {
    #play-now-2, #newsletter {
         background-size:300%;
     }
-
+    .landing-card {
+        width:150px;
+        height:auto;
+    }
+    .landing-card-1 {
+        left:20px;
+    }
+    .landing-card-2 {
+        left:140px;
+    }
+    .landing-card-3 {
+        left:70px;
+    }
 }
 
 
