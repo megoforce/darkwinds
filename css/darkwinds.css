@@ -11,6 +11,9 @@ a {
 a:hover {
     color:rgb(184, 149, 23);
 }
+.blacksea {
+    background: url(/img/landing/blacksea.jpg) no-repeat 50% fixed / cover;
+}
 /*Typography*/
 p {
     font-family: 'Quando', serif;
