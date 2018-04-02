@@ -404,6 +404,10 @@ footer {
        opacity: 1
    }
 }
+/* page */
+#page {
+    padding-top:32px;
+}
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
     .text {
