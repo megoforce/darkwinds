@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     color:black;
+    overflow-x: hidden;
 }
 a {
     color:rgb(169, 144, 51);
