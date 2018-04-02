@@ -473,7 +473,7 @@ button, .button-subscribe{
     cursor:pointer;
 }
 
-@media (min-width: 400px) {
+@media (max-width: 400px) {
     .button-primary-web {
         display: block;
         width: 100%;
