@@ -42,8 +42,6 @@ For everyone else: you need to buy ETH from an exchange using normal fiat curren
 
 [Here is](https://youtu.be/PtdMDtCVck0) a really quick video that explains how to send ETH from Coinbase to Metamask, we suggest you to check it out if you still have questions. 
 
-## Understanding Dark Winds and cryptocollectibles
-
 ## What is a cryptocollectible? Is my Dark Winds card a cryptocollectible?
 A cryptocollectible is a unique asset that is stored in a blockchain, such as the Ethereum blockchain.
 
