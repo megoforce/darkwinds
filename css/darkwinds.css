@@ -334,15 +334,16 @@ footer {
 
 #logo-mego {
     text-align: center;
-    margin:10px 10px 10px 10px;
 }
 #logo-mego img {
     display: inline;
     height:auto;
+    
 }
 
 #logo-mego img:first-child {
     margin-right:20px;
+    margin-bottom:15px;
 }
 /* header */
 .row {
@@ -422,31 +423,20 @@ footer {
     margin-bottom: -25px;
 }
 /* media queries */
-@media (max-width: 400px) {
-   
-   .button-primary-web {
-        display: block;
-        width: 100%;
-    }
-    
-    .button-primary-web {
-        width:93%;
-    }
-   
-}
+
 @media (max-width: 800px) {
     header {
         display: none;
     }
- 
+
     #main-banner {
         background-repeat: no-repeat;
         background-size: 180%;
         max-height: 500px;
         display: block;
    }
-   #why-play {
-    margin-top:160px;
+   #what-is {
+       padding-bottom:300px;
    }
     #main-banner img{
         width:90%;
@@ -481,4 +471,52 @@ footer {
 
 button, .button-subscribe{
     cursor:pointer;
+}
+
+@media (min-width: 400px) {
+    .button-primary-web {
+        display: block;
+        width: 100%;
+    }
+    
+    .button-primary-web {
+        width:93%;
+    }
+
+    .landing-card {
+        width:100px;
+        height:auto;
+    }
+
+    #cardcontainer {
+        margin-top: 30px;
+    }
+
+    #what-is{
+        padding-bottom:200px;
+    }
+
+    .subtitle{
+        font-size:22px;
+    }
+}
+
+@media (max-width: 320px) {
+    
+    .landing-card {
+        width:90px;
+        height:auto;
+    }
+
+    #cardcontainer {
+        margin-top: 30px;
+    }
+
+    .subtitle{
+        font-size:20px;
+    }
+
+    #what-is{
+        padding-bottom:180px;
+    }
 }
