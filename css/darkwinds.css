@@ -186,6 +186,7 @@ header a {
     padding:30px 20px 20px 20px;
     text-align: center;
 }
+
 #play-now {
     align-items: center;
     justify-content: center;
@@ -211,7 +212,10 @@ header a {
     background-position: bottom left;
 }
 #demo {
-    background-color: rgba(226, 196, 130, 0.582);
+    padding-top:20px;
+    padding-bottom:30px;
+    background-color: rgb(232, 197, 121);
+    text-align: center;
 }
 #pricing {
     background-color: rgba(182, 145, 43, 0.295);
@@ -384,15 +388,16 @@ footer {
 }
 .slider-circle{
     border-radius: 50%;
-    border: 1px solid #fff !important;
+    border: 2px solid rgb(255, 255, 255) !important;
     display: inline-block;
     margin: 0 2px;
     width: 14px;
     height: 14px;
     cursor: pointer;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.575);
 }
 .slider-circle:hover, .slider-circle-selected{
-    background-color: #fff;
+    background-color: rgb(254, 254, 254);
 }
 @keyframes fading {
     0% {
