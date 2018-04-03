@@ -59,6 +59,7 @@ h6 {
 .subtitle{
     font-variant: small-caps;
     color: rgba(52, 26, 3, 0.74);
+    font-size:24px;
 }
 .subtitle-white{
     font-variant: small-caps;
@@ -454,6 +455,7 @@ footer {
     #what-is{
         padding-bottom:80px;
    }
+
 }
 @media (max-width: 750px) {
    /*iphone 5*/
@@ -466,6 +468,9 @@ footer {
     button, .button-subscribe{
         cursor:pointer;
    }
+   .subtitle{
+    font-size:20px;
+}
 }
     @media (max-width: 320px) {
        /*iphone 5*/
@@ -475,9 +480,6 @@ footer {
         #cardcontainer {
             margin-top: 30px;
             padding-bottom:180px;
-       }
-        .subtitle{
-            font-size:20px;
        }
         #what-is{
             padding-bottom:0px;
@@ -492,8 +494,6 @@ footer {
             margin-top: 30px;
             padding-bottom:190px;
        }
-        .subtitle{
-            font-size:20px;
-       }
+
    }
     
