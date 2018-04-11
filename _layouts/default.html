@@ -191,6 +191,17 @@
     {% include subscribe.html %}
     <!--FOOTER-->
     {% include footer.html %}
+    <script>
+    function getQueryStringValue (key) {  
+        return unescape(window.location.search.replace(new RegExp("^(?:.*[&\\?]" + escape(key).replace(/[\.\+\*]/g, "\\$&") + "(?:\\=([^&]*))?)?.*$", "i"), "$1"));  
+    }  
+    var utm_source = getQueryStringValue("utm_source");
+    mixpanel.track(
+        "landing",{
+            "utm_source":utm_source
+        }
+    );
+</script>
 </body>
 
 </html>
