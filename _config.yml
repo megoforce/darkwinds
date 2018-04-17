@@ -17,3 +17,12 @@ github_username:  megoforce
 
 # Build settings
 markdown: kramdown
+collections:
+  wiki:
+    output: true
+defaults:
+  - scope:
+      path: ""
+      type: "wiki"
+    values:
+      layout: article
