@@ -249,7 +249,7 @@ contract DarkWindsFirstEdition is ERC721, ERC721BasicToken, AccessControl, Locka
      * @param _to address to give a card
      * @param _prototypeIds array of prototype ids to give a user
      */
-    function giveUserCards(address _to, uint256[] _prototypeIds) onlyMegoOrTeam whenNotLocked public {
+    function giveUserCards(address _to, uint256[] _prototypeIds) onlyMegoOrTeam whenNotLocked external {
         require(_to != address(0));
         require((allocatedTokens_ + _prototypeIds.length) < maxCards);
         for (uint256 i = 0; i < _prototypeIds.length; i++) {

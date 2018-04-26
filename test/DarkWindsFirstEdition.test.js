@@ -60,7 +60,7 @@ contract('DarkWindsFirstEdition', function (accounts) {
     });
 
     shouldBehaveLikeERC721BasicToken(accounts);
-    
+
     shouldMintAndBurnERC721Token(accounts);
 
     describe('like a full ERC721', function () {
