@@ -1,3 +1,4 @@
+.idea/
 whitepaper/*
 !whitepaper/darkwinds.pdf
 !whitepaper/darkwinds.tex
@@ -5,3 +6,5 @@ _site/
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
+.DS_Store
+node_modules/

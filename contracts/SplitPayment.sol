@@ -1,4 +1,4 @@
-pragma solidity ^0.4.18;
+pragma solidity ^0.4.21;
 
 import "./SafeMath.sol";
 
@@ -9,63 +9,64 @@ import "./SafeMath.sol";
  * according to the proportion they own.
  */
 contract SplitPayment {
-  using SafeMath for uint256;
+    using SafeMath for uint256;
 
-  uint256 public totalShares = 0;
-  uint256 public totalReleased = 0;
+    uint256 public totalShares = 0;
+    uint256 public totalReleased = 0;
 
-  mapping(address => uint256) public shares;
-  mapping(address => uint256) public released;
-  address[] public payees;
+    mapping(address => uint256) public shares;
+    mapping(address => uint256) public released;
+    address[] public payees;
 
-  /**
-   * @dev Constructor
-   */
-  function SplitPayment(address[] _payees, uint256[] _shares) public payable {
-    require(_payees.length == _shares.length);
+    /**
+     * @dev Constructor
+     */
+    function SplitPayment(address[] _payees, uint256[] _shares) public payable {
+        require(_payees.length == _shares.length);
 
-    for (uint256 i = 0; i < _payees.length; i++) {
-      addPayee(_payees[i], _shares[i]);
+        for (uint256 i = 0; i < _payees.length; i++) {
+            addPayee(_payees[i], _shares[i]);
+        }
     }
-  }
 
-  /**
-   * @dev payable fallback
-   */
-  function () public payable {}
+    // TODO: Maybe we ditch this function? why would we have a default payable with the purchase function
+    /**
+     * @dev payable fallback
+     */
+    function() public payable {}
 
-  /**
-   * @dev Claim your share of the balance.
-   */
-  function claim() public {
-    address payee = msg.sender;
+    /**
+     * @dev Claim your share of the balance.
+     */
+    function claim() public {
+        address payee = msg.sender;
 
-    require(shares[payee] > 0);
+        require(shares[payee] > 0);
 
-    uint256 totalReceived = this.balance.add(totalReleased);
-    uint256 payment = totalReceived.mul(shares[payee]).div(totalShares).sub(released[payee]);
+        uint256 totalReceived = address(this).balance.add(totalReleased);
+        uint256 payment = totalReceived.mul(shares[payee]).div(totalShares).sub(released[payee]);
 
-    require(payment != 0);
-    require(this.balance >= payment);
+        require(payment != 0);
+        require(address(this).balance >= payment);
 
-    released[payee] = released[payee].add(payment);
-    totalReleased = totalReleased.add(payment);
+        released[payee] = released[payee].add(payment);
+        totalReleased = totalReleased.add(payment);
 
-    payee.transfer(payment);
-  }
+        payee.transfer(payment);
+    }
 
-  /**
-   * @dev Add a new payee to the contract.
-   * @param _payee The address of the payee to add.
-   * @param _shares The number of shares owned by the payee.
-   */
-  function addPayee(address _payee, uint256 _shares) internal {
-    require(_payee != address(0));
-    require(_shares > 0);
-    require(shares[_payee] == 0);
+    /**
+     * @dev Add a new payee to the contract.
+     * @param _payee The address of the payee to add.
+     * @param _shares The number of shares owned by the payee.
+     */
+    function addPayee(address _payee, uint256 _shares) internal {
+        require(_payee != address(0));
+        require(_shares > 0);
+        require(shares[_payee] == 0);
 
-    payees.push(_payee);
-    shares[_payee] = _shares;
-    totalShares = totalShares.add(_shares);
-  }
+        payees.push(_payee);
+        shares[_payee] = _shares;
+        totalShares = totalShares.add(_shares);
+    }
 }
