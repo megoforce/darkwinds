@@ -139,53 +139,78 @@ However, being of electronic nature, it's physical existence is an entry on a da
         \item The game owner can prohibit trading or markets for cards, which is usually enforced.
         \item The game owner can control the issuance of cards witout transparency to the user.
 \end{itemize}
-
+\clearpage
+\onecolumn
 Thanks to Blockchain technology we can make a trading card game where all cards are stored in a Ethereum smart contract, where players obtain true ownership of the game object and are free to trade in an outside the game program.\\
 
 By being a blockchain asset, each card will have the following qualities:
 
 \begin{itemize}
         \item It's securely stored in an Ethereum wallet.
-        \item The owner and only the owner has perpetual rights for transfer, trade or sale of the token
+        \item The owner has exclusive perpetual rights for transfer, trade or sale of the token
         \item It can be read by other applications, like a mobile wallet for ERC721 tokens.
         \item It's existence doesn't depend on the availability of the game owner systems.
 \end{itemize}
 
-Each card is composed of a serial number and a model id that corresponds to a card model. There can be many cards of the same model, with different serial numbers. Card models are contain metadata for it's appearance (an image file) and it's game action properties (ex: deals 3 damage points to enemy target).\\
 
 The smart contract also controls immutable rules on the issuance of cards, including the total limit of cards to be issued and the rarity of card models.
 
-
-\section{The Game}
+\clearpage
+\section{About The Game}
 Darkwinds is an online trading card game where two players confront each other in a sea battle of ships.\\
+
+\clearpage
+
+\twocolumn
+
+\begin{figure}[!htb]
+\centering 
+\includegraphics[scale=0.4]{wp/card} 
+\caption{Model \#19 (Jordmundgander)} \label{fig:A}
+\end{figure}
+\pagebreak
+\section{Anatomy of a Darkwinds card}
+
+The data model of every card is a tuple of a \textbf{serial number} and a \textbf{model id}.
+
+The model determines it's properties in the game, which are:
+
+\subsection{Name}
+The name of the card
+
+\subsection{Energy Points}
+The energy points required to summon the card into played
+
+\subsection{Action}
+An action of rules in the game activated when the card is summoned, if any. Most of the time is an action the player can use against the enemy (Attack 5 points to the enemy of your choice) and in others against both (All cards into play lose 1 point of health).
+
+\subsection{Attack Points}
+The amount of damage the card inflicts on other creatures or the enemy player when attacking. Cards that have damage points are called \textbf{Bucaneers} and the others \textbf{Spells}
+
+
+\subsection{Defense Points}
+The amount of damage this card can receive before it's discarded out of the board. Spell cards don't have defense points and are discarded immediately after using.
+
+\clearpage
+
+\section{Smart Contracts}
+
+Data-wise, each card is a tuple of a serial number and a model id that corresponds to it's attributes in the game. The serial-model tuples are stored on one contract, while there are 100 card models stored on a second contract.
+
+The main contract conforms to all the functions according to the ERC721 \cite{nft} standard. Which means it's compatible with most exchanges and wallet software. 
+
+Players cannot buy a specific card, but with the payable function called \textbf{getBoosterPack} they can get a pack of random ones. The amount of cards returned to the owner is determined by the price of cards, which is set by the contract owner using the \textbf{setCardPrice} function.
+\section{Card Generation}
+Cards are generated with a KECCAK-256 operation on the last block timestamp with a modulo operation of 50. Every 5 cards we do another 50 modulo operation on a contract nonce in attempt to make a rare card. If the sum of both modulo operations is higher than 50, the card generated is considered rare as they are appear far less often as shown in Figure A.
+
+While it's possible to determine exactly when cards are being released, efforts are probably not practical. 
+
+The smart contract stops generating cards when the hard cap of 1,000,000 is reached.
 
 While the smart contract handles the ownership of tokens, game matches occur off-chain, in a webGL website running the Metamask web extension or compatible thin wallets. A game server is responsible for matchmaking between two adversaries, validating the signature of both players, thus verfying the ownership of both player decks. While the official game server will be the only endorsed way of playing Darkwinds, other developers are free to read the ABIs and access players cards to create different game modes, tournaments or applications that connect to the game.\\
 
 Game servers only require a signed message from the user wallet to verify ownership. The user private keys are never read or stored.
 
-
-\section{Anatomy of a Darkwinds card}
-\begin{figure}[!htb]
-\centering 
-\includegraphics[scale=0.3]{wp/card} 
-
-\caption{First draft of Card Model \#19 (Jordmundgander)} \label{fig:A}
-\end{figure}
-
-
-The card smart contract performs all the functions according to the ERC721 \cite{nft} standard. All cards are generated with a payable function called \textbf{getBoosterPack} and the amount of cards returned to the owner is determined by the price of cards, which is set by the contract owner using the \textbf{setCardPrice} function
-\subsection{getCard}
-Gets all the metadata for the card relevant to the game mechanics (actions, cost of invocation, effects, etc.)
-\subsection{getBoosterPack}
-Spends a determined amount of ETH to get a booster pack. Normally it will contain 10, 25 or 50 cards but the contract can be excecuted for a specific amount of cards multiplying the desired amount of cards with the cost.
-\subsection{changeCardCost}
-A function designed for the owner to change the price of the card, and by consequence the price of booster packs. By default is 1 finney.
-\section{Card Generation}
-Cards are generated with a KECCAK-256 operation on the last block timestamp and a modulo operation of 50. Every 5 cards we add another 50 modulo on the contract nonce in attempt to make a rare card. If both modulo operations are larger than 25, a rare card appears. Cards with Model ID higher than 50 are not often generated as shown in Figure A.
-
-While it's possible to determine exactly when cards are being released, efforts are probably not practical. 
-
-The smart contract stops generating cards when the hard cap of 1,000,000 is reached.
 \begin{figure}[!htb]
 \centering 
     
