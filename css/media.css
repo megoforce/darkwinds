@@ -1,0 +1,43 @@
+@media (min-width: 576px) { 
+    header {
+        display: flex; 
+    }
+    #token-stats {
+        width:100%;
+        display: flex;
+        text-align: center;
+    }
+    #token-stats div {
+        flex-grow: 2;
+        text-align: right;
+    }
+}
+
+@media (min-width: 768px) { 
+    #book-search {
+        display:inline;
+        width:400px;
+    }
+
+    #title-screen {
+        background:url(/img/landing/king.png) no-repeat right center; 
+        background-size: contain;
+        background-position: right top; 
+    }
+    #title-screen h1 {
+        padding:8px 200px;
+        font-size:40px;
+    }
+}
+
+@media (min-width: 992px) { 
+    #book-search {
+        width:500px;
+    }
+ }
+
+@media (min-width: 1200px) { 
+    #book-search {
+        width:600px;
+    }
+ }

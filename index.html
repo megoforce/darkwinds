@@ -1,23 +1,220 @@
----
-layout: landing
----
+<html>
+<head>
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#000000">
+  <meta name="theme-color" content="#000000">
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  
+  <link href="https://fonts.googleapis.com/css?family=Quando" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet"> 
+  
+  <link rel="stylesheet" href="/css/darkwinds.css"/>
+  <link rel="stylesheet" href="/css/media.css"/>
+  
+  <script src="/js/jquery.js"></script>
+  <meta itemprop="name" content="Darkwinds">
+  <meta name="description" content="Blockchain trading card game. Trade, fight and collect pirate crypto collectibles with Ethereum"/>
+  <meta property="og:description" content="Blockchain trading card game. Trade, fight and collect pirate crypto collectibles with Ethereum">
+  <meta property="og:image" content="https://mego.cl/assets/images/blog/dw.jpg" />
+  <meta itemprop="image" content="https://mego.cl/assets/images/blog/dw.jpg">
+  <meta property="og:title" content="Darkwinds" />
+  <meta property="og:site_name" content="Darkwinds">
+  <title>Darkwinds</title>
+  <meta property="og:locale" content="en_US">
+  <meta property="og:url" content="https://playdarkwinds.com" />
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-50933804-19"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-50933804-19');
+    gtag('config', 'AW-969713251');
+    
+  </script>
+</head>
 
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+<style>
+  body {
+    background: url(/img/bg/battle.jpg)  no-repeat center center fixed; 
+    background-size: cover;
+  }
+</style>
+<body>
+  <header id="landing-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-5" id="header-left" style="text-align: right">
+          <ul>
+            <li><a href="https://corsarium.playdarkwinds.com/detect.html">Play Now</a></li>
+            
+            
+            <li><a href="https://corsarium.playdarkwinds.com/cards/all">Cards</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-2" style="text-align:center">
+          <div id="header-back-button">
+            <a href="/" class="corsarium-tab">
+              <img id="header-icon" src="/img/ico_white.png">
+            </a>
+          </div>
+        </div>
+        <div class="col-sm-5" id="header-right">
+          <ul>
+            <li><a href="/guide">Docs</a></li>
+            <li><a href="https://discord.gg/AdZQ8Zu">Discord</a></li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+  
+  <script> 
+    var CONTROLLER="<%=controller%>" 
+    var ENVIRONMENT="<%=environment%>" 
+    var CONTRACT_ADDRESS="<%=contract_address%>" 
+    var NETWORK="<%=network%>"
+    var UTM_SOURCE="<%=utm_source%>"
+  </script>
+  <div id="landing" style="<% if(controller!='welcome') { %> display:none <% } %>">
+    <div id="title-screen">
+      <img src="img/logo/dw_jpn.svg" id="welcome-logo"/>
+    </div>
+    <div  id="slide-1" >
+      <div class="container">
+        <h2>Fight, trade and collect pirate cryptocollectibles with Ethereum.</h2>
+        <h3>Available for Firefox and Chrome with the Metamask extension.</h3>
+        <br>
+        <a id="play-now-button" class="button-cut-1 button-big" href="/detect.html">Play Now!</a>
+      </div>
+    </div>
+    <div id="slide-2" >
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <img class="landing-card landing-card-1" src="https://corsarium.playdarkwinds.com/img/cards/31.opt.png">
+          </div>
+          <div class="col">
+            
+            <img class="landing-card landing-card-2" src="https://corsarium.playdarkwinds.com/img/cards/48.opt.png">
+          </div>
+          <div class="col">
+            <img class="landing-card landing-card-3" src="https://corsarium.playdarkwinds.com/img/cards/47.opt.png">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <h2>Crypto-collect them all!</h2>
+            <h3>Every Darkwinds card is a ERC721 Ethereum token, which means you have true ownership of them in the Blockchain. Cards are generated at random from 100 initial "First Edition" models and some are very rare.</h3>
+            <a href="/cards/all">See all first edition cards</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div  id="slide-3" >
+      
+      <div id="slide-3-text">
+        <br><br>
+        <div class="container">
+          <h2 class="subtitle">Epic Online Battles</h2>
+          <h3>Build your deck and battle against other pirates in the arena. Climb your way to the top of the leaderboard and prepare for the upcoming tournaments. </h3>
+          <a href="/guide">Learn to play</a>
+        </div>
+      </div>
+      <video autoplay loop muted id="gameplay-video">
+        <source src="https://s3.amazonaws.com/darkwinds/darkwinds4.webm" type="video/webm">
+          <source src="https://s3.amazonaws.com/darkwinds/darkwinds4.mp4" type="video/mp4">
+            <img src="https://s3.amazonaws.com/darkwinds/video/darkwinds-6-6-2018.gif">
+          </video>
+          
+        </div>
+        
+        <div  id="slide-5" >
+          <div class="container">
+            <h2 class="subtitle">Open for Trading</h2>
+            <h3>All circulation and rarity of cards is totally transparent and you can buy, sell, or trade your cards on external marketplaces like OpenSea. </h3>
+            <div class="row">
+              <div class="col-md-4 stats-metric"><h2 id="total-tokens" class="token-stats-number"></h2><p>Total cards in circulation</p></div>
+              <div class="col-md-4 stats-metric"><h2 id="token-holders" class="token-stats-number"></h2><p>Total token holders</p></div>
+              <div class="col-md-4 stats-metric"><h2 id="average-token-price" class="token-stats-number"></h2><p>Average card price</p></div>
+              
+            </div>
+            
+          </div>
+        </div>
+        <a href="https://opensea.io/category/darkwinds">Check out the marketplace</a>
+      </div>
+    </div>
+    <div id="call-to-action">
+      <div class="container">
+        
+        <h1>Become a crypto pirate!</h1>
+        <a class="button-cut-1 button-big" href="/detect.html">Play Now!</a>
+      </div>
+    </div>
+    <footer id="footer-landing">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4">
+            <h3>The game</h3>
+            <ul>
+              <li><a href="https://corsarium.playdarkwinds.com/detect.html">Play Now</a></li>
+              <li><a href="https://corsarium.playdarkwinds.com/cards/all">Card Explorer</a></li>
+              <li><a href="https://press.mego.cl/sheet.php?p=darkwinds">Press</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-4">
+            <h3>Community</h3>
+            <ul>
+              <li><a href="https://twitter.com/playdarkwinds">Twitter</a></li>
+              <li><a href="https://discord.gg/WwyCERC">Discord</a></li>
+              <li><a href="https://github.com/megoforce/darkwinds">Github</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-4">
+            <h3>Support</h3>
+            <ul>
+              <li><a href="https://mego.cl/contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12" style="text-align:center">
+            <p>Copyright 2018 MEGO Games. All rights reserved. </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12" id="logo-mego">
+            <a target="_blank" href="https://www.mego.cl"><img src="/img/logo/logo-mego-150.png" style="margin-right:10px"></a>
+            <a a="" target="_blank" href="http://tapinator.com/"><img src="/img/logo/tap_150.png"></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script>
+    $( document ).ready(function() {
+      document.getElementById('gameplay-video').play();
+    });
+    $(window).scroll(function (event) {
+      var scroll = $(window).scrollTop();
+      // Do something
+      if(scroll>100) {
+        $("header").addClass('header-background')
+      } else {
+        $("header").removeClass('header-background')              
+      }
+    });
+  </script>
+  
+</body>
+</html>
