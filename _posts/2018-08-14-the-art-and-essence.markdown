@@ -5,6 +5,8 @@ date:   2018-08-13 14:00:00 -0400
 categories: art
 thumbnail: /img/posts/art02.png
 excerpt: "The art and essence of Darkwinds"
+featured_image: "/img/posts/art03.jpeg"
+
 ---
 
 The art and essence of Darkwinds

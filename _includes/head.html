@@ -17,15 +17,34 @@
 <link rel="stylesheet" href="/css/media.css"/>
 <script src="/js/jquery.js"></script>
 <meta itemprop="name" content="Darkwinds">
+{% if page.excerpt %}
+<meta name="description" content="{{ page.excerpt }}"/>
+<meta property="og:description" content="{{ page.excerpt }}">
+{% else %}
 <meta name="description" content="Blockchain trading card game. Trade, fight and collect pirate crypto collectibles with Ethereum"/>
 <meta property="og:description" content="Blockchain trading card game. Trade, fight and collect pirate crypto collectibles with Ethereum">
+{% endif %}
+
+{% if page.featured_image %}
+<meta property="og:image" content="{{ page.featured_image }}" />
+<meta itemprop="image" content="{{ page.featured_image }}">
+{% else %}
 <meta property="og:image" content="https://mego.cl/assets/images/blog/dw.jpg" />
 <meta itemprop="image" content="https://mego.cl/assets/images/blog/dw.jpg">
+{% endif %}
+
+{% if page.title %}
+<meta property="og:title" content="{{ page.title }}" />
+<meta property="og:site_name" content="{{ page.title }}">
+<title>{{ page.title }}</title>
+{% else %}
 <meta property="og:title" content="Darkwinds" />
 <meta property="og:site_name" content="Darkwinds">
 <title>Darkwinds</title>
+{% endif %}
+
+
 <meta property="og:locale" content="en_US">
-<meta property="og:url" content="https://playdarkwinds.com/" />
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-50933804-19"></script>
 <script>
