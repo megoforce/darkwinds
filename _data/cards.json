@@ -1,0 +1,1792 @@
+[
+  {
+    "wind": "north",
+    "requirements": [],
+    "rarity": 0,
+    "category": "buccaneer",
+    "artwork": "https://beta.corsarium.com/img/card1.png",
+    "artist": "Draft (To be illustrated)",
+    "story": "The lower neglect I jump overboard either by my own will or the will of Captain",
+    "defense": 1,
+    "name": "Parrot Willy",
+    "damage": 2,
+    "cost": 1,
+    "art_stage": 0
+  },
+  {
+    "enchantments": ["taunt"],
+    "wind": "north",
+    "requirements": [],
+    "rarity": 0,
+    "category": "buccaneer",
+    "artwork": "https://beta.corsarium.com/img/card2.png",
+    "artist": "Draft (To be illustrated)",
+    "story": "The wisest recognize that even a simple knot can win a battle",
+    "defense": 2,
+    "name": "Private Jeimi",
+    "damage": 1,
+    "cost": 2,
+    "art_stage": 0
+  },
+  {
+    "wind": "north",
+    "requirements": [],
+    "rarity": 0,
+    "category": "buccaneer",
+    "artwork": "https://beta.corsarium.com/img/card1.png",
+    "artist": "Draft (To be illustrated)",
+    "story": "The lower neglect I jump overboard either by my own will or the will of Captain",
+    "defense": 1,
+    "name": "Lance Corporal Michon",
+    "damage": 2,
+    "cost": 1,
+    "art_stage": 0
+  },
+  {
+    "enchantments": ["taunt"],
+    "wind": "north",
+    "requirements": [],
+    "rarity": 0,
+    "category": "buccaneer",
+    "artwork": "https://beta.corsarium.com/img/card2.png",
+    "artist": "Draft (To be illustrated)",
+    "story": "The wisest recognize that even a simple knot can win a battle",
+    "defense": 2,
+    "name": "First Sergeant Punisher",
+    "damage": 1,
+    "cost": 2,
+    "art_stage": 0
+  },
+  {
+    "wind": "north",
+    "requirements": [],
+    "rarity": 0,
+    "category": "buccaneer",
+    "artwork": "https://beta.corsarium.com/img/card1.png",
+    "artist": "Draft (To be illustrated)",
+    "story": "The lower neglect I jump overboard either by my own will or the will of Captain",
+    "defense": 1,
+    "name": "Funny Gabriel",
+    "damage": 2,
+    "cost": 1,
+    "art_stage": 0
+  },
+  {
+    "enchantments": ["taunt"],
+    "wind": "north",
+    "requirements": [],
+    "rarity": 0,
+    "category": "buccaneer",
+    "artwork": "https://beta.corsarium.com/img/card2.png",
+    "artist": "",
+    "story": "The wisest recognize that even a simple knot can win a battle",
+    "defense": 2,
+    "name": "Knife McCraken",
+    "damage": 1,
+    "cost": 2,
+    "art_stage": 1
+  },
+  {
+    "wind": "north",
+    "requirements": [],
+    "rarity": 0,
+    "category": "buccaneer",
+    "artwork": "https://beta.corsarium.com/img/card1.png",
+    "artist": "Draft (To be illustrated)",
+    "story": "The lower neglect I jump overboard either by my own will or the will of Captain",
+    "defense": 1,
+    "name": "Althalos of Orange",
+    "damage": 2,
+    "cost": 1,
+    "art_stage": 2
+  },
+  {
+    "enchantments": ["taunt"],
+    "wind": "north",
+    "requirements": [],
+    "rarity": 0,
+    "category": "buccaneer",
+    "artwork": "https://beta.corsarium.com/img/card2.png",
+    "artist": "Draft (To be illustrated)",
+    "story": "The wisest recognize that even a simple knot can win a battle",
+    "defense": 2,
+    "name": "Elgard The Vicar",
+    "damage": 1,
+    "cost": 2,
+    "art_stage": 2
+  },
+  {
+    "enchantments": ["charge"],
+    "wind": "north",
+    "requirements": [],
+    "rarity": 0,
+    "category": "buccaneer",
+    "artwork": "https://beta.corsarium.com/img/card4.png",
+    "artist": "Draft (To be illustrated)",
+    "story": "I have faced death so many times that I no longer believe in it",
+    "defense": 1,
+    "name": "Solange Tiger Eye",
+    "damage": 1,
+    "cost": 1,
+    "art_stage": 0
+  },
+  {
+    "enchantments": ["charge"],
+    "wind": "north",
+    "requirements": [],
+    "rarity": 0,
+    "category": "buccaneer",
+    "artwork": "https://beta.corsarium.com/img/card4.png",
+    "artist": "Draft (To be illustrated)",
+    "story": "I have faced death so many times that I no longer believe in it",
+    "defense": 1,
+    "name": "Barrel Phillip",
+    "damage": 1,
+    "cost": 1,
+    "art_stage": 2
+  },
+  {
+    "enchantments": ["charge"],
+    "wind": "north",
+    "requirements": [],
+    "rarity": 0,
+    "category": "buccaneer",
+    "artwork": "https://beta.corsarium.com/img/card4.png",
+    "artist": "Draft (To be illustrated)",
+    "story": "I have faced death so many times that I no longer believe in it",
+    "defense": 1,
+    "name": "Serf Serena",
+    "damage": 1,
+    "cost": 1,
+    "art_stage": 0
+  },
+  {
+    "enchantments": ["charge"],
+    "wind": "north",
+    "requirements": [],
+    "rarity": 0,
+    "category": "buccaneer",
+    "artwork": "https://beta.corsarium.com/img/card4.png",
+    "artist": "Draft (To be illustrated)",
+    "story": "I have faced death so many times that I no longer believe in it",
+    "defense": 1,
+    "name": "Marianne Morningstar",
+    "damage": 1,
+    "cost": 1,
+    "art_stage": 0
+  },
+  {
+    "targeted": [
+      {
+        "targets": 1,
+        "amount": 1,
+        "type": "damage"
+      }
+    ],
+    "wind": "north",
+    "requirements": [],
+    "rarity": 0,
+    "category": "buccaneer",
+    "artwork": "https://beta.corsarium.com/img/card5.png",
+    "artist": "Draft (To be illustrated)",
+    "story": "My whip is the extension of my beauty",
+    "defense": 1,
+    "name": "Jack The Gunner",
+    "damage": 3,
+    "cost": 3,
+    "art_stage": 0
+  },
+  {
+    "triggered": [
+      {
+        "amount": 1,
+        "type": "invoke",
+        "invocation": 0
+      }
+    ],
+    "wind": "north",
+    "requirements": [],
+    "rarity": 0,
+    "category": "buccaneer",
+    "artwork": "https://beta.corsarium.com/img/card6.png",
+    "artist": "Draft (To be illustrated)",
+    "story": "His watchdog slowly sinks his teeth into my neck while he laughs",
+    "defense": 3,
+    "name": "Deckshine Gordon",
+    "damage": 2,
+    "cost": 3,
+    "art_stage": 0
+  },
+  {
+    "targeted": [
+      {
+        "targets": 1,
+        "amount": 1,
+        "type": "damage"
+      }
+    ],
+    "wind": "north",
+    "requirements": [],
+    "rarity": 0,
+    "category": "buccaneer",
+    "artwork": "https://beta.corsarium.com/img/card5.png",
+    "artist": "Draft (To be illustrated)",
+    "story": "My whip is the extension of my beauty",
+    "defense": 1,
+    "name": "Ariel The Bard",
+    "damage": 3,
+    "cost": 3,
+    "art_stage": 0
+  },
+  {
+    "triggered": [
+      {
+        "amount": 1,
+        "type": "invoke",
+        "invocation": 3
+      }
+    ],
+    "wind": "north",
+    "requirements": [],
+    "rarity": 0,
+    "category": "buccaneer",
+    "artwork": "https://beta.corsarium.com/img/card6.png",
+    "artist": "Draft (To be illustrated)",
+    "story": "His watchdog slowly sinks his teeth into my neck while he laughs",
+    "defense": 3,
+    "name": "Mr. Bloody Hook",
+    "damage": 2,
+    "cost": 3,
+    "art_stage": 2
+  },
+  {
+    "targeted": [
+      {
+        "targets": 1,
+        "amount": 1,
+        "type": "damage"
+      }
+    ],
+    "wind": "north",
+    "requirements": [],
+    "rarity": 0,
+    "category": "buccaneer",
+    "artwork": "https://beta.corsarium.com/img/card5.png",
+    "artist": "Draft (To be illustrated)",
+    "story": "My whip is the extension of my beauty",
+    "defense": 1,
+    "name": "Lazy-Eye Tybaut",
+    "damage": 3,
+    "cost": 3,
+    "art_stage": 0
+  },
+  {
+    "triggered": [
+      {
+        "amount": 1,
+        "type": "invoke",
+        "invocation": 6
+      }
+    ],
+    "wind": "north",
+    "requirements": [],
+    "rarity": 0,
+    "category": "buccaneer",
+    "artwork": "https://beta.corsarium.com/img/card6.png",
+    "artist": "Matías Cabezas",
+    "story": "His watchdog slowly sinks his teeth into my neck while he laughs",
+    "defense": 3,
+    "name": "Lady Elizard",
+    "damage": 2,
+    "cost": 3,
+    "art_stage": 2
+  },
+  {
+    "targeted": [
+      {
+        "targets": 1,
+        "amount": 1,
+        "type": "damage"
+      }
+    ],
+    "wind": "north",
+    "requirements": [],
+    "rarity": 0,
+    "category": "buccaneer",
+    "artwork": "https://beta.corsarium.com/img/card5.png",
+    "artist": "Draft (To be illustrated)",
+    "story": "My whip is the extension of my beauty",
+    "defense": 1,
+    "name": "Milton, The Short One",
+    "damage": 3,
+    "cost": 3,
+    "art_stage": 1
+  },
+  {
+    "triggered": [
+      {
+        "amount": 1,
+        "type": "invoke",
+        "invocation": 9
+      }
+    ],
+    "wind": "north",
+    "requirements": [],
+    "rarity": 0,
+    "category": "buccaneer",
+    "artwork": "https://beta.corsarium.com/img/card6.png",
+    "artist": "Draft (To be illustrated)",
+    "story": "His watchdog slowly sinks his teeth into my neck while he laughs",
+    "defense": 3,
+    "name": "Halfwit Hal",
+    "damage": 2,
+    "cost": 3,
+    "art_stage": 0
+  },
+  {
+    "wind": "north",
+    "requirements": [],
+    "rarity": 0,
+    "category": "buccaneer",
+    "artwork": "https://beta.corsarium.com/img/card1.png",
+    "artist": "Draft (To be illustrated)",
+    "story": "Rum! Rum!!! Ruuuuum!!!!",
+    "defense": 3,
+    "name": "Orion Faux",
+    "damage": 2,
+    "cost": 2,
+    "art_stage": 0,
+    "old_name": "Funny Joe"
+  },
+  {
+    "targeted": [
+      {
+        "targets": 1,
+        "amount": 3,
+        "type": "damage"
+      }
+    ],
+    "wind": "north",
+    "requirements": [],
+    "rarity": 0,
+    "category": "spell",
+    "artwork": "https://beta.corsarium.com/img/card1.png",
+    "artist": "Draft (To be illustrated)",
+    "story": "I am the shadow of death",
+    "name": "Cannon Ball",
+    "cost": 3,
+    "art_stage": 0
+  },
+  {
+    "wind": "north",
+    "requirements": [],
+    "rarity": 0,
+    "category": "buccaneer",
+    "artwork": "https://beta.corsarium.com/img/card1.png",
+    "artist": "Draft (To be illustrated)",
+    "story": "Rum! Rum!!! Ruuuuum!!!!",
+    "defense": 3,
+    "name": "Manuk Smile Of Steel",
+    "damage": 2,
+    "cost": 2,
+    "art_stage": 1,
+    "old_name": "Manuk Smile Of Steel"
+  },
+  {
+    "targeted": [
+      {
+        "targets": 1,
+        "amount": 3,
+        "type": "damage"
+      }
+    ],
+    "wind": "north",
+    "requirements": [],
+    "rarity": 0,
+    "category": "spell",
+    "artwork": "https://beta.corsarium.com/img/card1.png",
+    "artist": "Draft (To be illustrated)",
+    "story": "I am the shadow of death",
+    "name": "Mental Gun",
+    "cost": 3,
+    "art_stage": 0
+  },
+  {
+    "wind": "north",
+    "requirements": [],
+    "rarity": 0,
+    "category": "buccaneer",
+    "artwork": "https://beta.corsarium.com/img/card1.png",
+    "artist": "Draft (To be illustrated)",
+    "story": "Rum! Rum!!! Ruuuuum!!!!",
+    "defense": 3,
+    "name": "One-Legged John",
+    "damage": 2,
+    "cost": 2,
+    "art_stage": 0,
+    "old_name": "Funny Joe"
+  },
+  {
+    "targeted": [
+      {
+        "targets": 1,
+        "amount": 3,
+        "type": "damage"
+      }
+    ],
+    "wind": "north",
+    "requirements": [],
+    "rarity": 0,
+    "category": "spell",
+    "artwork": "https://beta.corsarium.com/img/card1.png",
+    "artist": "Draft (To be illustrated)",
+    "story": "I am the shadow of death",
+    "name": "Black Dagger",
+    "cost": 3,
+    "art_stage": 0
+  },
+  {
+    "wind": "north",
+    "requirements": [],
+    "rarity": 0,
+    "category": "buccaneer",
+    "artwork": "https://beta.corsarium.com/img/card1.png",
+    "artist": "Draft (To be illustrated)",
+    "story": "Rum! Rum!!! Ruuuuum!!!!",
+    "defense": 3,
+    "name": "Eustachius Laggerd",
+    "damage": 2,
+    "cost": 2,
+    "art_stage": 0
+  },
+  {
+    "targeted": [
+      {
+        "targets": 1,
+        "amount": 3,
+        "type": "damage"
+      }
+    ],
+    "wind": "north",
+    "requirements": [],
+    "rarity": 0,
+    "category": "spell",
+    "artwork": "https://beta.corsarium.com/img/card1.png",
+    "artist": "Draft (To be illustrated)",
+    "story": "I am the shadow of death",
+    "name": "Sword Of Madness",
+    "cost": 3,
+    "art_stage": 0
+  },
+  {
+    "enchantments": ["charge"],
+    "wind": "north",
+    "requirements": [
+      {
+        "rule": "atLeast",
+        "amount": 3,
+        "wind": "north"
+      }
+    ],
+    "rarity": 0,
+    "category": "buccaneer",
+    "artwork": "https://beta.corsarium.com/img/card1.png",
+    "artist": "",
+    "story": "I am the shadow of death",
+    "defense": 1,
+    "name": "Officer Joe Slasher",
+    "damage": 3,
+    "cost": 1,
+    "art_stage": 0
+  },
+  {
+    "triggered": [
+      {
+        "targets": "all",
+        "amount": 1,
+        "type": "damage"
+      }
+    ],
+    "wind": "north",
+    "requirements": [],
+    "rarity": 1,
+    "category": "spell",
+    "artwork": "https://beta.corsarium.com/img/card1.png",
+    "artist": "Draft (To be illustrated)",
+    "story": "",
+    "name": "Shrapnel",
+    "cost": 3,
+    "art_stage": 0
+  },
+  {
+    "triggered": [
+      {
+        "amount": 1,
+        "type": "invoke",
+        "invocation": 1
+      }
+    ],
+    "wind": "north",
+    "requirements": [],
+    "rarity": 2,
+    "category": "buccaneer",
+    "artwork": "dws",
+    "artist": "wew",
+    "story": "It is said that there is no body that projects this shadow",
+    "defense": 2,
+    "name": "Trehuaco",
+    "damage": 1,
+    "cost": 3,
+    "art_stage": 0
+  },
+  {
+    "enchantments": ["charge"], 
+    "wind": "north",
+    "requirements": [
+      {
+        "rule": "atLeast",
+        "amount": 3,
+        "wind": "north"
+      }
+    ],
+    "rarity": 0,
+    "category": "buccaneer",
+    "artwork": "https://beta.corsarium.com/img/card1.png",
+    "artist": "",
+    "story": "I am the shadow of death",
+    "defense": 1,
+    "name": "Dumbol The Dumb",
+    "damage": 3,
+    "cost": 1,
+    "art_stage": 2
+  },
+  {
+    "triggered": [
+      {
+        "targets": "all",
+        "amount": 1,
+        "type": "damage"
+      }
+    ],
+    "wind": "north",
+    "requirements": [],
+    "rarity": 1,
+    "category": "spell",
+    "artwork": "https://beta.corsarium.com/img/card1.png",
+    "artist": "Draft (To be illustrated)",
+    "story": "",
+    "name": "Blue Powder",
+    "cost": 3,
+    "art_stage": 2
+  },
+  {
+    "triggered": [
+      {
+        "amount": 1,
+        "type": "invoke",
+        "invocation": 4
+      }
+    ],
+    "wind": "north",
+    "requirements": [],
+    "rarity": 2,
+    "category": "buccaneer",
+    "artwork": "dws",
+    "artist": "wew",
+    "story": "It is said that there is no body that projects this shadow",
+    "defense": 2,
+    "name": "Sea Snake",
+    "damage": 1,
+    "cost": 3,
+    "art_stage": 0
+  },
+  {
+    "enchantments": ["charge"],
+    "wind": "north",
+    "requirements": [
+      {
+        "rule": "atLeast",
+        "amount": 3,
+        "wind": "north"
+      }
+    ],
+    "rarity": 0,
+    "category": "buccaneer",
+    "artwork": "https://beta.corsarium.com/img/card1.png",
+    "artist": "Draft (To be illustrated)",
+    "story": "I am the shadow of death",
+    "defense": 1,
+    "name": "Miss Selora",
+    "damage": 3,
+    "cost": 1,
+    "art_stage": 0
+  },
+  {
+    "triggered": [
+      {
+        "targets": "all",
+        "amount": 1,
+        "type": "damage"
+      }
+    ],
+    "wind": "north",
+    "requirements": [],
+    "rarity": 1,
+    "category": "spell",
+    "artwork": "https://beta.corsarium.com/img/card1.png",
+    "artist": "Draft (To be illustrated)",
+    "story": "",
+    "name": "Skull And Bones",
+    "cost": 3,
+    "art_stage": 0
+  },
+  {
+    "triggered": [
+      {
+        "amount": 1,
+        "type": "invoke",
+        "invocation": 7
+      }
+    ],
+    "wind": "north",
+    "requirements": [],
+    "rarity": 2,
+    "category": "buccaneer",
+    "artwork": "dws",
+    "artist": "wew",
+    "story": "It is said that there is no body that projects this shadow",
+    "defense": 2,
+    "name": "Bahamut",
+    "damage": 1,
+    "cost": 3,
+    "art_stage": 0
+  },
+  {
+    "enchantments": ["charge"],
+    "wind": "north",
+    "requirements": [
+      {
+        "rule": "atLeast",
+        "amount": 3,
+        "wind": "north"
+      }
+    ],
+    "rarity": 0,
+    "category": "buccaneer",
+    "artwork": "https://beta.corsarium.com/img/card1.png",
+    "artist": "Draft (To be illustrated)",
+    "story": "I am the shadow of death",
+    "defense": 1,
+    "name": "Tristan The Sharp",
+    "damage": 3,
+    "cost": 1,
+    "art_stage": 0
+  },
+  {
+    "triggered": [
+      {
+        "targets": "all",
+        "amount": 1,
+        "type": "damage"
+      }
+    ],
+    "wind": "north",
+    "requirements": [],
+    "rarity": 1,
+    "category": "spell",
+    "artwork": "https://beta.corsarium.com/img/card1.png",
+    "artist": "Draft (To be illustrated)",
+    "story": "",
+    "name": "Foggy Nights",
+    "cost": 3,
+    "art_stage": 1
+  },
+  {
+    "triggered": [
+      {
+        "amount": 1,
+        "type": "invoke",
+        "invocation": 10
+      }
+    ],
+    "wind": "north",
+    "requirements": [],
+    "rarity": 2,
+    "category": "buccaneer",
+    "artwork": "dws",
+    "artist": "wew",
+    "story": "It is said that there is no body that projects this shadow",
+    "defense": 2,
+    "name": "The Bloody Cook",
+    "damage": 1,
+    "cost": 3,
+    "art_stage": 0
+  },
+  {
+    "targeted": [
+      {
+        "targets": 1,
+        "amount": 3,
+        "type": "heal"
+      }
+    ],
+    "wind": "north",
+    "requirements": [],
+    "rarity": 4,
+    "category": "spell",
+    "artwork": "",
+    "artist": "",
+    "story": "Ahhhhhhhgggrrrrr....",
+    "name": "Old Band Aid",
+    "cost": 3,
+    "art_stage": 0
+  },
+  {
+    "targeted": [
+      {
+        "targets": 1,
+        "amount": 3,
+        "type": "damage"
+      }
+    ],
+    "wind": "north",
+    "requirements": [],
+    "rarity": 0,
+    "category": "spell",
+    "artwork": "",
+    "artist": "",
+    "story": "Many ships were destroyed by the power of this gigantic sea creature that feeds on the horror of the sailors.",
+    "name": "Extra Limb",
+    "cost": 3,
+    "art_stage": 1
+  },
+  {
+    "targeted": [
+      {
+        "targets": 1,
+        "amount": 3,
+        "type": "heal"
+      }
+    ],
+    "wind": "north",
+    "requirements": [],
+    "rarity": 4,
+    "category": "spell",
+    "artwork": "",
+    "artist": "",
+    "story": "Ahhhhhhhgggrrrrr....",
+    "name": "Wooden Leg",
+    "cost": 3,
+    "art_stage": 0
+  },
+  {
+    "targeted": [
+      {
+        "targets": 1,
+        "amount": 3,
+        "type": "damage"
+      }
+    ],
+    "wind": "north",
+    "requirements": [],
+    "rarity": 0,
+    "category": "spell",
+    "artwork": "",
+    "artist": "",
+    "story": "Many ships were destroyed by the power of this gigantic sea creature that feeds on the horror of the sailors.",
+    "name": "Spiritual Gun",
+    "cost": 3,
+    "art_stage": 0
+  },
+  {
+    "targeted": [
+      {
+        "targets": 1,
+        "amount": 3,
+        "type": "heal"
+      }
+    ],
+    "wind": "north",
+    "requirements": [],
+    "rarity": 4,
+    "category": "spell",
+    "artwork": "",
+    "artist": "",
+    "story": "Ahhhhhhhgggrrrrr....",
+    "name": "Albatros Wings",
+    "cost": 3,
+    "art_stage": 0
+  },
+  {
+    "targeted": [
+      {
+        "targets": 1,
+        "amount": 3,
+        "type": "damage"
+      }
+    ],
+    "wind": "north",
+    "requirements": [],
+    "rarity": 0,
+    "category": "spell",
+    "artwork": "",
+    "artist": "",
+    "story": "Many ships were destroyed by the power of this gigantic sea creature that feeds on the horror of the sailors.",
+    "name": "Thunder Madness",
+    "cost": 3,
+    "art_stage": 0
+  },
+  {
+    "targeted": [
+      {
+        "targets": 1,
+        "amount": 3,
+        "type": "heal"
+      }
+    ],
+    "wind": "north",
+    "requirements": [],
+    "rarity": 4,
+    "category": "spell",
+    "artwork": "",
+    "artist": "",
+    "story": "Ahhhhhhhgggrrrrr....",
+    "name": "Golden Astrolabe",
+    "cost": 3
+  },
+  {
+    "targeted": [
+      {
+        "targets": 1,
+        "amount": 3,
+        "type": "damage"
+      }
+    ],
+    "wind": "north",
+    "requirements": [],
+    "rarity": 0,
+    "category": "spell",
+    "artwork": "",
+    "artist": "Felipe Magaña",
+    "story": "Many ships were destroyed by the power of this gigantic sea creature that feeds on the horror of the sailors.",
+    "name": "Blackwind",
+    "cost": 3,
+    "art_stage": 2
+  },
+  {
+    "targeted": [
+      {
+        "targets": 1,
+        "amount": 4,
+        "type": "heal"
+      }
+    ],
+    "wind": "north",
+    "requirements": [],
+    "rarity": 0,
+    "category": "spell",
+    "artwork": "",
+    "artist": "",
+    "story": "",
+    "name": "Healing Shadow",
+    "cost": 5,
+    "art_stage": 1
+  },
+  {
+    "targeted": [
+      {
+        "targets": 1,
+        "amount": 4,
+        "type": "heal"
+      }
+    ],
+    "wind": "north",
+    "requirements": [],
+    "rarity": 0,
+    "category": "spell",
+    "artwork": "",
+    "artist": "",
+    "story": "",
+    "name": "Silent Waters",
+    "cost": 5,
+    "art_stage": 0
+  },
+  {
+    "targeted": [
+      {
+        "targets": 1,
+        "amount": 4,
+        "type": "heal"
+      }
+    ],
+    "wind": "north",
+    "requirements": [],
+    "rarity": 0,
+    "category": "spell",
+    "artwork": "",
+    "artist": "",
+    "story": "",
+    "name": "Trembling Hand",
+    "cost": 5,
+    "art_stage": 0
+  },
+  {
+    "targeted": [
+      {
+        "targets": 1,
+        "amount": 4,
+        "type": "heal"
+      }
+    ],
+    "wind": "north",
+    "requirements": [],
+    "rarity": 0,
+    "category": "spell",
+    "artwork": "",
+    "artist": "",
+    "story": "",
+    "name": "Oranges!",
+    "cost": 5,
+    "art_stage": 0
+  },
+  {
+    "wind": "north",
+    "requirements": [],
+    "rarity": 0,
+    "category": "buccaneer",
+    "artwork": "https://beta.corsarium.com/img/card3.png",
+    "artist": "Draft (To be illustrated)",
+    "story": "In my veins runs gunpowder and a little rum!!!",
+    "defense": 3,
+    "name": "Saul The Boatswain",
+    "damage": 3,
+    "cost": 3,
+    "art_stage": 0
+  },
+  {
+    "triggered": [
+      {
+        "targets": "own",
+        "amount": 1,
+        "type": "heal"
+      }
+    ],
+    "wind": "north",
+    "requirements": [],
+    "rarity": 0,
+    "category": "buccaneer",
+    "artwork": "https://beta.corsarium.com/img/card7.png",
+    "artist": "Draft (To be illustrated)",
+    "story": "",
+    "defense": 3,
+    "name": "Merry Celestial Hand",
+    "damage": 2,
+    "cost": 4,
+    "art_stage": 0
+  },
+  {
+    "triggered": [
+      {
+        "targets": "rival",
+        "amount": 1,
+        "type": "damage"
+      }
+    ],
+    "wind": "north",
+    "requirements": [],
+    "rarity": 0,
+    "category": "buccaneer",
+    "artwork": "https://beta.corsarium.com/img/card8.png",
+    "artist": "Draft (To be illustrated)",
+    "story": "",
+    "defense": 1,
+    "name": "Pankratios Panaceas",
+    "damage": 2,
+    "cost": 2,
+    "art_stage": 0
+  },
+  {
+    "triggered": [
+      {
+        "targets": "all",
+        "amount": 2,
+        "type": "damage"
+      }
+    ],
+    "wind": "north",
+    "requirements": [],
+    "rarity": 0,
+    "category": "spell",
+    "artwork": "https://beta.corsarium.com/img/card8.png",
+    "artist": "Draft (To be illustrated)",
+    "story": "Take a hand, my brother.",
+    "name": "Ocean Fury",
+    "cost": 3,
+    "art_stage": 0
+  },
+  {
+    "targeted": [
+      {
+        "targets": 1,
+        "amount": 3,
+        "type": "damage"
+      }
+    ],
+    "wind": "north",
+    "requirements": [],
+    "rarity": 0,
+    "category": "buccaneer",
+    "artwork": "https://beta.corsarium.com/img/card10.png",
+    "artist": "Draft (To be illustrated)",
+    "story": "",
+    "defense": 2,
+    "name": "Corporal Dymas",
+    "damage": 3,
+    "cost": 4,
+    "art_stage": 0
+  },
+  {
+    "enchantments": ["taunt"],
+    "wind": "north",
+    "requirements": [],
+    "rarity": 0,
+    "category": "buccaneer",
+    "artwork": "https://beta.corsarium.com/img/card1.png",
+    "artist": "Matias Cabezas",
+    "story": "I am the shadow of death",
+    "defense": 4,
+    "name": "Abaia, The Giant Anguilla",
+    "damage": 2,
+    "cost": 3,
+    "art_stage": 0,
+    "old_name": "Sharkel Angre"
+  },
+  {
+    "enchantments": ["taunt"],
+    "wind": "north",
+    "requirements": [],
+    "rarity": 1,
+    "category": "buccaneer",
+    "artwork": "",
+    "artist": "Matias Cabezas",
+    "story": "",
+    "defense": 4,
+    "name": "Masked Buccaneer",
+    "damage": 2,
+    "cost": 3,
+    "art_stage": 2
+  },
+  {
+    "triggered": [
+      {
+        "amount": 3,
+        "type": "invoke",
+        "invocation": 2
+      }
+    ],
+    "wind": "north",
+    "requirements": [],
+    "rarity": 0,
+    "category": "buccaneer",
+    "artwork": "",
+    "artist": "Felipe Magaña",
+    "story": "",
+    "defense": 2,
+    "name": "Jörmundgander",
+    "damage": 1,
+    "cost": 5,
+    "art_stage": 1
+  },
+  {
+    "enchantments": ["taunt"],
+    "wind": "north",
+    "requirements": [],
+    "rarity": 0,
+    "category": "buccaneer",
+    "artwork": "",
+    "artist": "",
+    "story": "",
+    "defense": 4,
+    "name": "Black Corsair",
+    "damage": 3,
+    "cost": 4,
+    "art_stage": 0
+  },
+  {
+    "targeted": [
+      {
+        "targets": 1,
+        "amount": 5,
+        "type": "damage"
+      }
+    ],
+    "wind": "north",
+    "requirements": [],
+    "rarity": 0,
+    "category": "spell",
+    "artwork": "",
+    "artist": "Matias Cabezas",
+    "story": "",
+    "name": "Mental Cannon",
+    "cost": 5,
+    "art_stage": 1
+  },
+  {
+    "enchantments": ["taunt"],
+    "wind": "north",
+    "requirements": [],
+    "rarity": 2,
+    "category": "buccaneer",
+    "artwork": "",
+    "artist": "Carolina Eade",
+    "story": "Where the treasure shines, its shadow appears.",
+    "defense": 5,
+    "name": "Kraken",
+    "damage": 4,
+    "cost": 5
+  },
+  {
+    "wind": "north",
+    "requirements": [],
+    "rarity": 0,
+    "category": "buccaneer",
+    "artwork": "https://beta.corsarium.com/img/card3.png",
+    "artist": "Draft (To be illustrated)",
+    "story": "In my veins runs gunpowder and a little rum!!!",
+    "defense": 3,
+    "name": "Raider Jenkins",
+    "damage": 3,
+    "cost": 3,
+    "art_stage": 0
+  },
+  {
+    "triggered": [
+      {
+        "targets": "own",
+        "amount": 1,
+        "type": "heal"
+      }
+    ],
+    "wind": "north",
+    "requirements": [],
+    "rarity": 0,
+    "category": "buccaneer",
+    "artwork": "https://beta.corsarium.com/img/card7.png",
+    "artist": "Draft (To be illustrated)",
+    "story": "",
+    "defense": 3,
+    "name": "Annastaxia The Possesed",
+    "damage": 2,
+    "cost": 4,
+    "art_stage": 0
+  },
+  {
+    "triggered": [
+      {
+        "targets": "rival",
+        "amount": 1,
+        "type": "damage"
+      }
+    ],
+    "wind": "north",
+    "requirements": [],
+    "rarity": 0,
+    "category": "buccaneer",
+    "artwork": "https://beta.corsarium.com/img/card8.png",
+    "artist": "Draft (To be illustrated)",
+    "story": "",
+    "defense": 1,
+    "name": "Joel The Ocean Thief",
+    "damage": 2,
+    "cost": 2,
+    "art_stage": 0
+  },
+  {
+    "triggered": [
+      {
+        "targets": "all",
+        "amount": 2,
+        "type": "damage"
+      }
+    ],
+    "wind": "north",
+    "requirements": [],
+    "rarity": 0,
+    "category": "spell",
+    "artwork": "https://beta.corsarium.com/img/card8.png",
+    "artist": "Draft (To be illustrated)",
+    "story": "Take a hand, my brother.",
+    "name": "Tornado",
+    "cost": 3,
+    "art_stage": 0
+  },
+  {
+    "targeted": [
+      {
+        "targets": 1,
+        "amount": 3,
+        "type": "damage"
+      }
+    ],
+    "wind": "north",
+    "requirements": [],
+    "rarity": 0,
+    "category": "buccaneer",
+    "artwork": "https://beta.corsarium.com/img/card10.png",
+    "artist": "Draft (To be illustrated)",
+    "story": "",
+    "defense": 2,
+    "name": "Henchman Williamson",
+    "damage": 3,
+    "cost": 4,
+    "art_stage": 0
+  },
+  {
+    "enchantments": ["taunt"],
+    "wind": "north",
+    "requirements": [],
+    "rarity": 0,
+    "category": "buccaneer",
+    "artwork": "https://beta.corsarium.com/img/card1.png",
+    "artist": "Draft (To be illustrated)",
+    "story": "I am the shadow of death",
+    "defense": 4,
+    "name": "Hippocampus",
+    "damage": 2,
+    "cost": 3,
+    "art_stage": 0,
+    "old_name": "Sharkel Angre"
+  },
+  {
+    "enchantments": ["taunt"],
+    "wind": "north",
+    "requirements": [],
+    "rarity": 1,
+    "category": "buccaneer",
+    "artwork": "",
+    "artist": "",
+    "story": "",
+    "defense": 4,
+    "name": "Bundol The Wise",
+    "damage": 2,
+    "cost": 3
+  },
+  {
+    "triggered": [
+      {
+        "amount": 3,
+        "type": "invoke",
+        "invocation": 5
+      }
+    ],
+    "wind": "north",
+    "requirements": [],
+    "rarity": 0,
+    "category": "buccaneer",
+    "artwork": "",
+    "artist": "",
+    "story": "",
+    "defense": 2,
+    "name": "Carcinos",
+    "damage": 1,
+    "cost": 5,
+    "art_stage": 0
+  },
+  {
+    "enchantments": ["taunt"],
+    "wind": "north",
+    "requirements": [],
+    "rarity": 0,
+    "category": "buccaneer",
+    "artwork": "",
+    "artist": "",
+    "story": "",
+    "defense": 4,
+    "name": "One-Eyed Johnny",
+    "damage": 3,
+    "cost": 4,
+    "art_stage": 0
+  },
+  {
+    "targeted": [
+      {
+        "targets": 1,
+        "amount": 5,
+        "type": "damage"
+      }
+    ],
+    "wind": "north",
+    "requirements": [],
+    "rarity": 0,
+    "category": "spell",
+    "artwork": "",
+    "artist": "",
+    "story": "",
+    "name": "Pyr Thalassion",
+    "cost": 5,
+    "art_stage": 0
+  },
+  {
+    "enchantments": ["taunt"],
+    "wind": "north",
+    "requirements": [],
+    "rarity": 2,
+    "category": "buccaneer",
+    "artwork": "",
+    "artist": "",
+    "story": "Where the treasure shines, its shadow appears.",
+    "defense": 5,
+    "name": "Apukohai",
+    "damage": 4,
+    "cost": 5
+  },
+  {
+    "wind": "north",
+    "requirements": [],
+    "rarity": 0,
+    "category": "buccaneer",
+    "artwork": "https://beta.corsarium.com/img/card3.png",
+    "artist": "Draft (To be illustrated)",
+    "story": "In my veins runs gunpowder and a little rum!!!",
+    "defense": 3,
+    "name": "Deckshine Manuel",
+    "damage": 3,
+    "cost": 3,
+    "art_stage": 0
+  },
+  {
+    "triggered": [
+      {
+        "targets": "own",
+        "amount": 1,
+        "type": "heal"
+      }
+    ],
+    "wind": "north",
+    "requirements": [],
+    "rarity": 0,
+    "category": "buccaneer",
+    "artwork": "https://beta.corsarium.com/img/card7.png",
+    "artist": "Draft (To be illustrated)",
+    "story": "",
+    "defense": 3,
+    "name": "Sadie Stormchaser",
+    "damage": 2,
+    "cost": 4,
+    "art_stage": 0
+  },
+  {
+    "triggered": [
+      {
+        "targets": "rival",
+        "amount": 1,
+        "type": "damage"
+      }
+    ],
+    "wind": "north",
+    "requirements": [],
+    "rarity": 0,
+    "category": "buccaneer",
+    "artwork": "https://beta.corsarium.com/img/card8.png",
+    "artist": "Draft (To be illustrated)",
+    "story": "",
+    "defense": 1,
+    "name": "Winston Winddodger",
+    "damage": 2,
+    "cost": 2,
+    "art_stage": 0
+  },
+  {
+    "triggered": [
+      {
+        "targets": "all",
+        "amount": 2,
+        "type": "damage"
+      }
+    ],
+    "wind": "north",
+    "requirements": [],
+    "rarity": 0,
+    "category": "spell",
+    "artwork": "https://beta.corsarium.com/img/card8.png",
+    "artist": "Draft (To be illustrated)",
+    "story": "Take a hand, my brother.",
+    "name": "Mermaid Song",
+    "cost": 3,
+    "art_stage": 0
+  },
+  {
+    "targeted": [
+      {
+        "targets": 1,
+        "amount": 3,
+        "type": "damage"
+      }
+    ],
+    "wind": "north",
+    "requirements": [],
+    "rarity": 0,
+    "category": "buccaneer",
+    "artwork": "https://beta.corsarium.com/img/card10.png",
+    "artist": "Draft (To be illustrated)",
+    "story": "",
+    "defense": 2,
+    "name": "Captain Redbeard",
+    "damage": 3,
+    "cost": 4,
+    "art_stage": 0
+  },
+  {
+    "enchantments": ["taunt"],
+    "wind": "north",
+    "requirements": [],
+    "rarity": 0,
+    "category": "buccaneer",
+    "artwork": "https://beta.corsarium.com/img/card1.png",
+    "artist": "Draft (To be illustrated)",
+    "story": "I am the shadow of death",
+    "defense": 4,
+    "name": "Killer Whale",
+    "damage": 2,
+    "cost": 3,
+    "art_stage": 0
+  },
+  {
+    "enchantments": ["taunt"],
+    "wind": "north",
+    "requirements": [],
+    "rarity": 1,
+    "category": "buccaneer",
+    "artwork": "",
+    "artist": "",
+    "story": "",
+    "defense": 4,
+    "name": "Jehg Sih",
+    "damage": 2,
+    "cost": 3
+  },
+  {
+    "triggered": [
+      {
+        "amount": 3,
+        "type": "invoke",
+        "invocation": 8
+      }
+    ],
+    "wind": "north",
+    "requirements": [],
+    "rarity": 0,
+    "category": "buccaneer",
+    "artwork": "",
+    "artist": "",
+    "story": "",
+    "defense": 2,
+    "name": "Hydra",
+    "damage": 1,
+    "cost": 5,
+    "art_stage": 0
+  },
+  {
+    "enchantments": ["taunt"],
+    "wind": "north",
+    "requirements": [],
+    "rarity": 0,
+    "category": "buccaneer",
+    "artwork": "",
+    "artist": "Victor Veliz",
+    "story": "",
+    "defense": 4,
+    "name": "Dark Septus",
+    "damage": 5,
+    "cost": 5,
+    "art_stage": 2
+  },
+  {
+    "targeted": [
+      {
+        "targets": 1,
+        "amount": 5,
+        "type": "damage"
+      }
+    ],
+    "wind": "north",
+    "requirements": [],
+    "rarity": 0,
+    "category": "spell",
+    "artwork": "",
+    "artist": "",
+    "story": "",
+    "name": "Poseidon's Touch",
+    "cost": 5,
+    "art_stage": 0
+  },
+  {
+    "enchantments": ["taunt"],
+    "wind": "north",
+    "requirements": [],
+    "rarity": 2,
+    "category": "buccaneer",
+    "artwork": "",
+    "artist": "",
+    "story": "Where the treasure shines, its shadow appears.",
+    "defense": 5,
+    "name": "Leviathan",
+    "damage": 4,
+    "cost": 5,
+    "art_stage": 0
+  },
+  {
+    "wind": "north",
+    "requirements": [],
+    "rarity": 0,
+    "category": "buccaneer",
+    "artwork": "https://beta.corsarium.com/img/card3.png",
+    "artist": "Draft (To be illustrated)",
+    "story": "In my veins runs gunpowder and a little rum!!!",
+    "defense": 3,
+    "name": "One-Eyed Tony",
+    "damage": 3,
+    "cost": 3,
+    "art_stage": 0
+  },
+  {
+    "triggered": [
+      {
+        "targets": "own",
+        "amount": 1,
+        "type": "heal"
+      }
+    ],
+    "wind": "north",
+    "requirements": [],
+    "rarity": 0,
+    "category": "buccaneer",
+    "artwork": "https://beta.corsarium.com/img/card7.png",
+    "artist": "Draft (To be illustrated)",
+    "story": "",
+    "defense": 3,
+    "name": "Olympeia",
+    "damage": 2,
+    "cost": 4,
+    "art_stage": 0
+  },
+  {
+    "triggered": [
+      {
+        "targets": "rival",
+        "amount": 1,
+        "type": "damage"
+      }
+    ],
+    "wind": "north",
+    "requirements": [],
+    "rarity": 0,
+    "category": "buccaneer",
+    "artwork": "https://beta.corsarium.com/img/card8.png",
+    "artist": "Draft (To be illustrated)",
+    "story": "",
+    "defense": 1,
+    "name": "Kyprianos Faltergard",
+    "damage": 2,
+    "cost": 2,
+    "art_stage": 0
+  },
+  {
+    "triggered": [
+      {
+        "targets": "all",
+        "amount": 2,
+        "type": "damage"
+      }
+    ],
+    "wind": "north",
+    "requirements": [],
+    "rarity": 0,
+    "category": "spell",
+    "artwork": "https://beta.corsarium.com/img/card8.png",
+    "artist": "Draft (To be illustrated)",
+    "story": "Take a hand, my brother.",
+    "name": "Turn Of The Tide",
+    "cost": 3,
+    "art_stage": 0
+  },
+  {
+    "targeted": [
+      {
+        "targets": 1,
+        "amount": 3,
+        "type": "damage"
+      }
+    ],
+    "wind": "north",
+    "requirements": [],
+    "rarity": 0,
+    "category": "buccaneer",
+    "artwork": "https://beta.corsarium.com/img/card10.png",
+    "artist": "Draft (To be illustrated)",
+    "story": "",
+    "defense": 2,
+    "name": "Overseas Sheriff",
+    "damage": 3,
+    "cost": 4,
+    "art_stage": 0
+  },
+  {
+    "enchantments": ["taunt"],
+    "wind": "north",
+    "requirements": [],
+    "rarity": 0,
+    "category": "buccaneer",
+    "artwork": "https://beta.corsarium.com/img/card1.png",
+    "artist": "Draft (To be illustrated)",
+    "story": "I am the shadow of death",
+    "defense": 4,
+    "name": "Sirens",
+    "damage": 2,
+    "cost": 3,
+    "art_stage": 0
+  },
+  {
+    "enchantments": ["taunt"],
+    "wind": "north",
+    "requirements": [],
+    "rarity": 1,
+    "category": "buccaneer",
+    "artwork": "",
+    "artist": "",
+    "story": "",
+    "defense": 4,
+    "name": "Unmasked Buccaneer",
+    "damage": 2,
+    "cost": 3
+  },
+  {
+    "triggered": [
+      {
+        "amount": 3,
+        "type": "invoke",
+        "invocation": 11
+      }
+    ],
+    "wind": "north",
+    "requirements": [],
+    "rarity": 0,
+    "category": "buccaneer",
+    "artwork": "",
+    "artist": "",
+    "story": "",
+    "defense": 2,
+    "name": "Madre De Aguas",
+    "damage": 1,
+    "cost": 5,
+    "art_stage": 0
+  },
+  {
+    "enchantments": ["taunt"],
+    "wind": "north",
+    "requirements": [],
+    "rarity": 0,
+    "category": "buccaneer",
+    "artwork": "",
+    "artist": "",
+    "story": "",
+    "defense": 4,
+    "name": "Ruthless Lieutenant",
+    "damage": 3,
+    "cost": 4,
+    "art_stage": 0
+  },
+  {
+    "targeted": [
+      {
+        "targets": 1,
+        "amount": 5,
+        "type": "damage"
+      }
+    ],
+    "wind": "north",
+    "requirements": [],
+    "rarity": 0,
+    "category": "spell",
+    "artwork": "",
+    "artist": "",
+    "story": "",
+    "name": "Thunder",
+    "cost": 5,
+    "art_stage": 0
+  },
+  {
+    "enchantments": ["taunt"],
+    "wind": "north",
+    "requirements": [],
+    "rarity": 2,
+    "category": "buccaneer",
+    "artwork": "",
+    "artist": "",
+    "story": "Where the treasure shines, its shadow appears.",
+    "defense": 5,
+    "name": "Morgawr",
+    "damage": 4,
+    "cost": 5
+  },
+  {
+    "enchantments": ["taunt"],
+    "wind": "north",
+    "requirements": [],
+    "rarity": 0,
+    "category": "buccaneer",
+    "artwork": "",
+    "artist": "",
+    "story": "",
+    "defense": 5,
+    "name": "Carola Da Silva",
+    "damage": 5,
+    "cost": 5,
+    "art_stage": 0
+  },
+  {
+    "enchantments": ["taunt"],
+    "wind": "north",
+    "requirements": [],
+    "rarity": 0,
+    "category": "buccaneer",
+    "artwork": "",
+    "artist": "Victor Veliz",
+    "story": "",
+    "defense": 5,
+    "name": "Sir Drake",
+    "damage": 5,
+    "cost": 5,
+    "art_stage": 0
+  },
+  {
+    "enchantments": ["taunt"],
+    "wind": "north",
+    "requirements": [],
+    "rarity": 0,
+    "category": "buccaneer",
+    "artwork": "",
+    "artist": "",
+    "story": "",
+    "defense": 5,
+    "name": "Thorgan, The Blind",
+    "damage": 5,
+    "cost": 5,
+    "art_stage": 0
+  },
+  {
+    "enchantments": ["taunt"],
+    "wind": "north",
+    "requirements": [],
+    "rarity": 0,
+    "category": "buccaneer",
+    "artwork": "",
+    "artist": "Carolina Eade",
+    "story": "",
+    "defense": 5,
+    "name": "Princess Eleanor",
+    "damage": 5,
+    "cost": 5,
+    "art_stage": 0
+  }
+]
