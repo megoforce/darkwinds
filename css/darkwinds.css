@@ -801,6 +801,7 @@ footer {
     width: 100%;
     left: 0;
     overflow: hidden;
+    margin-top:40px;
 }
 /*transfer card */
 .central-container-transfer {
@@ -976,7 +977,7 @@ footer {
     text-align: center;
 }
 /* guide */
-#guide a, #guide a:visited, #guide a:active, #guide a:hover {
+#guide a, #guide a:active, #guide a:hover {
     color:rgba(255, 1, 1, 0.767);
 }
 #guide {

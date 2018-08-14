@@ -99,14 +99,10 @@ layout: default
         
         <div  id="slide-5" >
           <div class="container">
-            <h2 class="subtitle">Open for Trading</h2>
-            <h3>All circulation and rarity of cards is totally transparent and you can buy, sell, or trade your cards on external marketplaces like OpenSea. </h3>
-            <div class="row">
-              <div class="col-md-4 stats-metric"><h2 id="total-tokens" class="token-stats-number"></h2><p>Total cards in circulation</p></div>
-              <div class="col-md-4 stats-metric"><h2 id="token-holders" class="token-stats-number"></h2><p>Total token holders</p></div>
-              <div class="col-md-4 stats-metric"><h2 id="average-token-price" class="token-stats-number"></h2><p>Average card price</p></div>
-              
-            </div>
+            {% for post in site.posts %}	
+            <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+            <p><small><strong>{{ post.date | date: "%B %e, %Y" }}</strong> . {{ post.category }} . <a href="http://erjjones.github.com{{ post.url }}#disqus_thread"></a></small></p>			
+        {% endfor %} 
             
           </div>
         </div>
@@ -120,45 +116,7 @@ layout: default
         <a class="button-cut-1 button-big" href="https://corsarium.playdarkwinds.com/detect.html">Play Now!</a>
       </div>
     </div>
-    <footer id="footer-landing">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-4">
-            <h3>The game</h3>
-            <ul>
-              <li><a href="https://corsarium.playdarkwinds.com/detect.html">Play Now</a></li>
-              <li><a href="https://corsarium.playdarkwinds.com/cards/all">Card Explorer</a></li>
-              <li><a href="https://press.mego.cl/sheet.php?p=darkwinds">Press</a></li>
-            </ul>
-          </div>
-          <div class="col-sm-4">
-            <h3>Community</h3>
-            <ul>
-              <li><a href="https://twitter.com/playdarkwinds">Twitter</a></li>
-              <li><a href="https://discord.gg/WwyCERC">Discord</a></li>
-              <li><a href="https://github.com/megoforce/darkwinds">Github</a></li>
-            </ul>
-          </div>
-          <div class="col-sm-4">
-            <h3>Support</h3>
-            <ul>
-              <li><a href="https://mego.cl/contact">Contact</a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-12" style="text-align:center">
-            <p>Copyright 2018 MEGO Games. All rights reserved. </p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12" id="logo-mego">
-            <a target="_blank" href="https://www.mego.cl"><img src="/img/logo/logo-mego-150.png" style="margin-right:10px"></a>
-            <a a="" target="_blank" href="http://tapinator.com/"><img src="/img/logo/tap_150.png"></a>
-          </div>
-        </div>
-      </div>
-    </footer>
+    
   </div>
   <script>
     $( document ).ready(function() {
