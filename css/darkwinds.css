@@ -976,7 +976,7 @@ footer {
     text-align: center;
 }
 /* guide */
-#guide a, :visited, :active, :hover {
+#guide a, #guide a:visited, #guide a:active, #guide a:hover {
     color:rgba(255, 1, 1, 0.767);
 }
 #guide {
