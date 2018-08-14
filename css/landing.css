@@ -17,3 +17,6 @@
 #landing-header a,#landing-header a:visited {
     color:white;
 }
+#call-to-action a, #call-to-action a:hover, #call-to-action a:visited {
+    color:white;
+}
