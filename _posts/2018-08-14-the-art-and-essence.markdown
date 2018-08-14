@@ -8,7 +8,9 @@ categories: art
 The art and essence of Darkwinds
 ================================
 
-![alt text]()
+![alt text](/img/posts/art00.jpeg "Sketches for Manuk, Smile of Steel by artist ")
+*Sketches for Manuk, Smile of Steel by artist* 
+
 
 Today we are starting a weekly article series on [Darkwinds] (https://www.playdarkwinds.com), a game we are developing at [MEGO] (https://www.mego.cl) , and to begin we want to share with you some thoughts about the art of the game and how the idea came to life, in the words of our team members: **David Contreras** (art director) and **Pedro Torrealba** (creative director and writer).
 
@@ -21,8 +23,14 @@ In order to further develop this idea, references were looked upon in literature
 
 **Pedro Torrealba**: “Because Darkwinds needed a great amount of artwork, the illustration industry in Chile was surveyed in order to select artists that suited the style we needed. Once the artist were found, the cards were organized into three categories: Pirate, Creature and Spell cards.
 
+![alt text](/img/posts/art01.png "Final art for Manuk, Smile of Steel by artist")
+*Final art for Manuk, Smile of Steel by artist* 
+
 
 Up until now, we have prioritized Pirate cards artwork because they represent 50% of the total first edition card set. Once we define the card type, we create a name for it. In this process we ask the artists to send us sketches of different positions of the character to choose which one will make the final cut. Then the resultant image is incorporated into the game and it is ready to be used by anybody.”
+
+![alt text](/img/posts/art02.png "Draft artwork for Jörmundgander, by artist")
+*Draft artwork for Jörmundgander, by artist* 
 
 
 About the artwork production pipeline, David adds: “Every detail in the illustration is evaluated with extra carefulness so it meets the highest standards. We thoroughly test the new card inside our development infrastructure to have it approved by every member of MEGO or sent back to the illustrator with a request for change. To produce one hundred characters required the creation of a unique world and its own story where conflict unites every character into what we call Darkwinds.”
