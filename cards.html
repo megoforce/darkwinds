@@ -6,3 +6,12 @@ layout: default
 {% capture card_index %}{{ card_index | plus:1 }}{% endcapture %}
 <img src="https://corsarium.playdarkwinds.com/img/cards/{{card_index}}.opt.png"/>
 {% endfor %}
+<script>
+    $.ajax({
+    type: "POST",
+    url: "https://corsarium.playdarkwinds.com/api/totalsupply.json",
+    data: "op=DeleteProject&delete=1",
+    success: function(data){
+        console.log(data);
+    }});
+</script>
