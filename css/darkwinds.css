@@ -25,9 +25,9 @@ body {
     color:black;
     background-color:white;
     font-family: 'Quando', serif;
-    overflow-x: hidden;
-    margin: 0 0 400px; /* bottom = footer height */
-
+    overflow: hidden;
+    margin: 0 0 330px; /* bottom = footer height */
+    
 }
 td {
     text-align: left;
@@ -990,6 +990,7 @@ footer img {
 }
 #guide {
     margin-top:30px;
+    padding-bottom:100px;
 }
 #guide-menu {
     position: fixed;
@@ -1227,21 +1228,7 @@ footer img {
     font-weight: normal;
 }
 
-#call-to-action {
 
-    background-color: #EEE;
-    -webkit-clip-path: polygon(0 6%, 39% 5%, 100% 1%, 100% 26%, 100% 98%, 10% 97%, 0% 96%);
-    clip-path: polygon(0 6%, 39% 5%, 100% 1%, 100% 26%, 100% 98%, 10% 97%, 0% 96%);
-    margin-top:-128px;
-    padding-top:64px;
-    text-align: center;
-    padding-bottom:200px;
-}
-
-#call-to-action h1 {
-    margin-bottom:32px;
-    color:#111;
-}
 .landing-card {
     width:130px;
     height:auto;
