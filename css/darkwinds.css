@@ -22,11 +22,11 @@ html {
     overflow-x: hidden;
 }
 body {
-    color:#EEE;
-    background-color:black;
+    color:black;
+    background-color:white;
     font-family: 'Quando', serif;
     overflow-x: hidden;
-    margin: 0 0 200px; /* bottom = footer height */
+    margin: 0 0 400px; /* bottom = footer height */
 
 }
 td {
@@ -802,7 +802,15 @@ footer {
     left: 0;
     overflow: hidden;
     margin-top:40px;
+    color:white;
 }
+footer p {
+    color:white;
+}
+footer img {
+    width:auto;
+}
+
 /*transfer card */
 .central-container-transfer {
     background-color: #ecdbad;
@@ -1319,6 +1327,10 @@ header li:first-child {
 }
 a {
     text-decoration: underline;
+    color:darkred;
+}
+a:hover {
+    color:red;
 }
 .button-big {
     font-size:30px;
