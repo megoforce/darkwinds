@@ -1,0 +1,19 @@
+#call-to-action {
+
+    background-color: #EEE;
+    -webkit-clip-path: polygon(0 6%, 39% 5%, 100% 1%, 100% 26%, 100% 98%, 10% 97%, 0% 96%);
+    clip-path: polygon(0 6%, 39% 5%, 100% 1%, 100% 26%, 100% 98%, 10% 97%, 0% 96%);
+    margin-top:-128px;
+    margin-bottom:-128px;
+    padding-top:64px;
+    text-align: center;
+    padding-bottom:200px;
+}
+
+#call-to-action h1 {
+    margin-bottom:32px;
+    color:#111;
+}
+#landing-header a,#landing-header a:visited {
+    color:white;
+}
