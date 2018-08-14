@@ -3,13 +3,12 @@ layout: default
 title:  "The art and essence of Darkwinds"
 date:   2018-08-13 14:00:00 -0400
 categories: art
+thumbnail: /img/posts/art02.png
+excerpt: "The art and essence of Darkwinds"
 ---
 
 The art and essence of Darkwinds
 ================================
-
-
-
 
 Today we are starting a weekly article series on [Darkwinds](https://www.playdarkwinds.com), a game we are developing at [MEGO](https://www.mego.cl) , and to begin we want to share with you some thoughts about the art of the game and how the idea came to life, in the words of our team members: **David Contreras** (art director) and **Pedro Torrealba** (creative director and writer).
 
