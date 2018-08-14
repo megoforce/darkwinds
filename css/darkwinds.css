@@ -1342,21 +1342,36 @@ header a {
     padding:0;
     margin-bottom:16px;
 }
+p {
+    font-size: 15px;
+    color: rgb(61, 61, 61);
+  }
 
-@media (min-width: 576px) {  }
+  h1 {
+    color: rgb(61, 61, 61);
+  }
 
-@media (min-width: 768px) { 
+  em {
+    color:rgba(44, 44, 44, 0.795);
+    text-align: center;
+  }
 
-    .landing-card {
-        width:260px;
-        height:auto;
-        margin-bottom:32px;
-    }
-    .stats-metric {
-        padding:32px;
-    }
- }
-
-@media (min-width: 992px) {  }
-
-@media (min-width: 1200px) {  }
+  img {
+    width: 49%;
+    text-align: center !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  blockquote {
+    padding:50px 20px 30px 30px !important;
+    max-width: 630px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  blockquote p {
+    font-size: 25px;
+  }
+  #content {
+      padding-bottom:100px;
+  }

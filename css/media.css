@@ -28,6 +28,14 @@
         padding:8px 200px;
         font-size:40px;
     }
+    .landing-card {
+        width:260px;
+        height:auto;
+        margin-bottom:32px;
+    }
+    .stats-metric {
+        padding:32px;
+    }
 }
 
 @media (min-width: 992px) { 
