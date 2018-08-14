@@ -1,7 +1,7 @@
 ---
-layout: post
+layout: default
 title:  "The art and essence of Darkwinds"
-date:   2018-08-14 14:00:00 -0400
+date:   2018-08-13 14:00:00 -0400
 categories: art
 ---
 
