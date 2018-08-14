@@ -3,9 +3,9 @@ layout: default
 title:  "The art and essence of Darkwinds"
 date:   2018-08-13 14:00:00 -0400
 categories: art
-thumbnail: /img/posts/art02.png
+thumbnail: "https://playdarkwinds.com/img/posts/art03.jpeg"
 excerpt: "The art and essence of Darkwinds"
-featured_image: "/img/posts/art03.jpeg"
+featured_image: "https://playdarkwinds.com/img/posts/art03.jpeg"
 
 ---
 
