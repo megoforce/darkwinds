@@ -8,9 +8,8 @@ layout: default
 {% endfor %}
 <script>
     $.ajax({
-    type: "POST",
+    type: "GET",
     url: "https://corsarium.playdarkwinds.com/api/totalsupply.json",
-    data: "op=DeleteProject&delete=1",
     success: function(data){
         console.log(data);
     }});
