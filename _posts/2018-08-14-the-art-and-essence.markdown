@@ -16,9 +16,9 @@ Today we are starting a weekly article series on [Darkwinds](https://www.playdar
 
 
 
-![alt text](/img/posts/art02.png "Draft artwork for Jörmundgander, by artist") ![alt text](/img/posts/art03.jpeg "Final artwork")
+![alt text](/img/posts/art02.png "Draft artwork for Jörmundgander, by Felipe Magaña") ![alt text](/img/posts/art03.jpeg "Final artwork")
 
-*Draft artwork for Jörmundgander, by artist* 
+*Draft artwork for Jörmundgander, by Felipe Magaña* 
 
 
 
@@ -34,13 +34,13 @@ In order to further develop this idea, references were looked upon in literature
 
 **Pedro Torrealba**: “Because Darkwinds needed a great amount of artwork, the illustration industry in Chile was surveyed in order to select artists that suited the style we needed. Once the artist were found, the cards were organized into three categories: Pirate, Creature and Spell cards.
 
-![alt text](/img/posts/art00.jpeg "Sketches for Manuk, Smile of Steel by artist ")
+![Manuk sketch](/img/posts/art00.jpeg "Sketches for Manuk, Smile of Steel by Gustavo Lara")
 
-*Sketches for Manuk, Smile of Steel by artist* 
+*Sketches for Manuk, Smile of Steel by Gustavo Lara* 
 
-![alt text](/img/posts/art01.png "Final art for Manuk, Smile of Steel by artist")
+![Manuk final art](/img/posts/art01.png "Final art for Manuk, Smile of Steel by Gustavo Lara")
 
-*Final art for Manuk, Smile of Steel by artist* 
+*Final art for Manuk, Smile of Steel by Gustavo Lara* 
 
 
 
