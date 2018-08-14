@@ -589,7 +589,7 @@ a:hover {
    /* color:rgb(172, 108, 13) */
 }
 a:visited {
-    color:#EEE;
+    color:darkred;
 }
 a:active{
     color:white;
