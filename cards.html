@@ -1,16 +1,10 @@
 ---
 layout: default
 ---
+<div id="cards">
 {% assign card_index = 0 %}
 {% for card in site.data.cards %}
 {% capture card_index %}{{ card_index | plus:1 }}{% endcapture %}
 <img src="https://corsarium.playdarkwinds.com/img/cards/{{card_index}}.opt.png"/>
 {% endfor %}
-<script>
-    $.ajax({
-    type: "GET",
-    url: "https://corsarium.playdarkwinds.com/api/totalsupply.json",
-    success: function(data){
-        console.log(data);
-    }});
-</script>
+</div>
