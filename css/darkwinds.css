@@ -23,7 +23,9 @@ html {
 }
 body {
     color:black;
-    background-color:white;
+    /* background-color:white; */
+    background-image:url(/img/landing/white-txt.png);
+
     font-family: 'Quando', serif;
     overflow: hidden;
     margin: 0 0 330px; /* bottom = footer height */
@@ -1144,7 +1146,7 @@ footer img {
 #slide-1 {
     text-align: center;
     color:#111;
-    background-color:#EEE;
+    background-image:url(/img/landing/white-txt.png);
     margin-top:-64px;
     padding-top:64px;
     -webkit-clip-path: polygon(0 6%, 39% 5%, 100% 1%, 100% 26%, 100% 98%, 10% 97%, 0% 96%);
@@ -1162,7 +1164,8 @@ footer img {
 #slide-2 {
     -webkit-clip-path: polygon(0 0, 100% 3%, 100% 100%, 0 98%);
     clip-path: polygon(0 0, 100% 3%, 100% 100%, 0 98%);
-    background-color:darkred;
+    /* background-color:#8b0000; */
+    background-image:url(/img/landing/slide-2.png);
     padding-top: 64px;
     margin-top: -64px;
     margin-bottom:-150px;
