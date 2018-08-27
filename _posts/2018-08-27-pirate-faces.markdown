@@ -3,9 +3,9 @@ layout: default
 title:  "Making pirate faces of Ethereum addresses"
 date:   2018-08-27 10:00:00 -0400
 categories: art
-thumbnail: "https://playdarkwinds.com/img/posts/art03.jpeg"
+thumbnail: "https://playdarkwinds.com/img/posts/players-screen-pirates.png.PNG"
 excerpt: "Making pirate faces of Ethereum addresses"
-featured_image: "https://playdarkwinds.com/img/posts/art03.jpeg"
+featured_image: "https://playdarkwinds.com/img/posts/players-screen-pirates.png.PNG"
 
 ---
 
@@ -32,6 +32,4 @@ To give an example. Let’s take this Ethereum address:
 Forget about 0x. Take as our first character the B. The B is easily transformed into an integer. In this case is 11. Let’s say that if and address has in its first character an odd number, and is greather than 7, our pirate will have long hair. Let’s take the 2 next to the B. Let’s say that if the second character is an even, our pirate will have a nice hat, otherwise, the pirate will have a headscarf. If we keep doing the same exercise with every character, we are able to play with the genes of our pirates, composed by the characters of their addresses.
 
 
-![alt text](/img/posts/art02.png "Draft artwork for Jörmundgander, by Felipe Magaña") ![alt text](/img/posts/art03.jpeg "Final artwork")
-
-*Draft artwork for Jörmundgander, by Felipe Magaña* 
+![alt text](/img/posts/players-screen-pirates.png.PNG "Pirates playing")
