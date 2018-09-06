@@ -33,3 +33,9 @@ Forget about 0x. Take as our first character the B. The B is easily transformed 
 
 
 ![alt text](/img/posts/players-screen-pirates.png.PNG "Pirates playing")
+
+*Pirates playing*
+
+![alt text](/img/posts/pirate-faces.png "Ethereum transactions from Etherscan but seen with faces instead the numbers and letters of addresses")
+
+*Ethereum transactions from Etherscan but seen with faces instead the numbers and letters of addresses*
