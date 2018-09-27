@@ -59,14 +59,16 @@ td {
 th {
     text-align: center;
 }
-h1,h2,h3,h4,h5,h6 {
+h2,h3,h4,h5,h6 {
     color:#EEE;
     font-size:20px;
     font-family: 'Quando', serif;
 }
 h1 {
     font-weight: medium;
-    font-size: 50px;
+    font-size: 40px;
+    color: rgb(61, 61, 61);
+    margin-bottom:15px;
 }
 h2 {
     font-weight: medium;
@@ -1350,9 +1352,6 @@ p {
     color: rgb(61, 61, 61);
   }
 
-  h1 {
-    color: rgb(61, 61, 61);
-  }
 
   em {
     color:rgba(44, 44, 44, 0.795);
@@ -1377,4 +1376,5 @@ p {
   }
   #content {
       padding-bottom:100px;
+
   }
