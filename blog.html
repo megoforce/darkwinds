@@ -7,18 +7,24 @@ layout: default
     <title>Darkwinds</title>
     {% include head.html %}
 </head>
-
 <style>
 </style>
 
 <body>
-
+<div>
+</div>
     <div class="container">
-      {% for post in site.posts %}	
-      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-      <p><small><strong>{{ post.date | date: "%B %e, %Y" }}</strong> . {{ post.category }} . <a href="http://erjjones.github.com{{ post.url }}#disqus_thread"></a></small></p>			
-  {% endfor %} 
-      
+        <div class="row">
+            <h1>Blog</h1>
+        </div>
+     <div class="row">        
+            <div class="col">
+                    {% for post in site.posts %}	
+                    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+                    <p><small><strong>{{ post.date | date: "%B %e, %Y" }}</strong> . {{ post.category }} . <a href="http://erjjones.github.com{{ post.url }}#disqus_thread"></a></small></p>			
+                {% endfor %}
+            </div>            
+     </div>
     </div>
 
 </body>
