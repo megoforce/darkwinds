@@ -1233,6 +1233,18 @@ footer img {
     font-weight: normal;
 }
 
+#entries {
+    padding-bottom:15px;
+}
+
+#entries p {
+    color:rgba(255, 255, 255, 0.329);
+    margin-top:-10px !important;
+}
+
+#entries a {
+    color: rgb(253, 253, 253);
+}
 
 .landing-card {
     width:130px;
