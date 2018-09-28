@@ -1,12 +1,7 @@
 ---
 layout: default
 ---
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Darkwinds</title>
-    {% include head.html %}
-</head>
+
 <style>
     body {
         background-image:url(/img/landing/piratabg01.png);
@@ -23,7 +18,6 @@ layout: default
     }
 
 </style>
-<body>
 <div>
 </div>
     <div class="container">
@@ -32,14 +26,10 @@ layout: default
         </div>
      <div class="row">        
             <div class="col" id="entries-list">
-                    {% for post in site.posts %}
-                    
-                    <span>{{ post.date | date: "%B %e, %Y" }} . {{ post.category }} . <a href="http://erjjones.github.com{{ post.url }}#disqus_thread"></a></span>			
+                    {% for post in site.posts %}                    
+                    <span>{{ post.date | date: "%B %e, %Y" }}. Category: {{ post.categories }}<a href="http://erjjones.github.com{{ post.url }}#disqus_thread"></a></span>			
                     <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
                     {% endfor %}                    
             </div>            
      </div>
     </div>
-
-</body>
-</html>

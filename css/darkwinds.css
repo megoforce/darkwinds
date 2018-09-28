@@ -399,10 +399,7 @@ p {
     color: rgb(61, 61, 61);
 }
 
-span {
-    text-align: left !important;
-    font-size: 10px;
-}
+
 
 
 table p {
@@ -1263,9 +1260,21 @@ footer img {
     text-shadow: 1px 1px rgba(255, 255, 255, 0.644) !important;
 }
 
-#content {
+#content h1 {
+    text-align: center;
+    max-width: 630px;
+    margin-left:auto;
+    margin-right:auto;
+    line-height: 1.5;
 
 }
+
+span {
+    font-size: 12px;
+    padding-bottom:10px;
+    color: rgb(85, 82, 82);
+}
+
 
 .landing-card {
     width:130px;
@@ -1403,3 +1412,7 @@ em {
     font-size: 25px;
   }
 
+#content span {
+    text-align: center;
+    vertical-align: middle;
+}

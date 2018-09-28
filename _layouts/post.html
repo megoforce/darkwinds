@@ -1,5 +1,32 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
+  <head>
+      {% include head.html %}
+  </head>
 
-    {{ content }}  
+  <style>
+
+    body {
+        text-align: justify;
+    }
+
+    #date {
+        text-align: center;
+    }
+  </style>
+
+    <body>
+        {% include header.html %}
+    <div class="container" id="content">
+        <div id="date">
+            <span><a href="/blog">Back to entries</a></span><br>
+            <span>{{ page.date | date: "%B %e, %Y" }}. Category: {{ page.categories }}</span>
+            
+        </div>
+        <h1>{{page.title}}</h1>
+
+        {{ content }} 
+    </div>
+    {% include footer.html %}
+    </body>
+</html>

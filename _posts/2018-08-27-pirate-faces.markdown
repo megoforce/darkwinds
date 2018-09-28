@@ -1,16 +1,13 @@
 ---
-layout: default
+layout: post
 title:  "Making pirate faces of Ethereum addresses"
 date:   2018-08-27 10:00:00 -0400
-categories: art
+categories: Art
 thumbnail: "https://playdarkwinds.com/img/posts/players-screen-pirates.png.PNG"
 excerpt: "Making pirate faces of Ethereum addresses"
 featured_image: "https://playdarkwinds.com/img/posts/players-screen-pirates.png.PNG"
 
 ---
-
-Making pirate faces of Ethereum addresses
-==========================================
 
 If you are a [Darkwinds](https://www.playdarkwinds.com) player and you were wondering where the heck your avatar comes from, this post will answer your question. And if you’re not a player (yet) this might be interesting to you.  When we’re born we don’t chose how we want to look or what gender we will have, neither our skin colour, besides many other things related to our fenotype. Those decisions are taken by our genes, from our progenitors. Is all about chances and probabilities.
 

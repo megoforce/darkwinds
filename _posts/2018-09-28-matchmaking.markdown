@@ -1,16 +1,13 @@
 ---
-layout: default
+layout: post
 title:  "Matchmaking"
 date:   2018-09-27 14:00:00 -0400
-categories: engineering
+categories: Engineering
 thumbnail: "https://playdarkwinds.com/img/posts/art03.jpeg"
 excerpt: "Matchmaking"
 featured_image: "https://playdarkwinds.com/img/posts/art03.jpeg"
 
 ---
-
-Matchmaking
-===========
 
 Today I want to talk about matchmaking. Matchmaking is important for a game like Darkwinds because it allows players to duel opponents from all over the world. Whenever someone enters the game, it expects two things: to be paired with another person of the same relative strength (in other words, the match must be fair), and to do so in a timely fashion. 
 
