@@ -17,10 +17,9 @@ layout: default
         text-align: left !important;
     }
 
-    a {
+    #entries-list a {
         color:rgb(44, 43, 43) !important;
         text-shadow: 1px 1px rgba(255, 255, 255, 0.52);
-
     }
 
 </style>
@@ -32,8 +31,8 @@ layout: default
             <h1>Blog</h1>
         </div>
      <div class="row">        
-            <div class="col">
-                    {% for post in site.posts %}	
+            <div class="col" id="entries-list">
+                    {% for post in site.posts %}
                     
                     <span>{{ post.date | date: "%B %e, %Y" }} . {{ post.category }} . <a href="http://erjjones.github.com{{ post.url }}#disqus_thread"></a></span>			
                     <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
