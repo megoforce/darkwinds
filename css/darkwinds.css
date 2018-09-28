@@ -1246,6 +1246,19 @@ footer img {
     color: rgb(253, 253, 253);
 }
 
+.entries-list {
+    background-image:url(/img/landing/piratabg01.png);
+    background-position-x: 400px;
+    background-repeat: no-repeat;
+    background-size: 90%;
+}
+
+#article-content a{
+    color: rgb(53, 53, 53) !important;
+    text-shadow: 1px 1px rgba(255, 255, 255, 0.644) !important;
+}
+
+
 .landing-card {
     width:130px;
     height:auto;
