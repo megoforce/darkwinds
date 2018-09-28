@@ -392,8 +392,19 @@ header h1 {
 /*Typography*/
 p {
     font-family: 'Quando', serif;
-    font-size: 14px;
+    max-width: 630px;
+    margin-left:auto;
+    margin-right:auto;
+    font-size: 15px;
+    color: rgb(61, 61, 61);
 }
+
+span {
+    text-align: left !important;
+    font-size: 10px;
+}
+
+
 table p {
     color:rgba(0, 0, 0, 0.564);
 }
@@ -1246,18 +1257,15 @@ footer img {
     color: rgb(253, 253, 253);
 }
 
-.entries-list {
-    background-image:url(/img/landing/piratabg01.png);
-    background-position-x: 400px;
-    background-repeat: no-repeat;
-    background-size: 90%;
-}
 
 #article-content a{
     color: rgb(53, 53, 53) !important;
     text-shadow: 1px 1px rgba(255, 255, 255, 0.644) !important;
 }
 
+#content {
+
+}
 
 .landing-card {
     width:130px;
@@ -1372,13 +1380,8 @@ header a {
     padding:0;
     margin-bottom:16px;
 }
-p {
-    font-size: 15px;
-    color: rgb(61, 61, 61);
-  }
 
-
-  em {
+em {
     color:rgba(44, 44, 44, 0.795);
     text-align: center;
   }
@@ -1399,7 +1402,4 @@ p {
   blockquote p {
     font-size: 25px;
   }
-  #content {
-      padding-bottom:100px;
 
-  }
