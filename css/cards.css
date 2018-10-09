@@ -1,4 +1,31 @@
 #cards img {
     width:80px;
-    height:auto;
+    margin-bottom: 8px;
+
+}
+#card-info-image {
+    width:100% !important;
+    max-width: 440px;
+    height: auto !important;
+}
+#cards {
+    margin-bottom:64px;
+    max-width:760px;
+    margin:0 auto;
+    text-align: center;
+}
+#card-info-modal {
+    display:none;
+    position: fixed;
+    z-index:99998;
+    top:0px;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    text-align: center;
+    background-color:rgba(0,0,0,0.8);
+    padding-top:5%;
+}
+#card-info-container {
+    display:flex;
 }

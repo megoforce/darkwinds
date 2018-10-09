@@ -1,12 +1,30 @@
 ---
 layout: default
 ---
+<script>
+    cards=[];
+    function show_card_info(index) {
+        $("#card-info-modal").show();
+
+        $("#card-info-category").html(cards[index].category)
+        $("#card-info-image").attr("src","https://corsarium.playdarkwinds.com/img/cards/"+index+".opt.png")
+    }
+    function close_card_info() {
+        $("#card-info-modal").hide();
+    }
+</script>
 <h1>Darkwinds: First Edition</h1>
-<p>This are all the possible cards that can be generated. In the future more editions with more cards will be released.</p>
+<p>This are all the possible cards that can be generated, until a new edition comes out.</p>
+<div id="card-info-modal" onclick="javascript:close_card_info()">
+    <div id="card-info-close"><a href="javascript:close_card_info()">[ close ]</a></div>
+    <img id="card-info-image" src="https://corsarium.playdarkwinds.com/img/cards/1.opt.png"/>
+</div>
+</div>
 <div id="cards">
-{% assign card_index = 0 %}
+{% assign card_index = -1 %}
 {% for card in site.data.cards %}
 {% capture card_index %}{{ card_index | plus:1 }}{% endcapture %}
-<img src="https://corsarium.playdarkwinds.com/img/cards/{{card_index}}.opt.png"/>
+<a href="javascript:show_card_info({{card_index}})"><img src="https://corsarium.playdarkwinds.com/img/cards/{{card_index}}.opt.png"/></a>
+<script>cards.push({category:"{{card.category}}"});</script>
 {% endfor %}
 </div>
