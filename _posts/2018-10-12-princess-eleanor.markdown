@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "North Story"
+title:  "The birth of a hero: Princess Eleanor"
 date:   2018-10-12 16:00:00 -0400
 categories: Lore
 thumbnail: "https://playdarkwinds.com/img/posts/eleanor-card.png"
