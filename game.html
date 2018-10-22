@@ -28,14 +28,16 @@ body {
     margin-top: 60px;
     margin-bottom: 20px;
 }
-#content h2, #content h3, #content h4 {
+#content h2, .h {
     color: #333;
     text-align: center;
     font-weight:600;
 }
-h3 {
+.cardh {
     margin-top: 10px;
     text-align: left;
+    color: #333;
+    font-weight:600;
 }
 hr {
 border: none;
@@ -76,13 +78,17 @@ div[id^="chapter-"] {
 .bonito p {
     color: #eee;
 }
-.bonito2 p, .bonito2 h4 {
+.bonito2 p, .windh {
     color: #eee;
+}
+
+.windh {
+    text-align: center;
 }
 
 </style>
 
-<div id="content"class="container-fluid" style="padding:0">
+<div id="content" class="container-fluid" style="padding:0">
     <div class="row justify-content-center">
         <div class="col-12">
             <div id="chapter-1">
@@ -95,19 +101,19 @@ div[id^="chapter-"] {
                     <div class="row justify-content-around imgcontainer">
                         <div class="col-3">
                             <img src="https://corsarium.playdarkwinds.com/img/cards/76.opt.png" />
-                            <h4>Winston Winddodger</h4>
+                            <h4 class="h">Winston Winddodger</h4>
                             <p class="desc">Human anatomy is his passion, and joins the expedition with the intent of studying the effects of sailing in the human body. Also, having a physician on board might be of help.</p>
                         </div>
 
                         <div class="col-3">
                             <img src="https://corsarium.playdarkwinds.com/img/cards/99.opt.png" />
-                            <h4>Princess Eleanor</h4>
+                            <h4 class="h">Princess Eleanor</h4>
                             <p class="desc">One of the most feared captains of the Seven Seas, she is the heir of the great realm of Itova. After his father's dissapearance, she sails to capture his uncle, Dark Septus the Ruthless.</p>
                         </div>
                         
                         <div class="col-3">
                             <img src="https://corsarium.playdarkwinds.com/img/cards/22.opt.png" />
-                            <h4>Manuk, Smile of Steel</h4>
+                            <h4 class="h">Manuk, Smile of Steel</h4>
                             <p class="desc">A minion of Dark Septus, he is responsible of guarding the Doors to the Forgotten Seas. His sadism made him a legend amongst merchant sailors.</p>
                         </div>  
                     </div>
@@ -125,25 +131,25 @@ div[id^="chapter-"] {
                 <div class="bonito2 row justify-content-around">
                     <div class="col-2">
                         <img src="img/guide/n.png" />
-                        <h4>North Wind</h4>
+                        <h4 class="windh">North Wind</h4>
                         <p class="desc">Embodies the spirit of life and creation, the vital force that moves all creatures and pirates to fight for survival and the perpetuation of their own kin.</p>
                     </div>
 
                     <div class="col-2">
                         <img src="img/guide/s.png" />
-                        <h4>South Wind</h4>
+                        <h4 class="windh">South Wind</h4>
                         <p class="desc">Incarnates the spirit of death and destruction, the essence that drives the inhabitants of this world to long for death and unravel chaos.</p>
                     </div>
                     
                     <div class="col-2">
                         <img src="img/guide/e.png" />
-                        <h4>East Wind</h4>
+                        <h4 class="windh">East Wind</h4>
                         <p class="desc">Epitomizes the spirit of nature and wilderness, contained in the creatures and living beings that feel part of the living world.</p>
                     </div>  
 
                     <div class="col-2">
                         <img src="img/guide/w.png" />
-                        <h4>West Wind</h4>
+                        <h4 class="windh">West Wind</h4>
                         <p class="desc">Manifests the spirit of magic and the unearthly, enclosed in those who defy the limits of nature and take course into the depths of the unknown.</p>
                     </div>  
                 </div>
@@ -153,13 +159,13 @@ div[id^="chapter-"] {
                     <div class="row justify-content-around imgcontainer">
                         <div class="col-3">
                             <img src="https://corsarium.playdarkwinds.com/img/cards/31.opt.png" />
-                            <h4>Dumbol, the dumb</h4>
+                            <h4 class="h">Dumbol, the dumb</h4>
                             <p class="desc">Intelligence is not part of every pirate's arsenal.</p>
                         </div>
 
                         <div class="col-3">
                             <img src="https://corsarium.playdarkwinds.com/img/cards/62.opt.png" />
-                            <h4>Kraken</h4>
+                            <h4 class="h">Kraken</h4>
                             <p class="desc">A creature that believes that mankind does not belong on the seas.</p>
                         </div>
                     </div>
@@ -190,6 +196,7 @@ div[id^="chapter-"] {
             <div id="chapter-3">
                 <h2>Anatomy of a Card</h2>
                 <p>A card has the following elements: name, cost, wind, artwork, text, and if it is a buccaneer or creature it has damage and defense.</p>
+                <p>In order to play a card, you must pay its cost. This is called "hiring" when paying the cost for a Buccaneer or Creature, or "buying" when paying the cost for a Spell or Artifact.</p>
             </div>
 
             <div id="chapter-4">
@@ -197,32 +204,34 @@ div[id^="chapter-"] {
                 <div class="row justify-content-center">
                     <iframe width="960" height="540" src="https://www.youtube-nocookie.com/embed/RvPno6GYxhI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                 </div>
-                <p style="margin-top: 30px;">The game is played between two Captains that control a 10-card deck each. Captains take turns to draw a card from their deck, play cards and then attack their rival or their rival's cards.</p>
+                <p style="margin-top: 30px;">The game is played between two Captains that control a 10-card deck each. Captains take turns to draw a card from their deck, play cards (e.g. hiring a Buccaneer or buying a Spell) and then attack their rival or their rival's cards.</p>
+
+                <p>To hire or buy a card, you need to have sufficient money. You supply of money (called "bounty") increases each turn until it tops out at 5, except when the first turn of the game is played.</p>
             </div>
 
             <div id="chapter-5">
                 <h2>Card Types and Abilities</h2>
-                <div class="row justify-content-center">
+                <div class="row justify-content-center align-items-center">
                     <div class="col-2 offset-2 dcard">
                         <img src="https://corsarium.playdarkwinds.com/img/cards/93.opt.png" />
                     </div>
                     <div class="col-4">
-                        <h3>Taunt</h3>
+                        <h3 class="cardh">Taunt</h3>
                         <p>When a buccaneer or creature has the taunt ability, you cannot attack your rival directly. This means that in order to attack a rival that has a card with taunt on his board, you must kill this card first.</p>
                     </div>
                 </div>
 
-                <div class="row justify-content-center">
+                <div class="row justify-content-center align-items-center">
                     <div class="col-2 offset-2 dcard">
                         <img src="https://corsarium.playdarkwinds.com/img/cards/9.opt.png" />
                     </div>
                     <div class="col-4">
-                        <h3>Charge</h3>
+                        <h3 class="cardh">Charge</h3>
                         <p>When a buccaneer or creature has the charge ability, that card can attack the same turn it was played.</p>
                     </div>
                 </div>
 
-                <div class="row justify-content-center">
+                <div class="row justify-content-center align-items-center">
                     <div class="col-2 dcard" style="margin-left: 71px;">
                         <img src="https://corsarium.playdarkwinds.com/img/cards/78.opt.png" />
                     </div>
@@ -230,12 +239,13 @@ div[id^="chapter-"] {
                         <img src="https://corsarium.playdarkwinds.com/img/cards/66.opt.png" />
                     </div>
                     <div class="col-4">
-                        <h3>Assault</h3>
+                        <h3 class="cardh">Assault</h3>
                         <p>When a card has the assault ability, it can deal damage to any enemy card or the rival captain, bypassing any active taunt ability.</p>
+                        <p>If the ability has the 'target' keyword, you will need to select a valid target for the effect to occur. If not, the effect happens automatically.</p>
                     </div>
                 </div>
 
-                <div class="row justify-content-center">
+                <div class="row justify-content-center align-items-center">
                     <div class="col-2 dcard" style="margin-left: 71px;">
                         <img src="https://corsarium.playdarkwinds.com/img/cards/75.opt.png" />
                     </div>
@@ -243,27 +253,28 @@ div[id^="chapter-"] {
                         <img src="https://corsarium.playdarkwinds.com/img/cards/51.opt.png" />
                     </div>
                     <div class="col-4">
-                        <h3>Heal</h3>
+                        <h3 class="cardh">Heal</h3>
                         <p>When a card has the heal ability, it can heal a friendly card or yourself.</p>
+                        <p>If the ability has the 'target' keyword, you will need to select a valid target for the effect to occur. If not, the effect happens automatically.</p>
                     </div>
                 </div>
 
-                <div class="row justify-content-center">
+                <div class="row justify-content-center align-items-center">
                     <div class="col-2 offset-2 dcard">
                         <img src="https://corsarium.playdarkwinds.com/img/cards/59.opt.png" />
                     </div>
                     <div class="col-4">
-                        <h3>Summon</h3>
+                        <h3 class="cardh">Summon</h3>
                         <p>When a buccaneer or creature has the summon ability, it summons the card stated on the ability directly into play like it was played from your hand.</p>
                     </div>
                 </div>
 
-                <div class="row justify-content-center">
+                <div class="row justify-content-center align-items-center">
                     <div class="col-2 offset-2 dcard">
                         <img src="https://corsarium.playdarkwinds.com/img/cards/34.opt.png" />
                     </div>
                     <div class="col-4">
-                        <h3>Requires</h3>
+                        <h3 class="cardh">Requires</h3>
                         <p>When a buccaneer or creature has the requires ability, you cannot play it unless you comply with the abilities requirement.</p>
                     </div>
                 </div>
