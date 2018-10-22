@@ -5,10 +5,25 @@ layout: fullwidth
 <style>
 p {
     max-width: 900px;
-    font-size: 14pt;
+    font-size: 22px;
+    line-height: 32px;
+    /*letter-spacing: -0.04em;*/
+    font-kerning:normal;
 }
+
+p + p {
+    text-indent: 1em;
+    margin-top: 20px;
+}
+
 body {
     background-color:black;
+}
+h2 {
+    font-size: 45px;
+    line-height: 40px;
+    margin-top: 60px;
+    margin-bottom: 20px;
 }
 h2,h3,h4 {
     color: #333;
@@ -21,11 +36,12 @@ h3 {
 hr {
 border: none;
 margin: 0 50%;
-background-image: url('img/logo/ico_black.png');
-background-repeat: no-repeat;
-background-size: 50px 50px;
-height: 50px;
-width: 50px
+background-image: url('img/guide/diamond.svg');
+background-repeat: repeat-y;
+background-size: 30px 30px;
+height: 30px;
+width: 100px;
+margin-bottom: 20px;
 }
 img {
     padding: 10px;
@@ -38,6 +54,7 @@ div[id^="chapter-"] {
 }
 .desc {
     font-size: 11pt;
+    line-height: 17pt;
 }
 .bonito {
     clip-path: polygon(0 0, 100% 13%, 100% 100%, 0 85%);
@@ -47,7 +64,7 @@ div[id^="chapter-"] {
 }
 
 .bonito2 {
-    clip-path: polygon(0 15%, 100% 8%, 100% 100%, 0 91%);
+    clip-path: polygon(0 10%, 100% 8%, 100% 100%, 0 96%);
     color: #eee;
     padding: 100px;
     background-image: url('img/landing/slide-2.png');
@@ -61,38 +78,42 @@ div[id^="chapter-"] {
 
 </style>
 
-<div class="container-fluid" style="padding:0">
+<div id="content"class="container-fluid" style="padding:0">
     <div class="row justify-content-center">
         <div class="col-12">
             <div id="chapter-1">
-                <h2 style="padding-bottom:0">What is</h2>
+                <h2 style="padding-bottom:0; margin-top: 15px">What is</h2>
                 <img style="display: block;width:40%;padding:0;margin-bottom:30px;" src="https://corsarium.playdarkwinds.com/img/logo/vertical_black.png" />
                 <p>Darkwinds is an Online Collectible Card Game, that uses the Ethereum blockchain for card distribution and storage.</p>
-                <p>Like other card games, Darkwinds is half competitive game, and half collectible game. While some players might want to trade cards to complete their collection, others will build a competitive playing deck in order to become the best Darkwinds player!</p>
+                <hr />
+                <p>Like other card games, Darkwinds is half competitive game, and half collectible game. While some players might want to buy and trade cards to complete their collection, others will build a competitive playing deck in order to become the best Darkwinds player!</p>
                 <div class="container">
                     <div class="row justify-content-around imgcontainer">
                         <div class="col-3">
                             <img src="https://corsarium.playdarkwinds.com/img/cards/76.opt.png" />
                             <h4>Winston Winddodger</h4>
-                            <p class="desc">The nefarious physician that sometimes gets a little creative when no resources are available.</p>
+                            <p class="desc">Human anatomy is his passion, and joins the expedition with the intent of studying the effects of sailing in the human body. Also, having a physician on board might be of help.</p>
                         </div>
 
                         <div class="col-3">
                             <img src="https://corsarium.playdarkwinds.com/img/cards/99.opt.png" />
                             <h4>Princess Eleanor</h4>
-                            <p class="desc">She will do anything at her hand to reassure the power of her kingdom at seas.</p>
+                            <p class="desc">One of the most feared captains of the Seven Seas, she is the heir of the great realm of Itova. After his father's dissapearance, she sails to capture his uncle, Dark Septus the Ruthless.</p>
                         </div>
                         
                         <div class="col-3">
                             <img src="https://corsarium.playdarkwinds.com/img/cards/22.opt.png" />
                             <h4>Manuk, Smile of Steel</h4>
-                            <p class="desc">An incredible swordsman and sailor, that unfortunately can't keep his smile to himself.</p>
+                            <p class="desc">A minion of Dark Septus, he is responsible of guarding the Doors to the Forgotten Seas. His sadism made him a legend amongst merchant sailors.</p>
                         </div>  
                     </div>
                 </div>
 
+                <p>Darkwinds draws inspiration from the myths and realities that pirates faced on their journeys and taking it to the realms of fantasy, where numerous deities, human and non-human pirates, giant creatures and powerful artifacts and spells converge.</p>
+
+                <p>In this unruly landscape you must take on the role of Captain, gathering a crew that can face rival Captains that prowl around the Seven Seas, looking to become the most feared pirate in the world.</p>
+
                 <hr />
-                <p>Darkwinds draws inspiration from the myths and realities that pirates faced on their journeys.</p>
 
                 <p>Sailing inspires the main force in the game: Winds. There are four essential winds, North, South, East and West.</p>
 
@@ -113,7 +134,7 @@ div[id^="chapter-"] {
                     <div class="col-2">
                         <img src="img/guide/e.png" />
                         <h4>East Wind</h4>
-                        <p class="desc">Epitomizes the spirit of nature and wildness, contained in those creatures and living beings that feel part of the living world.</p>
+                        <p class="desc">Epitomizes the spirit of nature and wilderness, contained in the creatures and living beings that feel part of the living world.</p>
                     </div>  
 
                     <div class="col-2">
@@ -123,15 +144,13 @@ div[id^="chapter-"] {
                     </div>  
                 </div>
 
-                <hr />
-
-                <p>Not all cards are created equal. Half of the 100-card set appear more frequently, which makes the latter half rarer. A rarer card will most of the times be more powerful than its more frequent counterpart, and the characters depicted have a more important role in the game's lore.</p>
+                <p style="margin-top: 30px;">Not all cards are created equal. Half of the 100-card set appear more frequently, which makes the latter half rarer. A rarer card will most of the times be more powerful than its more frequent counterpart, and the characters depicted have a more important role in the game's lore.</p>
                 <div class="container">
                     <div class="row justify-content-around imgcontainer">
                         <div class="col-3">
                             <img src="https://corsarium.playdarkwinds.com/img/cards/31.opt.png" />
                             <h4>Dumbol, the dumb</h4>
-                            <p class="desc">Brightness is not a given.</p>
+                            <p class="desc">Intelligence is not part of every pirate's arsenal.</p>
                         </div>
 
                         <div class="col-3">
@@ -146,18 +165,20 @@ div[id^="chapter-"] {
 
             <div id="chapter-2">
                 <h2>Building a Deck</h2>
-                <div class="bonito row">
-                    <div class="col-3 offset-3">
-                        <p>To play the game, you need to build a deck with exactly 10 cards, which you can get buying booster packs from the store or by buying single cards from third parties such as OpenSea.</p>
-                    </div>
-                    <div class="col-1">
+                <div class="bonito row justify-content-center">
+                    <div class="col-2">
                         <img src="img/guide/01.svg" />
                     </div>
-                    <div class="col-1">
+                    <div class="col-2">
                         <img src="img/guide/02.svg" />
                     </div>
-                    <div class="col-1">
+                    <div class="col-2">
                         <img src="img/guide/04.svg" />
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-8">
+                            <p style="text-align: center">To play the game, you need to build a deck with exactly 10 cards, which you can get buying booster packs from the store or by buying single cards from third parties such as OpenSea.</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -169,7 +190,11 @@ div[id^="chapter-"] {
 
             <div id="chapter-4">
                 <h2>The Game</h2>
-                <p>To play the game, you need to build a deck with exactly 10 cards, which you can get buying booster packs from the store or by buying single cards from third parties such as OpenSea.</p>
+                <div class="row justify-content-center">
+                    <iframe width="960" height="540" src="https://www.youtube-nocookie.com/embed/RvPno6GYxhI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+
+                <p></p>
             </div>
 
             <div id="chapter-5">
@@ -203,7 +228,7 @@ div[id^="chapter-"] {
                     </div>
                     <div class="col-4">
                         <h3>Assault</h3>
-                        <p>When a buccaneer or creature has the taunt ability, you cannot attack your rival directly. This means that in order to attack a rival that has a card with taunt on his board, you must kill this card first.</p>
+                        <p>When a card has the assault ability, it can deal damage to any enemy card or the rival captain, bypassing any active taunt ability.</p>
                     </div>
                 </div>
 
@@ -216,7 +241,7 @@ div[id^="chapter-"] {
                     </div>
                     <div class="col-4">
                         <h3>Heal</h3>
-                        <p>When a buccaneer or creature has the taunt ability, you cannot attack your rival directly. This means that in order to attack a rival that has a card with taunt on his board, you must kill this card first.</p>
+                        <p>When a card has the heal ability, it can heal a friendly card or yourself.</p>
                     </div>
                 </div>
 
@@ -226,7 +251,7 @@ div[id^="chapter-"] {
                     </div>
                     <div class="col-4">
                         <h3>Summon</h3>
-                        <p>When a buccaneer or creature has the taunt ability, you cannot attack your rival directly. This means that in order to attack a rival that has a card with taunt on his board, you must kill this card first.</p>
+                        <p>When a buccaneer or creature has the summon ability, it summons the card stated on the ability directly into play like it was played from your hand.</p>
                     </div>
                 </div>
 
@@ -236,7 +261,7 @@ div[id^="chapter-"] {
                     </div>
                     <div class="col-4">
                         <h3>Requires</h3>
-                        <p>When a buccaneer or creature has the taunt ability, you cannot attack your rival directly. This means that in order to attack a rival that has a card with taunt on his board, you must kill this card first.</p>
+                        <p>When a buccaneer or creature has the requires ability, you cannot play it unless you comply with the abilities requirement.</p>
                     </div>
                 </div>
             </div>
