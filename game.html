@@ -86,6 +86,34 @@ div[id^="chapter-"] {
     text-align: center;
 }
 
+.d-block {
+    max-width: 300px;
+}
+.carousel-indicators {
+    bottom: -25px;
+}
+.carousel-control-prev {
+    left: 200px;
+}
+.carousel-control-next {
+    right: 170px;
+}
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23333' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23333' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.carousel-indicators li {
+    background-color: #333;
+}
+
+.carousel-indicators .active {
+    background-color: #888;
+}
+
 </style>
 
 <div id="content" class="container-fluid" style="padding:0">
@@ -175,19 +203,29 @@ div[id^="chapter-"] {
 
             <div id="chapter-2">
                 <h2>Building a Deck</h2>
-                <div class="bonito row justify-content-center">
+                <div class="bonito row justify-content-center align-items-center">
                     <div class="col-2">
                         <img src="img/guide/01.svg" />
                     </div>
+                    <div class="col-1">
+                        <img src="img/guide/diamonds.svg" style="width:120px"/>
+                    </div>
+                    
                     <div class="col-2">
                         <img src="img/guide/02.svg" />
                     </div>
+
+                    <div class="col-1">
+                        <img src="img/guide/diamonds.svg" style="width:120px"/>
+                    </div>
+                    
+                    
                     <div class="col-2">
                         <img src="img/guide/04.svg" />
                     </div>
                     <div class="row justify-content-center">
                         <div class="col-8">
-                            <p style="text-align: center">To play the game, you need to build a deck with exactly 10 cards, which you can get buying booster packs from the store or by buying single cards from third parties such as <a href="https://opensea.io">OpenSea</a>.</p>
+                            <p style="text-align: center">To play the game, you need to build a deck with exactly 10 cards, which you can get buying booster packs from the store or by buying single cards from third parties such as <a href="https://opensea.io"><img src="img/guide/opensea.png" style="width:160px;"/></a>.</p>
                         </div>
                     </div>
                 </div>
@@ -211,73 +249,105 @@ div[id^="chapter-"] {
 
             <div id="chapter-5">
                 <h2>Card Types and Abilities</h2>
-                <div class="row justify-content-center align-items-center">
-                    <div class="col-2 offset-2 dcard">
-                        <img src="https://corsarium.playdarkwinds.com/img/cards/93.opt.png" />
+                <div>
+                <div id="types-abilities" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                      <li data-target="#types-abilities" data-slide-to="0" class="active"></li>
+                      <li data-target="#types-abilities" data-slide-to="1"></li>
+                      <li data-target="#types-abilities" data-slide-to="2"></li>
+                      <li data-target="#types-abilities" data-slide-to="3"></li>
+                      <li data-target="#types-abilities" data-slide-to="4"></li>
+                      <li data-target="#types-abilities" data-slide-to="5"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col-2 offset-2 dcard">
+                                <img src="https://corsarium.playdarkwinds.com/img/cards/93.opt.png" />
+                            </div>
+                            <div class="col-4">
+                                <h3 class="cardh">Taunt</h3>
+                                <p>When a buccaneer or creature has the taunt ability, you cannot attack your rival directly. This means that in order to attack a rival that has a card with taunt on his board, you must kill this card first.</p>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col-2 offset-2 dcard">
+                                <img src="https://corsarium.playdarkwinds.com/img/cards/9.opt.png" />
+                            </div>
+                            <div class="col-4">
+                                <h3 class="cardh">Charge</h3>
+                                <p>When a buccaneer or creature has the charge ability, that card can attack the same turn it was played.</p>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col-2 dcard" style="margin-left: 71px;">
+                                <img src="https://corsarium.playdarkwinds.com/img/cards/78.opt.png" />
+                            </div>
+                            <div class="col-2 dcard">
+                                <img src="https://corsarium.playdarkwinds.com/img/cards/66.opt.png" />
+                            </div>
+                            <div class="col-4">
+                                <h3 class="cardh">Assault</h3>
+                                <p>When a card has the assault ability, it can deal damage to any enemy card or the rival captain, bypassing any active taunt ability.</p>
+                                <p>If the ability has the 'target' keyword, you will need to select a valid target for the effect to occur. If not, the effect happens automatically.</p>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col-2 dcard" style="margin-left: 71px;">
+                                <img src="https://corsarium.playdarkwinds.com/img/cards/75.opt.png" />
+                            </div>
+                            <div class="col-2 dcard">
+                                <img src="https://corsarium.playdarkwinds.com/img/cards/51.opt.png" />
+                            </div>
+                            <div class="col-4">
+                                <h3 class="cardh">Heal</h3>
+                                <p>When a card has the heal ability, it can heal a friendly card or yourself.</p>
+                                <p>If the ability has the 'target' keyword, you will need to select a valid target for the effect to occur. If not, the effect happens automatically.</p>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col-2 offset-2 dcard">
+                                <img src="https://corsarium.playdarkwinds.com/img/cards/59.opt.png" />
+                            </div>
+                            <div class="col-4">
+                                <h3 class="cardh">Summon</h3>
+                                <p>When a buccaneer or creature has the summon ability, it summons the card stated on the ability directly into play like it was played from your hand.</p>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col-2 offset-2 dcard">
+                                <img src="https://corsarium.playdarkwinds.com/img/cards/34.opt.png" />
+                            </div>
+                            <div class="col-4">
+                                <h3 class="cardh">Requires</h3>
+                                <p>When a buccaneer or creature has the requires ability, you cannot play it unless you comply with the abilities requirement.</p>
+                            </div>
+                        </div>
+                      </div>
                     </div>
-                    <div class="col-4">
-                        <h3 class="cardh">Taunt</h3>
-                        <p>When a buccaneer or creature has the taunt ability, you cannot attack your rival directly. This means that in order to attack a rival that has a card with taunt on his board, you must kill this card first.</p>
-                    </div>
+                    <a class="carousel-control-prev" href="#types-abilities" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#types-abilities" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
                 </div>
 
-                <div class="row justify-content-center align-items-center">
-                    <div class="col-2 offset-2 dcard">
-                        <img src="https://corsarium.playdarkwinds.com/img/cards/9.opt.png" />
-                    </div>
-                    <div class="col-4">
-                        <h3 class="cardh">Charge</h3>
-                        <p>When a buccaneer or creature has the charge ability, that card can attack the same turn it was played.</p>
-                    </div>
-                </div>
 
-                <div class="row justify-content-center align-items-center">
-                    <div class="col-2 dcard" style="margin-left: 71px;">
-                        <img src="https://corsarium.playdarkwinds.com/img/cards/78.opt.png" />
-                    </div>
-                    <div class="col-2 dcard">
-                        <img src="https://corsarium.playdarkwinds.com/img/cards/66.opt.png" />
-                    </div>
-                    <div class="col-4">
-                        <h3 class="cardh">Assault</h3>
-                        <p>When a card has the assault ability, it can deal damage to any enemy card or the rival captain, bypassing any active taunt ability.</p>
-                        <p>If the ability has the 'target' keyword, you will need to select a valid target for the effect to occur. If not, the effect happens automatically.</p>
-                    </div>
-                </div>
-
-                <div class="row justify-content-center align-items-center">
-                    <div class="col-2 dcard" style="margin-left: 71px;">
-                        <img src="https://corsarium.playdarkwinds.com/img/cards/75.opt.png" />
-                    </div>
-                    <div class="col-2 dcard">
-                        <img src="https://corsarium.playdarkwinds.com/img/cards/51.opt.png" />
-                    </div>
-                    <div class="col-4">
-                        <h3 class="cardh">Heal</h3>
-                        <p>When a card has the heal ability, it can heal a friendly card or yourself.</p>
-                        <p>If the ability has the 'target' keyword, you will need to select a valid target for the effect to occur. If not, the effect happens automatically.</p>
-                    </div>
-                </div>
-
-                <div class="row justify-content-center align-items-center">
-                    <div class="col-2 offset-2 dcard">
-                        <img src="https://corsarium.playdarkwinds.com/img/cards/59.opt.png" />
-                    </div>
-                    <div class="col-4">
-                        <h3 class="cardh">Summon</h3>
-                        <p>When a buccaneer or creature has the summon ability, it summons the card stated on the ability directly into play like it was played from your hand.</p>
-                    </div>
-                </div>
-
-                <div class="row justify-content-center align-items-center">
-                    <div class="col-2 offset-2 dcard">
-                        <img src="https://corsarium.playdarkwinds.com/img/cards/34.opt.png" />
-                    </div>
-                    <div class="col-4">
-                        <h3 class="cardh">Requires</h3>
-                        <p>When a buccaneer or creature has the requires ability, you cannot play it unless you comply with the abilities requirement.</p>
-                    </div>
-                </div>
+                
             </div>
             
         </div>
