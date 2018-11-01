@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-50933804-19"></script>
+
+<script
+src="https://code.jquery.com/jquery-3.3.1.min.js"
+integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+crossorigin="anonymous"></script>
+<script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-50933804-19');
+        gtag('config', 'AW-969713251');
+        
+        </script>
+            <link href="https://fonts.googleapis.com/css?family=Quando" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet"> 
+
+            <title>
+                Browser Detection
+            </title>
+           
+            <style>
+                body {
+                    background-color:#111;
+                    color:#EEE;
+                    font-family: 'Quando', serif;
+
+                }
+                a,h1 {
+                    color: white;
+                }
+                
+            </style>
+    </head>
+    <body>
+        Checking your browser...
+    </body>
+    <script>
+        // Opera 8.0+
+        var isOpera = (!!window.opr && !!opr.addons) || !!window.opera || navigator.userAgent.indexOf(' OPR/') >= 0;
+
+        // Firefox 1.0+
+        var isFirefox = typeof InstallTrigger !== 'undefined';
+
+        // Safari 3.0+ "[object HTMLElementConstructor]" 
+        var isSafari = /constructor/i.test(window.HTMLElement) || (function (p) { return p.toString() === "[object SafariRemoteNotification]"; })(!window['safari'] || (typeof safari !== 'undefined' && safari.pushNotification));
+
+        // Internet Explorer 6-11
+        var isIE = /*@cc_on!@*/false || !!document.documentMode;
+
+        // Edge 20+
+        var isEdge = !isIE && !!window.StyleMedia;
+        // Chrome 1+
+        var isChrome = !!window.chrome && !!window.chrome.webstore;
+
+        // Blink engine detection
+        var isBlink = (isChrome || isOpera) && !!window.CSS;
+
+        function detect_account() {
+            if (typeof web3 !== 'undefined') {
+                if(web3.eth.accounts[0]) {
+                    location.href="https://corsarium.playdarkwinds.com/matchmaking"
+                } else {
+                    location.href="/unlock.html"
+                }
+            } else {
+                location.href="/metamask.html";
+            }
+        }
+        setInterval(detect_account(),300);
+        </script>
+</html>

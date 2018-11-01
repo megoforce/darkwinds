@@ -1,0 +1,59 @@
+<html>
+    <head>
+            <script>
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                    gtag('js', new Date());
+                    gtag('config', 'UA-50933804-19');
+                    gtag('config', 'AW-969713251');
+                    
+                    </script>
+            <link href="https://fonts.googleapis.com/css?family=Quando" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet"> 
+
+            <title>
+                Unlock metamask
+            </title>
+            <script src="/js/jquery.js"></script>
+
+            <style>
+                body {
+                    background-color:#111;
+                    color:#EEE;
+                    font-family: 'Quando', serif;
+                    text-align: center;
+                }
+                a {
+                    color: white;
+                }
+                #unlock-metamask {
+                    color:black;
+                }
+            </style>
+            <script>
+                function detect_network() {
+                    if (typeof web3 !== 'undefined') {
+                        // Use Mist/MetaMask's provider
+                        web3js = new Web3(web3.currentProvider);
+                        if(web3.eth.accounts[0]) {
+                            window.location.href="https://corsarium.playdarkwinds.com/matchmaking"
+                        } 
+                    } else {
+                        window.location.href="/detect.html"
+
+                    }
+                }
+                setInterval(detect_network,300);
+            </script>
+
+    </head>
+    <body>
+        
+        <div id="loading-screen" style="display: none">
+            <img src="/img/metamask.png" id="unlock-metamask"/>
+            <p>Please unlock your Ethereum wallet to continue.<br>To do so, click the metamask button in your browser.
+            </p>
+    </div>
+    
+    </body>
+</html>
