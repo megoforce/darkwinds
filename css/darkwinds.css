@@ -150,13 +150,13 @@ button:focus {
     text-align: right;
     bottom:0;
     right:0;
-    height:128px;
+    height:64px;
     width:128px;
     z-index:9999;
 }
 #discord-link img {
     width:128px;
-    height:128px;
+    height:64px;
 }
 /* header */
 header button {
