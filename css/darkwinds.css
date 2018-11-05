@@ -147,15 +147,17 @@ button:focus {
 }
 #discord-link {
     position:fixed;
-    text-align: right;
+    text-align: left;
     bottom:0;
     right:0;
     height:64px;
-    width:128px;
+    width:64px;
     z-index:9999;
+    margin:5px;
 }
+
 #discord-link img {
-    width:128px;
+    width:64px;
     height:64px;
 }
 /* header */
