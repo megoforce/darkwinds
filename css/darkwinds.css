@@ -145,6 +145,19 @@ button:active {
 button:focus {
    outline:0;
 }
+#discord-link {
+    position:fixed;
+    text-align: right;
+    bottom:0;
+    right:0;
+    height:128px;
+    width:128px;
+    z-index:9999;
+}
+#discord-link img {
+    width:128px;
+    height:128px;
+}
 /* header */
 header button {
     text-align: center;
