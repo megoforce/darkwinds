@@ -12,11 +12,22 @@ p {
     line-height: 32px;
     /*letter-spacing: -0.04em;*/
     font-kerning:normal;
+    text-align: left;
+}
+
+.carousel-item {
+    height: 450px;
 }
 
 p + p {
     text-indent: 1em;
     margin-top: 20px;
+}
+
+
+
+h3 {
+    padding-bottom:10px;
 }
 
 body {
@@ -51,6 +62,16 @@ margin-bottom: 20px;
 }
 img {
     padding: 10px;
+}
+
+.img-tutorial {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.img-tutorial img{
+
+    width: 40%;
 }
 div[id^="chapter-"] {
     margin-bottom: 30px;
@@ -114,352 +135,303 @@ div[id^="chapter-"] {
     background-color: #888;
 }
 
+a {
+    text-decoration: underline;
+    color:darkred !important;
+}
+
 </style>
+
+
 
 <div id="content" class="container-fluid" style="padding:0">
     <div class="row justify-content-center">
-        <div class="col-12">
-            <div id="chapter-1">
-                <h2 style="padding-bottom:0; margin-top: 15px">Introducing</h2>
-                <img style="display: block;width:40%;padding:0;margin-bottom:30px;" src="img/logo/vertical_black.png" />
-                <p>Darkwinds is an Online Collectible Card Game, that uses the Ethereum blockchain for card distribution and storage.</p>
-                <hr />
-                <p>Like other card games, Darkwinds is half competitive game, and half collectible game. While some players might want to buy and trade cards to complete their collection, others will build a competitive playing deck in order to become the best Darkwinds player!</p>
-                <div class="container">
-                    <div class="row justify-content-around imgcontainer">
-                        <div class="col-3">
-                            <img src="https://corsarium.playdarkwinds.com/img/cards/76.opt.png" />
-                            <h4 class="h">Winston Winddodger</h4>
-                            <p class="desc">Human anatomy is his passion, and joins the expedition with the intent of studying the effects of sailing in the human body. Also, having a physician on board might be of help.</p>
-                        </div>
-
-                        <div class="col-3">
-                            <img src="https://corsarium.playdarkwinds.com/img/cards/99.opt.png" />
-                            <h4 class="h">Princess Eleanor</h4>
-                            <p class="desc">One of the most feared captains of the Seven Seas, she is the heir of the great realm of Itova. After his father's dissapearance, she sails to capture his uncle, Dark Septus the Ruthless.</p>
-                        </div>
-                        
-                        <div class="col-3">
-                            <img src="https://corsarium.playdarkwinds.com/img/cards/22.opt.png" />
-                            <h4 class="h">Manuk, Smile of Steel</h4>
-                            <p class="desc">A minion of Dark Septus, he is responsible of guarding the Doors to the Forgotten Seas. His sadism made him a legend amongst merchant sailors.</p>
-                        </div>  
-                    </div>
+       <div class="col-12">
+          <div id="chapter-1">
+             <h2 style="padding-bottom:0; margin-top: 15px">Introducing</h2>
+             <img style="display: block;width:40%;padding:0;margin-bottom:30px;" src="img/logo/vertical_black.png" />
+             <p>Darkwinds is an Online Collectible Card Game, that uses the Ethereum blockchain for card distribution and storage.</p>
+             <hr />
+             <p>Like other card games, Darkwinds is half competitive game, and half collectible game. While some players might want to buy and trade cards to complete their collection, others will build a competitive playing deck in order to become the best Darkwinds player!</p>
+             <div class="container">
+                <div class="row justify-content-around imgcontainer">
+                   <div class="col-3">
+                      <img src="https://corsarium.playdarkwinds.com/img/cards/76.opt.png" />
+                      <h4 class="h">Winston Winddodger</h4>
+                      <p class="desc">Human anatomy is his passion, and joins the expedition with the intent of studying the effects of sailing in the human body. Also, having a physician on board might be of help.</p>
+                   </div>
+                   <div class="col-3">
+                      <img src="https://corsarium.playdarkwinds.com/img/cards/99.opt.png" />
+                      <h4 class="h">Princess Eleanor</h4>
+                      <p class="desc">One of the most feared captains of the Seven Seas, she is the heir of the great realm of Itova. After his father's dissapearance, she sails to capture his uncle, Dark Septus the Ruthless.</p>
+                   </div>
+                   <div class="col-3">
+                      <img src="https://corsarium.playdarkwinds.com/img/cards/22.opt.png" />
+                      <h4 class="h">Manuk, Smile of Steel</h4>
+                      <p class="desc">A minion of Dark Septus, he is responsible of guarding the Doors to the Forgotten Seas. His sadism made him a legend amongst merchant sailors.</p>
+                   </div>
                 </div>
-
-                <p>Darkwinds draws inspiration from the myths and realities that pirates faced on their journeys and taking it to the realms of fantasy, where numerous deities, human and non-human pirates, giant creatures and powerful artifacts and spells converge.</p>
-
-                <p>In this unruly landscape you must take on the role of Captain, gathering a crew that can face rival Captains that prowl around the Seven Seas, looking to become the most feared pirate in the world.</p>
-
-                <hr />
-
-                <p>Sailing inspires the main force in the game: Winds. There are four essential winds, North, South, East and West.</p>
-
-                
-                <div class="bonito2 row justify-content-around">
-                    <div class="col-2">
-                        <img src="img/guide/n.png" />
-                        <h4 class="windh">North Wind</h4>
-                        <p class="desc">Embodies the spirit of life and creation, the vital force that moves all creatures and pirates to fight for survival and the perpetuation of their own kin.</p>
-                    </div>
-
-                    <div class="col-2">
-                        <img src="img/guide/s.png" />
-                        <h4 class="windh">South Wind</h4>
-                        <p class="desc">Incarnates the spirit of death and destruction, the essence that drives the inhabitants of this world to long for death and unravel chaos.</p>
-                    </div>
-                    
-                    <div class="col-2">
-                        <img src="img/guide/e.png" />
-                        <h4 class="windh">East Wind</h4>
-                        <p class="desc">Epitomizes the spirit of nature and wilderness, contained in the creatures and living beings that feel part of the living world.</p>
-                    </div>  
-
-                    <div class="col-2">
-                        <img src="img/guide/w.png" />
-                        <h4 class="windh">West Wind</h4>
-                        <p class="desc">Manifests the spirit of magic and the unearthly, enclosed in those who defy the limits of nature and take course into the depths of the unknown.</p>
-                    </div>  
+             </div>
+             <p>Darkwinds draws inspiration from the myths and realities that pirates faced on their journeys and taking it to the realms of fantasy, where numerous deities, human and non-human pirates, giant creatures and powerful artifacts and spells converge.</p>
+             <p>In this unruly landscape you must take on the role of Captain, gathering a crew that can face rival Captains that prowl around the Seven Seas, looking to become the most feared pirate in the world.</p>
+             <hr />
+             <p>Sailing inspires the main force in the game: Winds. There are four essential winds, North, South, East and West.</p>
+             <div class="bonito2 row justify-content-around">
+                <div class="col-2">
+                   <img src="img/guide/n.png" />
+                   <h4 class="windh">North Wind</h4>
+                   <p class="desc">Embodies the spirit of life and creation, the vital force that moves all creatures and pirates to fight for survival and the perpetuation of their own kin.</p>
                 </div>
-
-                <p style="margin-top: 30px;">Not all cards are created equal. Half of the 100-card set appear more frequently, which makes the latter half rarer. A rarer card will most of the times be more powerful than its more frequent counterpart, and the characters depicted have a more important role in the game's lore.</p>
-                <div class="container">
-                    <div class="row justify-content-around imgcontainer">
-                        <div class="col-3">
-                            <img src="https://corsarium.playdarkwinds.com/img/cards/31.opt.png" />
-                            <h4 class="h">Dumbol, the dumb</h4>
-                            <p class="desc">Intelligence is not part of every pirate's arsenal.</p>
-                        </div>
-
-                        <div class="col-3">
-                            <img src="https://corsarium.playdarkwinds.com/img/cards/62.opt.png" />
-                            <h4 class="h">Kraken</h4>
-                            <p class="desc">A creature that believes that mankind does not belong on the seas.</p>
-                        </div>
-                    </div>
+                <div class="col-2">
+                   <img src="img/guide/s.png" />
+                   <h4 class="windh">South Wind</h4>
+                   <p class="desc">Incarnates the spirit of death and destruction, the essence that drives the inhabitants of this world to long for death and unravel chaos.</p>
                 </div>
-
-            </div>
-
-            <div id="chapter-2">
-                <h2>Building a Deck</h2>
-                <div class="bonito row justify-content-center align-items-center">
-                    <div class="col-2">
-                        <img src="img/guide/01.svg" />
-                    </div>
-                    <div class="col-1">
-                        <img src="img/guide/diamonds.svg" style="width:120px"/>
-                    </div>
-                    
-                    <div class="col-2">
-                        <img src="img/guide/02.svg" />
-                    </div>
-
-                    <div class="col-1">
-                        <img src="img/guide/diamonds.svg" style="width:120px"/>
-                    </div>
-                    
-                    
-                    <div class="col-2">
-                        <img src="img/guide/04.svg" />
-                    </div>
-                    <div class="row justify-content-center">
-                        <div class="col-8">
-                            <p style="text-align: center">To play the game, you need to build a deck with exactly 10 cards, which you can get buying booster packs from the store or by buying single cards from third parties such as <a href="https://opensea.io"><img src="img/guide/opensea.png" style="width:160px;"/></a>.</p>
-                        </div>
-                    </div>
+                <div class="col-2">
+                   <img src="img/guide/e.png" />
+                   <h4 class="windh">East Wind</h4>
+                   <p class="desc">Epitomizes the spirit of nature and wilderness, contained in the creatures and living beings that feel part of the living world.</p>
                 </div>
-            </div>
-
-            <div id="chapter-3">
-                <h2>Anatomy of a Card</h2>
-                <p>A card has the following elements: name, cost, wind, artwork, text, and if it is a buccaneer or creature it has damage and defense.</p>
-                <p>In order to play a card, you must pay its cost. This is called "hiring" when paying the cost for a Buccaneer or Creature, or "buying" when paying the cost for a Spell or Artifact.</p>
-            </div>
-
-            <div id="chapter-4">
-                <h2>The Game</h2>
+                <div class="col-2">
+                   <img src="img/guide/w.png" />
+                   <h4 class="windh">West Wind</h4>
+                   <p class="desc">Manifests the spirit of magic and the unearthly, enclosed in those who defy the limits of nature and take course into the depths of the unknown.</p>
+                </div>
+             </div>
+             <p style="margin-top: 30px;">Not all cards are created equal. Half of the 100-card set appear more frequently, which makes the latter half rarer. A rarer card will most of the times be more powerful than its more frequent counterpart, and the characters depicted have a more important role in the game's lore.</p>
+             <div class="container">
+                <div class="row justify-content-around imgcontainer">
+                   <div class="col-3">
+                      <img src="https://corsarium.playdarkwinds.com/img/cards/31.opt.png" />
+                      <h4 class="h">Dumbol, the dumb</h4>
+                      <p class="desc">Intelligence is not part of every pirate's arsenal.</p>
+                   </div>
+                   <div class="col-3">
+                      <img src="https://corsarium.playdarkwinds.com/img/cards/62.opt.png" />
+                      <h4 class="h">Kraken</h4>
+                      <p class="desc">A creature that believes that mankind does not belong on the seas.</p>
+                   </div>
+                </div>
+             </div>
+          </div>
+          <div id="chapter-2">
+             <h2>Building a Deck</h2>
+             <div class="bonito row justify-content-center align-items-center">
+                <div class="col-2">
+                   <img src="img/guide/01.svg" />
+                </div>
+                <div class="col-1">
+                   <img src="img/guide/diamonds.svg" style="width:120px"/>
+                </div>
+                <div class="col-2">
+                   <img src="img/guide/02.svg" />
+                </div>
+                <div class="col-1">
+                   <img src="img/guide/diamonds.svg" style="width:120px"/>
+                </div>
+                <div class="col-2">
+                   <img src="img/guide/04.svg" />
+                </div>
                 <div class="row justify-content-center">
-                    <iframe width="960" height="540" src="https://www.youtube-nocookie.com/embed/RvPno6GYxhI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                   <div class="col-8">
+                      <p style="text-align: center">To play the game, you need to build a deck with exactly 10 cards, which you can get buying booster packs from the store or by buying single cards from third parties such as <a href="https://opensea.io"><img src="img/guide/opensea.png" style="width:160px;"/></a>.</p>
+                   </div>
                 </div>
-                <p style="margin-top: 30px;">The game is played between two Captains that control a 10-card deck each. Captains take turns to draw a card from their deck, play cards (e.g. hiring a Buccaneer or buying a Spell) and then attack their rival or their rival's cards.</p>
-
-                <p>To hire or buy a card, you need to have sufficient money. You supply of money (called "bounty") increases each turn until it tops out at 5, except when the first turn of the game is played.</p>
-            </div>
-
-            <div id="chapter-5">
-                <h2>Card Types and Abilities</h2>
-                <div>
+             </div>
+          </div>
+          <div id="chapter-3">
+             <h2>Anatomy of a Card</h2>
+             <p>A card has the following elements: name, cost, wind, artwork, text, and if it is a buccaneer or creature it has damage and defense.</p>
+             <p>In order to play a card, you must pay its cost. This is called "hiring" when paying the cost for a Buccaneer or Creature, or "buying" when paying the cost for a Spell or Artifact.</p>
+          </div>
+          <div id="chapter-4">
+             <h2>The Game</h2>
+             <div class="row justify-content-center">
+                <iframe width="960" height="540" src="https://www.youtube-nocookie.com/embed/RvPno6GYxhI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+             </div>
+             <p style="margin-top: 30px;">The game is played between two Captains that control a 10-card deck each. Captains take turns to draw a card from their deck, play cards (e.g. hiring a Buccaneer or buying a Spell) and then attack their rival or their rival's cards.</p>
+             <p>To hire or buy a card, you need to have sufficient money. You supply of money (called "bounty") increases each turn until it tops out at 5, except when the first turn of the game is played.</p>
+          </div>
+          <div id="chapter-5">
+             <h2>Card Types and Abilities</h2>
+             <div>
                 <div id="types-abilities" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
+                   <ol class="carousel-indicators">
                       <li data-target="#types-abilities" data-slide-to="0" class="active"></li>
                       <li data-target="#types-abilities" data-slide-to="1"></li>
                       <li data-target="#types-abilities" data-slide-to="2"></li>
                       <li data-target="#types-abilities" data-slide-to="3"></li>
                       <li data-target="#types-abilities" data-slide-to="4"></li>
                       <li data-target="#types-abilities" data-slide-to="5"></li>
-                    </ol>
-                    <div class="carousel-inner">
+                   </ol>
+                   <div class="carousel-inner">
                       <div class="carousel-item active">
-                        <div class="row justify-content-center align-items-center">
+                         <div class="row justify-content-center align-items-center">
                             <div class="col-2 offset-2 dcard">
-                                <img src="https://corsarium.playdarkwinds.com/img/cards/93.opt.png" />
+                               <img src="https://corsarium.playdarkwinds.com/img/cards/93.opt.png" />
                             </div>
                             <div class="col-4">
-                                <h3 class="cardh">Blockade</h3>
-                                <p>When a buccaneer or creature has the <b>Blockade</b> ability, you cannot attack your rival directly. This means that in order to attack a rival that has a card with taunt on his board, you must kill this card first.</p>
+                               <h3 class="cardh">Blockade</h3>
+                               <p>When a buccaneer or creature has the <b>Blockade</b> ability, you cannot attack your rival directly. This means that in order to attack a rival that has a card with taunt on his board, you must kill this card first.</p>
                             </div>
-                        </div>
+                         </div>
                       </div>
                       <div class="carousel-item">
-                        <div class="row justify-content-center align-items-center">
+                         <div class="row justify-content-center align-items-center">
                             <div class="col-2 offset-2 dcard">
-                                <img src="https://corsarium.playdarkwinds.com/img/cards/9.opt.png" />
+                               <img src="https://corsarium.playdarkwinds.com/img/cards/9.opt.png" />
                             </div>
                             <div class="col-4">
-                                <h3 class="cardh">Raid</h3>
-                                <p>When a buccaneer or creature has the <b>Raid</b> ability, that card can attack the same turn it was played.</p>
+                               <h3 class="cardh">Raid</h3>
+                               <p>When a buccaneer or creature has the <b>Raid</b> ability, that card can attack the same turn it was played.</p>
                             </div>
-                        </div>
+                         </div>
                       </div>
                       <div class="carousel-item">
-                        <div class="row justify-content-center align-items-center">
+                         <div class="row justify-content-center align-items-center">
                             <div class="col-2 dcard" style="margin-left: 71px;">
-                                <img src="https://corsarium.playdarkwinds.com/img/cards/78.opt.png" />
+                               <img src="https://corsarium.playdarkwinds.com/img/cards/78.opt.png" />
                             </div>
                             <div class="col-2 dcard">
-                                <img src="https://corsarium.playdarkwinds.com/img/cards/66.opt.png" />
+                               <img src="https://corsarium.playdarkwinds.com/img/cards/66.opt.png" />
                             </div>
                             <div class="col-4">
-                                <h3 class="cardh">Assault</h3>
-                                <p>When a card has the assault ability, it can deal damage to any enemy card or the rival captain, bypassing any active taunt ability.</p>
-                                <p>If the ability has the 'target' keyword, you will need to select a valid target for the effect to occur. If not, the effect happens automatically.</p>
+                               <h3 class="cardh">Assault</h3>
+                               <p>When a card has the assault ability, it can deal damage to any enemy card or the rival captain, bypassing any active taunt ability.</p>
+                               <p>If the ability has the 'target' keyword, you will need to select a valid target for the effect to occur. If not, the effect happens automatically.</p>
                             </div>
-                        </div>
+                         </div>
                       </div>
                       <div class="carousel-item">
-                        <div class="row justify-content-center align-items-center">
+                         <div class="row justify-content-center align-items-center">
                             <div class="col-2 dcard" style="margin-left: 71px;">
-                                <img src="https://corsarium.playdarkwinds.com/img/cards/75.opt.png" />
+                               <img src="https://corsarium.playdarkwinds.com/img/cards/75.opt.png" />
                             </div>
                             <div class="col-2 dcard">
-                                <img src="https://corsarium.playdarkwinds.com/img/cards/51.opt.png" />
+                               <img src="https://corsarium.playdarkwinds.com/img/cards/51.opt.png" />
                             </div>
                             <div class="col-4">
-                                <h3 class="cardh">Cure</h3>
-                                <p>When a card has the <b>Cure</b> ability, it can cure a friendly card or yourself.</p>
-                                <p>If the ability has the 'target' keyword, you will need to select a valid target for the effect to occur. If not, the effect happens automatically.</p>
+                               <h3 class="cardh">Cure</h3>
+                               <p>When a card has the <b>Cure</b> ability, it can cure a friendly card or yourself.</p>
+                               <p>If the ability has the 'target' keyword, you will need to select a valid target for the effect to occur. If not, the effect happens automatically.</p>
                             </div>
-                        </div>
+                         </div>
                       </div>
                       <div class="carousel-item">
-                        <div class="row justify-content-center align-items-center">
+                         <div class="row justify-content-center align-items-center">
                             <div class="col-2 offset-2 dcard">
-                                <img src="https://corsarium.playdarkwinds.com/img/cards/59.opt.png" />
+                               <img src="https://corsarium.playdarkwinds.com/img/cards/59.opt.png" />
                             </div>
                             <div class="col-4">
-                                <h3 class="cardh">Gather</h3>
-                                <p>When a buccaneer or creature has the <b>Gather</b> ability, it summons the card stated on the ability directly into play like it was played from your hand.</p>
+                               <h3 class="cardh">Gather</h3>
+                               <p>When a buccaneer or creature has the <b>Gather</b> ability, it summons the card stated on the ability directly into play like it was played from your hand.</p>
                             </div>
-                        </div>
+                         </div>
                       </div>
                       <div class="carousel-item">
-                        <div class="row justify-content-center align-items-center">
+                         <div class="row justify-content-center align-items-center">
                             <div class="col-2 offset-2 dcard">
-                                <img src="https://corsarium.playdarkwinds.com/img/cards/34.opt.png" />
+                               <img src="https://corsarium.playdarkwinds.com/img/cards/34.opt.png" />
                             </div>
                             <div class="col-4">
-                                <h3 class="cardh">Requires</h3>
-                                <p>When a buccaneer or creature has the <b>Requires</b> ability, you cannot play it unless you comply with the abilities requirement.</p>
+                               <h3 class="cardh">Requires</h3>
+                               <p>When a buccaneer or creature has the <b>Requires</b> ability, you cannot play it unless you comply with the abilities requirement.</p>
                             </div>
-                        </div>
+                         </div>
                       </div>
-                    </div>
-                    <a class="carousel-control-prev" href="#types-abilities" role="button" data-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#types-abilities" role="button" data-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="sr-only">Next</span>
-                    </a>
-                  </div>
+                   </div>
+                   <a class="carousel-control-prev" href="#types-abilities" role="button" data-slide="prev">
+                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                   <span class="sr-only">Previous</span>
+                   </a>
+                   <a class="carousel-control-next" href="#types-abilities" role="button" data-slide="next">
+                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                   <span class="sr-only">Next</span>
+                   </a>
                 </div>
-
-
-                
-            </div>
-            <div id="chapter-6">
-
-                <h2>Frequently Asked Questions</h2>
-
-                <h3>How many types of cards exist?</h3>
-                <p>In this first edition of Darkwinds, there are 1.000.000.  You can explore them and know their capabilities visiting the <a href="https://corsarium.playdarkwinds.com/cards/all">Card Explorer.</a></p>
-                <h3>What is a cryptocollectible?</h3>
-                <p>To play Darkwinds, you must acquire cards. These cards are crypto collectibles. It means that every single card has a value in Ethereum.  It makes every card a token with a value. It gives you the possibility to play and to trade them inside or outside Darkwinds, as you will be using the Ethereum Blockchain. 
-                </p>
-                <h3>How are cards generated?</h3>
-    
-                <p>To buy new cards, you must make a smart contract transaction called 'treasure chest'. An amount of random cards will be generated and will be revealed to you after it runs in the blockchain. </p>
-                
-                
-                <h3 id="thebattle">The battle</h4>
-                <p>The battle occurs on a table inside a pirate ship, where you are in the bottom and your opponent in the top.  You can see your hand and your deck of cards, and you can’t see your opponent’s hand, but his deck. 
-                </p>
-                <p>There are three categories of battles: Tutorial, Quick match and Ranked. 
-                </p>
-                
-                
-                <h3 id="chapter-2">How can I start playing Darkwinds?</h3>
-                <p>To play Darkwinds you must buy cards in our store with Ethereum.  Below you will find the steps. </p>
-                
-                <h3>What are the system requirements for Darkwinds?</h3>
-                <p>You can play on Windows, MacOS and Linux with your browser and the Metamask extension.</p>
-                <p>MetaMask allows you to run websites with Ethereum in your browser. Install it ONLY through its official website <a target="_blank" href="https://metamask.io/">here</a>.</p>
-                
-                <h3>How are my Darkwinds cards secured?</h3>
-                <p>The Metamask extension generates a private key locally on your computer and it's stored secret with your Password. This means you are the only one with access to them. Users are responsible for backup of their wallets.</p>
-                <p>Thankfully, Metamask wallets are easy to back-up with a mnemonic recovery phase. Remember to save your mnemonic somewhere safe. We are not responsible for losts, neither MetaMask. </p>
-                
-                
+             </div>
+          </div>
+          <div id="chapter-6">
+             <h2>Frequently Asked Questions</h2>
+             <h3 class="h">What is a cryptocollectible?</h3>
+             <p>To play Darkwinds, you must acquire cards. These cards are crypto collectibles. It means that every single card has a value in Ethereum.  It makes every card a token with a value. It gives you the possibility to play and to trade them inside or outside Darkwinds, as you will be using the Ethereum Blockchain. 
+             </p>
+             <br>
+             <h3 class="h">How many types of cards exist?</h3>
+             <p>In this first edition of Darkwinds, there are 1.000.000.  You can explore them and know their capabilities visiting the <a href="https://corsarium.playdarkwinds.com/cards/all">Card Explorer.</a></p>
+             <br>
+             <h3 class="h">How are cards generated?</h3>
+             <p>To buy new cards, you must make a smart contract transaction called 'treasure chest'. An amount of random cards will be generated and will be revealed to you after it runs in the blockchain. </p>
+             <br>
+             <h3 class="h">How can I start playing Darkwinds?</h3>
+             <p>To play Darkwinds you must buy cards in our store with Ethereum.  Below you will find the steps. </p>
+             <br>
+             <h3 class="h">What are the system requirements for Darkwinds?</h3>
+             <p>You can play on Windows, MacOS and Linux with your browser and the Metamask extension.</p>
+             <p>MetaMask allows you to run websites with Ethereum in your browser. Install it ONLY through its official website <a target="_blank" href="https://metamask.io/">here</a>.</p>
+             <br>
+             <h3 class="h">How are my Darkwinds cards secured?</h3>
+             <p>The Metamask extension generates a private key locally on your computer and it's stored secret with your Password. This means you are the only one with access to them. Users are responsible for backup of their wallets.</p>
+             <p>Thankfully, Metamask wallets are easy to back-up with a mnemonic recovery phase. Remember to save your mnemonic somewhere safe. We are not responsible for losts, neither MetaMask. </p>
+             <br>
              
-                
-                <h3>How do I get ETH?</h3>
-                <p>In case you don’t have ETH, we suggest you to acquire some through <a href="https://www.coinbase.com">Coinbase</a> or <a href="https://www.poloniex.com">Poloniex</a>. If you are in South America, we suggest <a href="http://www.buda.com">Buda.com</a> 
-
-                
-                <h3 id="balance">Check your balance</h4>
-                <p>If you already transferred ETH to you MetaMask wallet, check your balance. MetaMask will appear in your browser.  If you have at least 0.01 Ethereum you are ready.</p>
-                
-                <img src="/img/guide/check-balance.png"/>
-                
-                <h3 id="chapter-3">Getting started</h3>
-                <h3 id="setup-metamask">Set up MetaMask </h4>
-                <p>After the installation, make sure you are in the Main Ethereum Network. </p>
-                
-                <h3 id="username">Choose your name </h4>
-                <p>In your 1st time visiting Play now, the page will ask you for a nickname only once. This name will be visible to your opponents.  If you already did all of the previous steps and you want to set you nickname, visit this <a href="https://playdarkwinds.com/matchmaking">link.</a></p>
-                
-                <h3 id="buy-cards">Buy cards </h4>
-                <p>Visit Get cards and purchase one of the three products.  If you click one of the three “buy” buttons, a MetaMask window will open, showing the information of the transaction that you are about to make.</p>
-                
-                <p>It will only be done if you press SUBMIT.  If you don’t want to buy press REJECT. </p>
-                <p>You can’t decide which cards buy, they will reveal after your purchase in your Card book link.</p>     
-                
-                <img src="/img/guide/buy-cards.png"/>
-                
-                <h3 id="my-cards">My cards </h4>
-                <p>Check your purchased cards in the Card book link in the main navigation. Here are all of your cards in your book and in your deck.</p> 
-                
-                <h3 id="my-deck">My deck </h4>
-                <p>You must build a Deck to battle an opponent.  Visit your Card book, select a card and press “Add to deck”.  After that, they will appear in Deck.  Now you’re ready to fight to control the Darkwinds. </p> 
-                
-                <img src="/img/guide/move-to-deck.png"/>
-                
-                
-                <h3 id="chapter-4">Match categories </h3>
-                <p>There are three match categories in <a href="https://playdarkwinds.com/matchmaking">Play Now</a></p>
-                
-                <h3 id="tutorial">Tutorial</h4>
-                <p>Here you’ll learn to play against a bot.  If you win, you won’t earn points for the ranking. </p>
-                
-                <h3 id="quick">Quick match </h4>
-                <p>Here you’ll fight against another pirate. This is really good to start creating your strategies. </p>
-                
-                <h3 id="ranked">Ranked </h4>
-                <p>Here you fight against a pirate, and the winner will appear in the ranking. Only the bests are in the higher places! </p>
-                
-                <h3 id="chapter-5">Game rules</h3>
-                <p>Darkwinds is really simple to learn, but hard to master.  These are the rules that you must follow: </p>
-                
-                <h3 id="cards">Cards</h4>
-                <p>You need at least 10 cards in your deck.  We suggest you to have more cards, so you can build up your strategy. </p>
-                <p>Every card has a ribbon with 2 numbers separated with a “/”. The left number is the amount of damage, and the right number is the amount of life</p>
-                
-                <h3 id="life-points">Life points</h4>
-                <p>Players and cards have points of life.  </p>
-                
-                <h3 id="players">Players</h4>
-                <p>Every player has 10 points of life, shaped as black hearts. If your opponent attacks you with 2 points of damage, you will have 8 black hearts and 2 outlined hearts.</p>
-                
-                <h3 id="credits">Credits</h4>
-                <p>To put your cards to fight, you must pay its price. It appears in the upper right corner of each card. It goes from 1 to 5.  There are only 5 credits shaped as anchors.  </p>
-                
-                <p>First round starts with 1 anchor, second round with anchors and so on. 5 is the limit.  You must be wise to use them because they are limited. </p>
-                
-                <h3 id="chapter-6">Trading</h3>
-                <p>As we previously said, every card is a crypto collectible, it makes every one of them an ETH token, which mean that you will soon be able to trade them in these modes: </p>
-                
-                <h4 a id="buy-trade">Buy</h4>
-                <p>In addition to buying cards from the game store in Booster packs, you can acquire a specific card through any Cryptocollectible marketplace, such as <a href="https://opensea.io/category/darkwinds">OpenSea</a></p>
-                
-                <h4 a id="transfer-trade">Transfer</h4>
-                <p>If you have a friend that plays Darkwinds and you want to make him/her a gift, you can ask for their ETH address and transfer a card.  This feature is still under construction and we will let you know when ready. </p>
-                
-                <h4 a id="sell-trade">Sell</h4>
-                <p>We are working in a marketplace that will gives players the opportunity to sell their cards in case you don’t want them anymore. </p>
-            </div>
-            </div>
-        </div>
+             <h3 class="h">How do I get ETH?</h3>
+             <p>In case you don’t have ETH, we suggest you to acquire some through <a href="https://www.coinbase.com">Coinbase</a> or <a href="https://www.poloniex.com">Poloniex</a>. If you are in South America, we suggest <a href="http://www.buda.com">Buda.com</a></p>
+             <br>
+             <h3 class="h">Where can I check my ETH balance?</h3>
+             <p>If you already transferred ETH to you MetaMask wallet, check your balance. MetaMask will appear in your browser.  If you have at least 0.01 Ethereum you are ready.</p>
+             <div class="img-tutorial"><img src="/img/guide/check-balance.png"/></div>
+             <br>
+             <h3 class="h">How can I know that I am in the right ETH network?</h3>
+             <p>After the installation, make sure you are in the Main Ethereum Network. </p>
+             <br>
+             <h3 class="h">Can I have a nickname?</h3>
+             <p>In your 1st time visiting Play now, the page will ask you for a nickname only once. This name will be visible to your opponents.  If you already did all of the previous steps and you want to set you nickname, visit this <a href="https://playdarkwinds.com/matchmaking">link.</a></p>
+             
+             <br>
+             <h3 class="h">How can I buy cards?</h3>
+             <p>Visit Get cards and purchase one of the three products.  If you click one of the three “buy” buttons, a MetaMask window will open, showing the information of the transaction that you are about to make.</p>
+             <p>It will only be done if you press SUBMIT.  If you don’t want to buy press REJECT. </p>
+             <p>You can’t decide which cards buy, they will reveal after your purchase in your Card book link.</p>
+             <div class="img-tutorial"><img src="/img/guide/buy-cards.png"/></div>
+             <br>
+             <h3 class="h">Where is my deck?</h3>
+             <p>Check your purchased cards in the Card book link in the main navigation. Here are all of your cards in your book and in your deck.</p>
+             <p>You must build a Deck to battle an opponent.  Visit your Card book, select a card and drag it to the center of the page.  You can add up to 10 cards to your deck. 
+                Now you’re ready to fight to control the Darkwinds. </p>
+             <div class="img-tutorial"><img src="/img/guide/move-to-deck.png"/></div>
+             <br>
+             <h3 class="h">What are the differences between Tutorial, Quick match & Ranked?</h3>
+             <p>There are three match categories in <a href="https://playdarkwinds.com/matchmaking">Play Now</a></p>
+             <p>In Tutorial you’ll learn to play against a bot.  If you win, you won’t earn points for the ranking. </p>
+             <p>In Quick Match you’ll fight against another pirate. This is really good to start creating your strategies. </p>
+             <p>In Ranked you fight against a pirate, and the winner will appear in the ranking. Only the bests are in the higher places! </p>
+             <br>
+             <h3 class="h">Are rules hard?</h3>
+             <p>Darkwinds is really simple to learn, but hard to master.  These are the rules that you must follow: </p>
+             <br>
+             <h3 class="h">How many cards should I own to be able to play?</h3>
+             <p>You need at least 10 cards in your deck.  We suggest you to have more cards, so you can build up your strategy. </p>
+             <p>Every card has a ribbon with 2 numbers separated with a “/”. The left number is the amount of damage, and the right number is the amount of life</p>
+             <br>
+             <h3 class="h">Tell me how to make my cards fight...</h3>
+             <p>Players and cards have points of life.  </p>
+             <p>Every player has 10 points of life, shaped as black hearts. If your opponent attacks you with 2 points of damage, you will have 8 black hearts and 2 outlined hearts.</p>
+             <p>To put your cards to fight, you must pay its price. It appears in the upper right corner of each card. It goes from 1 to 5.  There are only 5 credits shaped as anchors.  </p>
+             <p>First round starts with 1 anchor, second round with anchors and so on. 5 is the limit.  You must be wise to use them because they are limited. </p>
+             <br>
+             <h3 class="h">How can I buy specific cards?</h3>
+             <p>In addition to buying cards from the game store in Booster packs, you can acquire a specific card through any Cryptocollectible marketplace, such as <a href="https://opensea.io/category/darkwinds">OpenSea</a></p>
+             <br>
+             <h3 class="h">Can I trade my cards?</h3>
+             <p>As we previously said, every card is a crypto collectible, it makes every one of them an ETH token, which mean that you will soon be able to trade them in these modes: </p>
+             <p>If you have a friend that plays Darkwinds and you want to make him/her a gift, you can ask for their ETH address and transfer a card.  This feature is still under construction and we will let you know when ready. </p>
+             <p>We are working in a marketplace that will gives players the opportunity to sell their cards in case you don’t want them anymore. </p>
+          </div>
+       </div>
     </div>
-</div>
+ </div>
+ </div>
+ </div>
+ 
+ 
