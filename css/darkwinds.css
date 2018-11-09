@@ -275,15 +275,7 @@ header h1 {
     border:0;
     text-align: left;
 }
-#welcome-logo {
-    margin-top:64px;
-    margin-bottom:64px;
-    position: absolute;
-    z-index:0;
-    left:0;
-    right:0;
-    top:0;
-}
+
 #bg-image {
     background: url(/img/bg/storm.jpg);
     background-repeat: no-repeat;
@@ -1190,16 +1182,28 @@ footer img {
 #rankings {
     margin-top:72px;
 }
-#title-screen img {
-    width:80%;
-    max-width:800px;
+#canvas {
+    /*background:url(/img/landing/king.png) no-repeat; */
+    background-size: contain;
+    background-position: right; 
+    width: 100%;
+    
 }
+#canvas img {
+}
+
 #title-screen {
     text-align: center;
     width:100%;
     padding-bottom:64px;
     padding-bottom:128px;
+    background-image:url(/img/landing/king.png);
+    background-position: right -100% top;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    max-height: 700px;
 }
+
 #title-screen h1 {
     font-size:20px;
     text-transform: uppercase;
@@ -1378,7 +1382,6 @@ em {
   }
 
   img {
-    width: 100%;
     text-align: center !important;
     margin-left: auto;
     margin-right: auto;
