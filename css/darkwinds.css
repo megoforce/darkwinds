@@ -1198,10 +1198,9 @@ footer img {
     padding-bottom:64px;
     padding-bottom:128px;
     background-image:url(/img/landing/king.png);
-    background-position: right -100% top;
+    background-position: right -130% top;
     background-repeat: no-repeat;
-    background-size: 70%;
-    max-height: 700px;
+    background-size: 75%;
 }
 
 #title-screen h1 {

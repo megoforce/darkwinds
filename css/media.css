@@ -12,6 +12,7 @@
         text-align: right;
     } 
     
+    
 
 }
 
@@ -43,25 +44,31 @@
     #book-search {
         width:500px;
     }
-    #title-screen {
-        height: 700px;
-    }       
+           
  }
 
 @media (min-width: 1200px) { 
     #book-search {
         width:600px;
     }
-       
  }
 
  @media (max-width:629px) {
     #title-screen {
         background-image: none; 
+        max-height: 300px;
     }
     #title-screen img{
         min-width: 300px;
-    } 
-    #canvas {
     }
+    #landing-header img {
+        display: none;
+        width: 40%;
+    }
+    #header-left {
+        text-align: center !important;
+    }   
+    #header-right {
+        text-align: center;
+    }  
   } 
