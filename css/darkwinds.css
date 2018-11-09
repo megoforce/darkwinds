@@ -59,31 +59,30 @@ th {
 }
 h2,h3,h4,h5,h6 {
     color:#EEE;
-    font-size:20px;
-    font-family: 'Quando', serif;
+
     
 }
+h1, h2, h3 {
+    font-family: broadsheet;
+}
+
 h1 {
-    font-weight: medium;
-    font-size: 40px;
+    font-size: 50px;
     color: rgb(61, 61, 61);
     margin-bottom:15px;
+    text-transform: uppercase;
 }
 h2 {
-    font-weight: medium;
     font-size: 45px;
     padding-top: 20px;
     padding-bottom:25px;
-    font-family: broadsheet;
     text-transform: uppercase;
     letter-spacing: 5px;
 }
 h3 {
-    font-weight: regular;
     font-size: 24px;
 }
 h4 {
-    font-weight: regular;
     font-size: 18px;
 }
 h5 {
@@ -93,7 +92,7 @@ h5 {
 }
 h6 {
     font-size: 8px;
-    font-family: sans-serif;
+    font-family: 'Quando', serif;
 }
 blockquote {
     quotes: "“" "”" "‘" "’";
@@ -654,6 +653,7 @@ table p {
 }
 img {
     text-align: center;
+    max-width: 100%; 
 }
 /*links*/
 a, a:hover {
@@ -1219,18 +1219,7 @@ footer img {
 
 
 
-#entries {
-    padding-bottom:15px;
-}
 
-#entries p {
-    color:rgba(255, 255, 255, 0.329);
-    margin-top:-10px !important;
-}
-
-#entries a {
-    color: rgb(253, 253, 253);
-}
 
 
 #article-content a{
@@ -1456,3 +1445,52 @@ em {
     width: 80%;
 }
 
+
+
+/*BLOG*/
+#blog-container {
+    text-align: center;
+}
+
+#blog-container h2 {
+    color:black !important;
+    margin:auto;
+    margin-bottom:50px;
+}
+
+#entries {
+    padding-bottom:15px;
+}
+
+#entries p {
+    color:rgba(255, 255, 255, 0.329);
+    margin-top:-10px !important;
+}
+
+#entries a {
+    color: rgb(253, 253, 253);
+}
+
+#single-entrie {
+    line-height: 0.5em;
+    margin:auto;
+    display: inline-grid;
+    text-align: center;
+    width: 300px;
+    margin-left:20px;
+    margin-right:20px;
+    margin-bottom:20px;
+}
+
+#blog-thumbnail {
+    width:300px;
+    height:270px;
+    background-size: 172%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: -4em;
+}
+
+#entrie-span {
+    margin-top:10px;
+}

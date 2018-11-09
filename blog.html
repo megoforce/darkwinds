@@ -1,15 +1,14 @@
 ---
 layout: default
 ---
-
 <style>
     body {
-        background-image:url(/img/landing/piratabg01.png);
-        background-position-x: 400px;
+        /*background-image:url(/img/landing/piratabg01.png);*/
+        /* background-position-x: 400px;
         background-repeat: no-repeat;
-        background-size: 90%;
-        min-height: 800px;
-        text-align: left !important;
+        background-size: 90%; */
+        min-height: 1000px;
+       
     }
 
     #entries-list a {
@@ -18,18 +17,21 @@ layout: default
     }
 
 </style>
-<div>
-</div>
-    <div class="container">
-        <div class="row">
-            <h1>Blog</h1>
-        </div>
-     <div class="row">        
-            <div class="col" id="entries-list">
-                    {% for post in site.posts %}                    
-                    <span>{{ post.date | date: "%B %e, %Y" }}. Category: {{ post.categories }}<a href="http://erjjones.github.com{{ post.url }}#disqus_thread"></a></span>			
-                    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-                    {% endfor %}                    
-            </div>            
-     </div>
+
+
+<div class="container" id="blog-container">
+    <div class="row">
+        <h2 id="blog-title">Blog</h2>
     </div>
+    <div class="row">        
+        <div class="col" id="entries-list">
+            {% for post in site.posts %}                    
+            <div id="single-entrie">
+                <div id="blog-thumbnail" style="background-image: url('{{ post.thumbnail }}');"></div>
+                <span id="entrie-span">{{ post.date | date: "%B %e, %Y" }}. Category: {{ post.categories }}<a href="http://erjjones.github.com{{ post.url }}#disqus_thread"></a></span>			
+                <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+            </div>
+            {% endfor %}                    
+        </div>            
+    </div>
+</div>

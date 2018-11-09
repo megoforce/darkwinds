@@ -3,7 +3,7 @@ layout: post
 title:  "Making pirate faces of Ethereum addresses"
 date:   2018-08-27 10:00:00 -0400
 categories: Art
-thumbnail: "https://playdarkwinds.com/img/posts/players-screen-pirates.png.PNG"
+thumbnail: "http://localhost:4000/img/posts/pirate-faces.png"
 excerpt: "Making pirate faces of Ethereum addresses"
 featured_image: "https://playdarkwinds.com/img/posts/players-screen-pirates.png.PNG"
 

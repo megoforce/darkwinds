@@ -3,7 +3,7 @@ layout: post
 title:  "Matchmaking"
 date:   2018-09-27 14:00:00 -0400
 categories: Engineering
-thumbnail: "https://playdarkwinds.com/img/posts/art03.jpeg"
+thumbnail: "https://playdarkwinds.com/img/posts/darkwinds-pirate.jpg"
 excerpt: "Matchmaking"
 featured_image: "https://playdarkwinds.com/img/posts/darkwinds-pirate.jpg"
 
