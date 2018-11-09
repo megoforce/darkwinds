@@ -14,7 +14,6 @@ p {
     font-kerning:normal;
     text-align: left;
 }
-
 .carousel-item {
     height: 450px;
 }
@@ -24,26 +23,22 @@ p + p {
     margin-top: 20px;
 }
 
-
-
 h3 {
+    font-size: 35px;
     padding-bottom:10px;
+    text-align: center;
+    font-family: broadsheet;
+    color: black;
+}
+
+h4 {
+    font-size: 24px;
 }
 
 body {
     background-color:black;
 }
-#content h2 {
-    font-size: 45px;
-    line-height: 40px;
-    margin-top: 60px;
-    margin-bottom: 20px;
-}
-#content h2, .h {
-    color: #333;
-    text-align: center;
-    font-weight:600;
-}
+
 .cardh {
     margin-top: 10px;
     text-align: left;
@@ -73,7 +68,7 @@ img {
 
     width: 40%;
 }
-div[id^="chapter-"] {
+div[id^="slide-game-"] {
     margin-bottom: 30px;
 }
 .imgcontainer {
@@ -83,26 +78,6 @@ div[id^="chapter-"] {
     font-size: 11pt;
     line-height: 17pt;
 }
-.bonito {
-    clip-path: polygon(0 0, 100% 13%, 100% 100%, 0 85%);
-    color: #eee;
-    padding: 100px;
-    background-image: url('img/landing/slide-2.png');
-}
-
-.bonito2 {
-    clip-path: polygon(0 10%, 100% 8%, 100% 100%, 0 96%);
-    color: #eee;
-    padding: 100px;
-    background-image: url('img/landing/slide-2.png');
-}
-.bonito p {
-    color: #eee;
-}
-.bonito2 p, .windh {
-    color: #eee;
-}
-
 .windh {
     text-align: center;
 }
@@ -141,19 +116,17 @@ a {
 
 </style>
 
-
-
 <div id="content" class="container-fluid" style="padding:0">
     <div class="row justify-content-center">
        <div class="col-12">
           <div id="chapter-1">
-             <h2 style="padding-bottom:0; margin-top: 15px">Introducing</h2>
+             <h2 class="h" style="padding-bottom:0; margin-top: 15px">Introducing</h2>
              <img style="display: block;width:40%;padding:0;margin-bottom:30px;" src="img/logo/vertical_black.png" />
              <p>Darkwinds is an Online Collectible Card Game, that uses the Ethereum blockchain for card distribution and storage.</p>
              <hr />
              <p>Like other card games, Darkwinds is half competitive game, and half collectible game. While some players might want to buy and trade cards to complete their collection, others will build a competitive playing deck in order to become the best Darkwinds player!</p>
              <div class="container">
-                <div class="row justify-content-around imgcontainer">
+                <div class="row justify-content-around imgcontainer" id="slide-game-1">
                    <div class="col-3">
                       <img src="https://corsarium.playdarkwinds.com/img/cards/76.opt.png" />
                       <h4 class="h">Winston Winddodger</h4>
@@ -175,7 +148,8 @@ a {
              <p>In this unruly landscape you must take on the role of Captain, gathering a crew that can face rival Captains that prowl around the Seven Seas, looking to become the most feared pirate in the world.</p>
              <hr />
              <p>Sailing inspires the main force in the game: Winds. There are four essential winds, North, South, East and West.</p>
-             <div class="bonito2 row justify-content-around">
+             
+             <div class="row justify-content-around" id="slide-game-2">
                 <div class="col-2">
                    <img src="img/guide/n.png" />
                    <h4 class="windh">North Wind</h4>
@@ -198,7 +172,8 @@ a {
                 </div>
              </div>
              <p style="margin-top: 30px;">Not all cards are created equal. Half of the 100-card set appear more frequently, which makes the latter half rarer. A rarer card will most of the times be more powerful than its more frequent counterpart, and the characters depicted have a more important role in the game's lore.</p>
-             <div class="container">
+             
+             <div class="container" id="slide-game-03">
                 <div class="row justify-content-around imgcontainer">
                    <div class="col-3">
                       <img src="https://corsarium.playdarkwinds.com/img/cards/31.opt.png" />
@@ -213,9 +188,10 @@ a {
                 </div>
              </div>
           </div>
-          <div id="chapter-2">
-             <h2>Building a Deck</h2>
-             <div class="bonito row justify-content-center align-items-center">
+
+          <div id="slide-game-3">
+             <h2 class="h">Building a Deck</h2>
+             <div class="row justify-content-center align-items-center">
                 <div class="col-2">
                    <img src="img/guide/01.svg" />
                 </div>
@@ -238,21 +214,22 @@ a {
                 </div>
              </div>
           </div>
-          <div id="chapter-3">
-             <h2>Anatomy of a Card</h2>
+
+          <div id="slide-game-4">
+             <h2 class="h">Anatomy of a Card</h2>
              <p>A card has the following elements: name, cost, wind, artwork, text, and if it is a buccaneer or creature it has damage and defense.</p>
              <p>In order to play a card, you must pay its cost. This is called "hiring" when paying the cost for a Buccaneer or Creature, or "buying" when paying the cost for a Spell or Artifact.</p>
           </div>
-          <div id="chapter-4">
-             <h2>The Game</h2>
+          <div id="slide-game-5">
+             <h2 class="h">The Game</h2>
              <div class="row justify-content-center">
                 <iframe width="960" height="540" src="https://www.youtube-nocookie.com/embed/RvPno6GYxhI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
              </div>
              <p style="margin-top: 30px;">The game is played between two Captains that control a 10-card deck each. Captains take turns to draw a card from their deck, play cards (e.g. hiring a Buccaneer or buying a Spell) and then attack their rival or their rival's cards.</p>
              <p>To hire or buy a card, you need to have sufficient money. You supply of money (called "bounty") increases each turn until it tops out at 5, except when the first turn of the game is played.</p>
           </div>
-          <div id="chapter-5">
-             <h2>Card Types and Abilities</h2>
+          <div id="slide-game-5">
+            <h2 class="h">Card Types and Abilities</h2>
              <div>
                 <div id="types-abilities" class="carousel slide" data-ride="carousel">
                    <ol class="carousel-indicators">
@@ -350,8 +327,8 @@ a {
                 </div>
              </div>
           </div>
-          <div id="chapter-6">
-             <h2>Frequently Asked Questions</h2>
+          <div id="slide-game-6">
+            <h2 class="h">Frequently Asked Questions</h2>
              <h3 class="h">What is a cryptocollectible?</h3>
              <p>To play Darkwinds, you must acquire cards. These cards are crypto collectibles. It means that every single card has a value in Ethereum.  It makes every card a token with a value. It gives you the possibility to play and to trade them inside or outside Darkwinds, as you will be using the Ethereum Blockchain. 
              </p>
