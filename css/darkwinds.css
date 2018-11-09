@@ -23,9 +23,7 @@ html {
 }
 body {
     color:black;
-    /* background-color:white; */
     background-image:url(/img/landing/white-txt.png);
-
     font-family: 'Quando', serif;
     overflow: hidden;
     margin: 0 0 330px; /* bottom = footer height */
