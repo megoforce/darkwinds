@@ -1,124 +1,153 @@
+p {
+    font-size: 15px;
+    color: rgb(61, 61, 61);
+}
+h1 {
+    color: rgb(61, 61, 61);
+}
+em {
+    color:rgba(44, 44, 44, 0.795);
+    text-align: center;
+}
+img {
+    text-align: center !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+blockquote {
+    padding:50px 20px 30px 30px !important;
+    max-width: 630px;
+    margin-left: auto;
+    margin-right: auto;
+}
+blockquote p {
+    font-size: 25px;
+}
+#title-screen img {
+    width: 70%;
+}
+#welcome-logo {
+    margin-top:64px;
+    margin-bottom:64px;
+    position: absolute;
+    z-index:2;
+    left:0;
+    right:0;
+    top:0;
+    padding:100px;
+    max-width: 900px;
+}
 
-    p {
-        font-size: 15px;
-        color: rgb(61, 61, 61);
-      }
-  
-      h1 {
-        color: rgb(61, 61, 61);
-      }
-  
-      em {
-        color:rgba(44, 44, 44, 0.795);
-        text-align: center;
-      }
-  
-      img {
-        width: 49%;
-        text-align: center !important;
-        margin-left: auto;
-        margin-right: auto;
-      }
-  
-  
-      blockquote {
-        padding:50px 20px 30px 30px !important;
-        max-width: 630px;
-        margin-left: auto;
-        margin-right: auto;
-      }
-      
-      blockquote p {
-        font-size: 25px;
-      }
-      #slide-1 {
-        text-align: center;
-        color:#111;
-        background-image:url(/img/landing/white-txt.png);
-        margin-top:-64px;
-        padding-top:64px;
-        -webkit-clip-path: polygon(0 6%, 39% 5%, 100% 1%, 100% 26%, 100% 98%, 10% 97%, 0% 96%);
-        clip-path: polygon(0 6%, 39% 5%, 100% 1%, 100% 26%, 100% 98%, 10% 97%, 0% 96%);
-        padding-bottom:128px;
-    }
-    #slide-1 h2 {
-        text-align: center;
-        color:#111;
-    }
-    #slide-1 h3 {
-        text-align: center;
-        color:#111;
-    }
-    #slide-2 {
-        -webkit-clip-path: polygon(0 0, 100% 3%, 100% 100%, 0 98%);
-        clip-path: polygon(0 0, 100% 3%, 100% 100%, 0 98%);
-        /* background-color:#8b0000; */
-        background:url(/img/bg/storm4.png) no-repeat center center;
-        padding-top: 64px;
-        margin-top: -64px;
-        margin-bottom:-150px;
-        padding-bottom:200px;
-        text-align:center;
-    }
-    #slide-2 a {
-        color:white;
-    }
-    #slide-3 {
-        background-color: #111;
-        margin-top:-64px;
-        color:white;
-        -webkit-clip-path: polygon(0 6%, 39% 5%, 100% 1%, 100% 26%, 100% 98%, 10% 97%, 0% 96%);
-        clip-path: polygon(0 6%, 39% 5%, 100% 1%, 100% 26%, 100% 98%, 10% 97%, 0% 96%);
-        background-size: cover;
-        height:auto;
-    }
-    #slide-3 a {
-        color:white;
-    }
-    #slide-3-text {
-        height:1200px;
-        margin-bottom:-1200px;
-        padding:32px;
-        padding-top:32px;
-        color:black;
-        background-color:rgba(0,0,0,0.4);
-        z-index: 9999;
-    }
-    #slide-4 {
-        text-align: center;
-        color:#111;
-        background-color:white;
-        margin-top:-64px;
-        -webkit-clip-path: polygon(0 6%, 39% 5%, 100% 1%, 100% 26%, 100% 98%, 10% 97%, 0% 96%);
-        clip-path: polygon(0 6%, 39% 5%, 100% 1%, 100% 26%, 100% 98%, 10% 97%, 0% 96%);
-        padding-top:64px;
-        padding-bottom:128px;
-    }
-    #slide-4 a {
-        color: #111;
-    }
-    #slide-4 h2, #slide-4 h3 {
-        color:#111;
-    }
-    #slide-3 video {
-        width:100%;
-        height:auto;
+#welcome-logo img {
+}
+#welcome-king {
+    position: absolute;
+    display: block;
+    z-index:1;
+    right:0;
+    top:0;
+    margin-top:35px;
+}
+#title-screen {
+    text-align: center;
+    width:100%;
 
-    }
-    #slide-5 {
-        padding-top:64px;
-        background-color: #0B1330;
-        background:url(/img/bg/storm4.png) no-repeat center center;
-        background-size: cover;
-        margin-top:-64px;
-        color:#DDD;
-        -webkit-clip-path: polygon(0 0, 100% 3%, 100% 100%, 0 98%);
-        clip-path: polygon(0 0, 100% 3%, 100% 100%, 0 98%);
-        text-align: center;
-        padding-bottom:160px;
-    }
-    #slide-5 h3 {
-        color:#DDD;
-        line-height: 1.5;
-        font-weight: normal;
-    }
+}
+
+#slide-1 {
+    text-align: center;
+    color:#111;
+    background-image:url(/img/landing/white-txt.png);
+    margin-top:-64px;
+    padding-top:64px;
+    -webkit-clip-path: polygon(0 6%, 39% 5%, 100% 1%, 100% 26%, 100% 98%, 10% 97%, 0% 96%);
+    clip-path: polygon(0 6%, 39% 5%, 100% 1%, 100% 26%, 100% 98%, 10% 97%, 0% 96%);
+    padding-bottom:128px;
+}
+#slide-1 h2 {
+    text-align: center;
+    color:#111;
+}
+#slide-1 h3 {
+    text-align: center;
+    color:#111;
+}
+#slide-2 {
+    -webkit-clip-path: polygon(0 0, 100% 3%, 100% 100%, 0 98%);
+    clip-path: polygon(0 0, 100% 3%, 100% 100%, 0 98%);
+   /* background-color:#8b0000;
+    */
+    /*background:url(/img/bg/bg0.jpg) no-repeat center center;*/
+    background-color:rgb(90, 1, 1);
+    padding-top: 64px;
+    margin-bottom:-150px;
+    padding-bottom:200px;
+    text-align:center;
+    background-size: 150%;
+    margin-top:-40px;
+}
+#slide-2 a {
+    color:white;
+}
+#slide-3 {
+    background-color: #111;
+    margin-top:-64px;
+    color:white;
+    -webkit-clip-path: polygon(0 6%, 39% 5%, 100% 1%, 100% 26%, 100% 98%, 10% 97%, 0% 96%);
+    clip-path: polygon(0 6%, 39% 5%, 100% 1%, 100% 26%, 100% 98%, 10% 97%, 0% 96%);
+    background-size: cover;
+    height:auto;
+}
+#slide-3 a {
+    color:white;
+}
+#slide-3-text {
+    height:1200px;
+    margin-bottom:-1200px;
+    padding:32px;
+    padding-top:32px;
+    color:black;
+    background-color:rgba(0,0,0,0.4);
+    z-index: 9999;
+}
+#slide-4 {
+    text-align: center;
+    color:#111;
+    background-color:white;
+    margin-top:-64px;
+    -webkit-clip-path: polygon(0 6%, 39% 5%, 100% 1%, 100% 26%, 100% 98%, 10% 97%, 0% 96%);
+    clip-path: polygon(0 6%, 39% 5%, 100% 1%, 100% 26%, 100% 98%, 10% 97%, 0% 96%);
+    padding-top:64px;
+    padding-bottom:128px;
+}
+#slide-4 a {
+    color: #111;
+}
+#slide-4 h2, #slide-4 h3 {
+    color:#111;
+}
+#slide-3 video {
+    width:100%;
+    height:auto;
+}
+#slide-5 {
+    padding-top:64px;
+    background-color: #0B1330;
+    background:url(/img/bg/storm4.png) no-repeat center center;
+    background-size: cover;
+    margin-top:-64px;
+    color:#DDD;
+    -webkit-clip-path: polygon(0 0, 100% 3%, 100% 100%, 0 98%);
+    clip-path: polygon(0 0, 100% 3%, 100% 100%, 0 98%);
+    text-align: center;
+    padding-bottom:160px;
+}
+#slide-5 h3 {
+    color:#DDD;
+    line-height: 1.5;
+    font-weight: normal;
+}
+
+#call-to-action h2 {
+    color:black;
+}

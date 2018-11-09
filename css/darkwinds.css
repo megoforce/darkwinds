@@ -23,9 +23,7 @@ html {
 }
 body {
     color:black;
-    /* background-color:white; */
     background-image:url(/img/landing/white-txt.png);
-
     font-family: 'Quando', serif;
     overflow: hidden;
     margin: 0 0 330px; /* bottom = footer height */
@@ -73,9 +71,12 @@ h1 {
 }
 h2 {
     font-weight: medium;
-    font-size: 28px;
+    font-size: 45px;
     padding-top: 20px;
     padding-bottom:25px;
+    font-family: broadsheet;
+    text-transform: uppercase;
+    letter-spacing: 5px;
 }
 h3 {
     font-weight: regular;
@@ -277,9 +278,7 @@ header h1 {
     border:0;
     text-align: left;
 }
-#welcome-logo {
-    width:100%;
-}
+
 #bg-image {
     background: url(/img/bg/storm.jpg);
     background-repeat: no-repeat;
@@ -1186,16 +1185,17 @@ footer img {
 #rankings {
     margin-top:72px;
 }
-#title-screen img {
-    width:80%;
-    max-width:800px;
+#canvas {
+    /*background:url(/img/landing/king.png) no-repeat; */
+    background-size: contain;
+    background-position: right; 
+    width: 100%;
+    
 }
-#title-screen {
-    text-align: center;
-    width:100%;
-    padding-bottom:64px;
-    padding-bottom:128px;
+#canvas img {
 }
+
+
 #title-screen h1 {
     font-size:20px;
     text-transform: uppercase;
@@ -1216,10 +1216,7 @@ footer img {
 .box {
     position: absolute;
 }
-#welcome-logo {
-    margin-top:64px;
-    margin-bottom:64px;
-}
+
 
 
 #entries {
@@ -1348,10 +1345,12 @@ a:hover {
     color:red;
 }
 .button-big {
-    font-size:30px;
+    font-size:35px;
     background-color:darkred;
     padding:8px 18px;
     text-decoration: none;
+    font-family: broadsheet;
+    letter-spacing: 4px;
 }
 header a {
     text-decoration: none;
@@ -1377,7 +1376,6 @@ em {
   }
 
   img {
-    width: 100%;
     text-align: center !important;
     margin-left: auto;
     margin-right: auto;
@@ -1397,3 +1395,64 @@ em {
     text-align: center;
     vertical-align: middle;
 }
+
+
+/*GAME.HTML*/
+#slide-game-1 img{
+    width: 80%;
+}
+#slide-game-1 p {
+    color:black;
+}
+#slide-game-1 {
+    clip-path: polygon(0 0, 100% 13%, 100% 100%, 0 85%);
+    color: #eee;
+    padding: 100px;
+}
+
+#slide-game-2 {
+    clip-path: polygon(0 10%, 100% 8%, 100% 100%, 0 96%);
+    padding: 100px;
+    background-image: url('/img/landing/slide-2.png');
+}
+#slide-game-2 p, .windh, #slide-game-3 p{
+    color: #eee;
+}
+
+#slide-game-2 img {
+    width: 90%;
+}
+
+#slide-game-3 {
+    clip-path: polygon(0 10%, 100% 8%, 100% 100%, 0 96%);
+    padding: 100px;
+    background-image: url('/img/landing/slide-2.png');
+}
+
+#slide-game-3 h2 {
+    color:white;
+}
+
+.h {
+    text-align: center;
+    font-family: broadsheet;
+    color:black;
+}
+
+#content h2 {
+    font-size: 45px;
+    line-height: 40px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    font-family: broadsheet;
+    text-align: center;
+}
+
+#slide-game-03 img {
+    width:90%;
+}
+
+#slide-game-5 img{
+    width: 80%;
+}
+
