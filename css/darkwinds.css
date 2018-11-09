@@ -1290,6 +1290,10 @@ span {
 #footer-landing a {
     color:#EEE;
 }
+#footer h3 {
+    color:white;
+    text-align: center;
+}
 header {
     font-size:14px;
     font-weight: bolder;
