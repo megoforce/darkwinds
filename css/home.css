@@ -37,6 +37,7 @@ blockquote p {
     padding:100px;
     max-width: 900px;
 }
+
 #welcome-logo img {
 }
 #welcome-king {
@@ -47,6 +48,12 @@ blockquote p {
     top:0;
     margin-top:35px;
 }
+#title-screen {
+    text-align: center;
+    width:100%;
+
+}
+
 #slide-1 {
     text-align: center;
     color:#111;

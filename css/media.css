@@ -10,10 +10,7 @@
     #token-stats div {
         flex-grow: 2;
         text-align: right;
-    } 
-    
-    
-
+    }
 }
 
 @media (min-width: 768px) { 
@@ -22,8 +19,11 @@
     }
 
     #title-screen {
-        min-width: 500px;
-        min-height: 400px;
+        background-image:url(/img/landing/king.png);
+        background-position: right top;
+        background-repeat: no-repeat;
+        background-size: 40%;
+
     }    
    
     #title-screen h1 {
@@ -38,37 +38,20 @@
     .stats-metric {
         padding:32px;
     }  
+    
 }
 
 @media (min-width: 992px) { 
     #book-search {
         width:500px;
     }
-           
+       
  }
 
 @media (min-width: 1200px) { 
     #book-search {
         width:600px;
     }
- }
-
- @media (max-width:629px) {
     #title-screen {
-        background-image: none; 
-        max-height: 300px;
     }
-    #title-screen img{
-        min-width: 300px;
-    }
-    #landing-header img {
-        display: none;
-        width: 40%;
-    }
-    #header-left {
-        text-align: center !important;
-    }   
-    #header-right {
-        text-align: center;
-    }  
-  } 
+ }
