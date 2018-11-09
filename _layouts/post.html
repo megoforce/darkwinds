@@ -20,10 +20,10 @@
     <div class="container" id="content">
         <div id="date">
             <span><a href="/blog">Back to entries</a></span><br>
-            <span>{{ page.date | date: "%B %e, %Y" }}. Category: {{ page.categories }}</span>
             
         </div>
         <h1>{{page.title}}</h1>
+        <div id="post-meta">{{ page.date | date: "%B %e, %Y" }}. Category: {{ page.categories }}</div>
 
         {{ content }} 
     </div>

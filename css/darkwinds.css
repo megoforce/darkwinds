@@ -67,7 +67,8 @@ h1, h2, h3 {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 64px;
+    line-height:56px;
     color: rgb(61, 61, 61);
     margin-bottom:15px;
     text-transform: uppercase;
@@ -1229,11 +1230,14 @@ footer img {
 
 #content h1 {
     text-align: center;
-    max-width: 630px;
+    max-width: 960px;
     margin-left:auto;
     margin-right:auto;
-    line-height: 1.5;
-
+    margin-bottom:32px;
+}
+#post-meta {
+    text-align: center;
+    margin-bottom: 32px;
 }
 
 span {
