@@ -77,12 +77,14 @@ blockquote p {
     clip-path: polygon(0 0, 100% 3%, 100% 100%, 0 98%);
    /* background-color:#8b0000;
     */
-    background:url(/img/bg/storm4.png) no-repeat center center;
+    /*background:url(/img/bg/bg0.jpg) no-repeat center center;*/
+    background-color:rgb(90, 1, 1);
     padding-top: 64px;
-    margin-top: -64px;
     margin-bottom:-150px;
     padding-bottom:200px;
     text-align:center;
+    background-size: 150%;
+    margin-top:-40px;
 }
 #slide-2 a {
     color:white;
@@ -144,4 +146,8 @@ blockquote p {
     color:#DDD;
     line-height: 1.5;
     font-weight: normal;
+}
+
+#call-to-action h2 {
+    color:black;
 }
