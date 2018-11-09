@@ -85,6 +85,7 @@ h2 {
 h3 {
     font-size: 24px;
     font-family: 'Quando', serif;
+    text-transform: uppercase;
 }
 h4 {
     font-size: 18px;
