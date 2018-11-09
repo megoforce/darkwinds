@@ -276,7 +276,13 @@ header h1 {
     text-align: left;
 }
 #welcome-logo {
-    width:100%;
+    margin-top:64px;
+    margin-bottom:64px;
+    position: absolute;
+    z-index:0;
+    left:0;
+    right:0;
+    top:0;
 }
 #bg-image {
     background: url(/img/bg/storm.jpg);
@@ -1214,10 +1220,7 @@ footer img {
 .box {
     position: absolute;
 }
-#welcome-logo {
-    margin-top:64px;
-    margin-bottom:64px;
-}
+
 
 
 #entries {

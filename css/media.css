@@ -20,6 +20,9 @@
     }
 
     #title-screen {
+        
+    }
+    #canvas {
         background:url(/img/landing/king.png) no-repeat right center; 
         background-size: contain;
         background-position: right top; 

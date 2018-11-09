@@ -64,7 +64,7 @@ $(function () {
         particles = []; //this is an array which will hold our particles Object/Class
 
     W = window.innerWidth ;
-    H = window.innerHeight ;
+    H = 600 ;
     
     canvas = $("#canvas").get(0); //this "get(0) will pull the underlying non-jquery wrapped dom element from our selection
     canvas.width = W;
@@ -246,12 +246,14 @@ $(function () {
 });
       </script>
       <div id="landing" style="<% if(controller!='welcome') { %> display:none <% } %>">
-         <div id="title-screen">
-            <div id="canvas">
-            <img src="img/logo/dw_jpn.svg" id="welcome-logo"/>
-          </div>
-          </div>
-         <div  id="slide-1" >
+        <div id="title-screen">              
+        <canvas id="canvas"> 
+            
+        </canvas>
+        <img src="img/logo/dw_jpn.svg" id="welcome-logo"/>
+        
+      </div>
+        <div  id="slide-1" >
             <div class="container">
                <h2>Fight, trade and collect pirate cryptocollectibles with Ethereum.</h2>
                <h3>Available for Firefox and Chrome with the Metamask extension.</h3>
