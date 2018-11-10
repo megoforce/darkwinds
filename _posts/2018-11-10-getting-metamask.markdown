@@ -8,7 +8,7 @@ excerpt: "Metamask is an add-on for browsers like Chrome or Firefox that allows 
 featured_image: "https://playdarkwinds.com/img/posts/metamask-header.png"
 ---
 
-There are many dApps where users require Metamask to work on them.   But why? Why is this? In short terms, Metamask is an add-on for browsers like Chrome or Firefox that allows you to connect you with the blockchain, so you don’t have to run an Ethereum node by your own.  It is safe and you don’t have to be an expert in crypto to use it.
+There are many dApps where users require Metamask to work on them.   But why? Why is this? In short terms, **Metamask** is an add-on for browsers like **Chrome** or **Firefox** that allows you to connect you with the blockchain, so you don’t have to run an Ethereum node by your own.  It is safe and you don’t have to be an expert in crypto to use it.
 
 ![Metamask](/img/posts/metamask-header-big.png)
 
