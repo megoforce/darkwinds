@@ -17,7 +17,13 @@ layout: none
          body {
          background: url(/img/bg/battle.jpg)  no-repeat center center fixed; 
          background-size: cover;
+         animation: animatedBackground 200s linear infinite;
+         background-position: bottom;
          }
+         @keyframes animatedBackground {
+	from { background-position: 0 0; }
+	to { background-position: 100% 0; }
+}
       </style>
       <div id="discord-link">
          <a href="https://discord.gg/AdZQ8Zu">
@@ -252,7 +258,7 @@ layout: none
          <div id="title-screen">
             <canvas id="canvas"> 
             </canvas>
-            <img src="/img/logo/dw_jpn.svg" id="welcome-logo"/>
+            <img src="/img/logo/dw_jpn.svg" id="welcome-logo" alt="Darkwinds"/>
          </div>
          <div  id="slide-1" >
             <div class="container">
