@@ -1507,3 +1507,22 @@ em {
 #entrie-span {
     margin-top:10px;
 }
+#about-anatomy-figure {
+    max-width:960px;
+    margin:0 auto;
+    display: flex;
+    margin-bottom:32px;
+
+}
+
+#anatomy-cost {
+    margin-bottom:100px;
+    margin-top:0px;
+}
+#anatomy-name {
+    margin-top:0px;
+    margin-bottom:260px;
+}
+#anatomy-defense {
+    margin-top:20px;
+}
