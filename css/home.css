@@ -54,7 +54,8 @@ blockquote p {
 #title-screen {
     text-align: center;
     width:100%;
-
+    height:400px;
+    background-position:right bottom;
 }
 #canvas {
     /*background:url(/img/landing/king.png) no-repeat; */

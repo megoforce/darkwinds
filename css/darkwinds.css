@@ -150,6 +150,11 @@ button:active {
 button:focus {
    outline:0;
 }
+header {
+    position: fixed;
+    left:0;top:0;right:0;
+    z-index: 99999;
+}
 #discord-link {
     position:fixed;
     text-align: left;
