@@ -249,6 +249,9 @@ header button {
     float:left;
     overflow: hidden;
 }
+#header-play-now {
+    color:red;
+}
 #header-left {
     text-align: right;
 }
@@ -786,8 +789,9 @@ button {
     width:auto;
     display:inline;
     margin-right:0px;
-    margin-top:-8px;
+    margin-top:0px;
     margin-left:-12px;
+    padding:0;
 }
 
 /*store*/
