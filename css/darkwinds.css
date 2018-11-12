@@ -250,9 +250,7 @@ header button {
     float:left;
     overflow: hidden;
 }
-#header-play-now {
-    color:red;
-}
+
 #header-left {
     text-align: right;
 }
@@ -895,7 +893,12 @@ footer p {
 footer img {
     width:auto;
 }
-
+footer a {
+    color:white;
+}
+footer h3 {
+    color:white;
+}
 /*transfer card */
 .central-container-transfer {
     background-color: #ecdbad;
