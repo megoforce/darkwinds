@@ -9,7 +9,8 @@
                     
                     </script>
             <link href="https://fonts.googleapis.com/css?family=Quando" rel="stylesheet">
-            <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet"> 
+            <link rel="stylesheet" href="https://use.typekit.net/msi7hrz.css">
+            <link rel="stylesheet" href="/css/darkwinds.css">
 
             <title>
                 Unlock metamask
@@ -18,17 +19,16 @@
 
             <style>
                 body {
-                    background-color:#111;
-                    color:#EEE;
+                    background-color:black;
+                    background-image: none;
                     font-family: 'Quando', serif;
                     text-align: center;
+                    color: white !important;
                 }
                 a {
-                    color: white;
+                    color: white !important;
                 }
-                #unlock-metamask {
-                    color:black;
-                }
+
             </style>
             <script>
                 function detect_network() {
@@ -48,12 +48,22 @@
 
     </head>
     <body>
-        
-        <div id="loading-screen" style="display: none">
+        <div class="container" id="loading-screen">
+            <h2>Unlock your Metamask</h2><br>            
+            <img src="/img/detect/metamask.png" id="unlock-metamask"/>
+            <p>Please unlock your Ethereum wallet to continue.<br>
+                To do so, click the Metamask logo in the upper right corner of your browser.
+            </p>
+            
+            <img id="find-metamask" src="/img/detect/find-metamask-logo.png"/>
+            <span id="dot"></span>
+            
+        </div>
+        <!-- <div id="loading-screen" style="display: none">
             <img src="/img/metamask.png" id="unlock-metamask"/>
             <p>Please unlock your Ethereum wallet to continue.<br>To do so, click the metamask button in your browser.
             </p>
-    </div>
+    </div> -->
     
     </body>
 </html>

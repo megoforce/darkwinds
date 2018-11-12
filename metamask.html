@@ -1,0 +1,94 @@
+
+
+<html>
+    <head>
+       <!-- Global site tag (gtag.js) - Google Analytics -->
+       <script async src="https://www.googletagmanager.com/gtag/js?id=UA-50933804-19"></script>
+       <link rel="stylesheet" href="https://use.typekit.net/msi7hrz.css">
+       <script
+          src="https://code.jquery.com/jquery-3.3.1.min.js"
+          integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+          crossorigin="anonymous"></script>
+       <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          
+          gtag('config', 'UA-50933804-19');
+       </script>
+       <link href="https://fonts.googleapis.com/css?family=Quando" rel="stylesheet">
+       <link rel="stylesheet" href="https://use.typekit.net/msi7hrz.css">
+       <link rel="stylesheet" href="/css/darkwinds.css">
+
+
+       <title>
+          Browser Detection
+       </title>
+       <script>
+          var clicked_button;
+          // Opera 8.0+
+          var isOpera = (!!window.opr && !!opr.addons) || !!window.opera || navigator.userAgent.indexOf(' OPR/') >= 0;
+          
+          // Firefox 1.0+
+          var isFirefox = typeof InstallTrigger !== 'undefined';
+          
+          // Safari 3.0+ "[object HTMLElementConstructor]" 
+          var isSafari = /constructor/i.test(window.HTMLElement) || (function (p) { return p.toString() === "[object SafariRemoteNotification]"; })(!window['safari'] || (typeof safari !== 'undefined' && safari.pushNotification));
+          
+          // Internet Explorer 6-11
+          var isIE = /*@cc_on!@*/false || !!document.documentMode;
+          
+          // Edge 20+
+          var isEdge = !isIE && !!window.StyleMedia;
+          // Chrome 1+
+          var isChrome = !!window.chrome && !!window.chrome.webstore;
+          
+          // Blink engine detection
+          var isBlink = (isChrome || isOpera) && !!window.CSS;
+          function openMetamaskLink() {
+          if(clicked_button) {
+              window.location.href="/detect.html"
+          } else {
+              if(isChrome) {
+              window.open("https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=en","_blank");
+                  
+              } else if(isFirefox) {
+                  window.open("https://addons.mozilla.org/en-US/firefox/addon/ether-metamask/","_blank");
+              } else {
+                  window.open("http://metamask.io")
+              }
+              clicked_button=true;
+              $("#install-text").html("Did you install metamask already? Press the button bellow:");
+              $("#install-metamask-button").html("I installed Metamask");
+          }
+          
+          }
+          $( document ).ready(function() {
+          // do smtn
+          });
+       </script>
+       <style>
+        body {
+            background-image:none !important;
+            background-color:black;
+            font-family: 'Quando', serif;
+            text-align: center;
+        }
+        a,h1 {
+            color: white;
+        }
+       </style>
+    </head>
+    <body>
+       <div class="container" id="install-metamask">
+          <h2>Install Metamask</h2>
+          <img src="/img/detect/needmeta.png"/>
+          <p id="install-text">To play Darkwinds, you need the metamask extension. This is where your cards and deck will be stored securely.</p>
+          <button onClick="javascript:openMetamaskLink()" class="button-medium">Install Metamask</button>
+          </br>
+          <a href="https://playdarkwinds.com/tutorial/2018/11/10/getting-metamask.html">
+             <h4>Why do I need Metamask?</h4>
+          </a>
+       </div>
+    </body>
+ </html> 
