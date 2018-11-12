@@ -77,8 +77,8 @@ h1 {
 }
 h2 {
     font-size: 45px;
-    padding-top: 20px;
-    padding-bottom:25px;
+    padding-top: 10px;
+    padding-bottom:10px;
     text-transform: uppercase;
     letter-spacing: 5px;
 }
@@ -110,6 +110,16 @@ blockquote {
     min-height: 150px;
     background-position: center;
     padding: 90px 50px 50px 50px;
+}
+hr {
+    border: none;
+    margin: 0 50%;
+    background-image: url(/img/guide/diamond.svg);
+    background-repeat: repeat-y;
+    background-size: 30px 30px;
+    height: 30px;
+    width: 100px;
+    margin-bottom: 20px;
 }
 blockquote:before {
     content: open-quote;
@@ -704,70 +714,64 @@ li {
     width:100%;
 }
 /*buttons*/
-button, .btn {
-    color: white;
-    background-color:#666;
-    border: 3px solid #666;
-    border-radius: 5px;
-    font-size: 13px;
-    font-family: 'Quando', serif;
-    padding: 8px 16px;
+button {
+    color: white !important;
+    font-family: broadsheet;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: none;
     -webkit-clip-path: polygon(100% 0%, 99% 16%, 96% 21%, 98% 25%, 100% 43%, 99% 72%, 99% 78%, 100% 85%, 99% 91%, 100% 100%, 92% 99%, 68% 100%, 41% 99%, 11% 98%, 8% 100%, 0 100%, 1% 88%, 0 80%, 1% 66%, 0 47%, 1% 24%, 2% 21%, 2% 10%, 1% 5%, 1% 4%, 5% 0, 70% 0%, 80% 1%);
     clip-path: polygon(100% 0%, 99% 16%, 96% 21%, 98% 25%, 100% 43%, 99% 72%, 99% 78%, 100% 85%, 99% 91%, 100% 100%, 92% 99%, 68% 100%, 41% 99%, 11% 98%, 8% 100%, 0 100%, 1% 88%, 0 80%, 1% 66%, 0 47%, 1% 24%, 2% 21%, 2% 10%, 1% 5%, 1% 4%, 5% 0, 70% 0%, 80% 1%);
+    cursor: pointer;
+    margin-top:15px;
 
 }
-.button-primary {
-    color: white;
-    background-color: #ffc400;
-    border: 3px solid #eedb9b;
-    border-radius: 5px;
-    font-size: 13px;
-    font-family: 'Quando', serif;
-    padding: 4px 4px 4px 4px;
-    width: 100%;
+.button-big {
+    font-size:35px;
+    background:linear-gradient(to right, red 50%, rgb(160, 2, 2) 50%);
+    background-position: right bottom;
+    background-size: 200% 100%;
+    transition: all .1s ease-out;
+    padding:35px;
+
 }
-.button-primary:hover {
-    background-color:#ebce70;
+.button-big:hover {
+    background-position: left bottom;
 }
-.button-secondary {
-    font-size: 13px;
-    font-family: 'Quando', serif;
-    border-radius: 5px;
-    color: white;
-    background-color: #681520;
-    border: 2px solid #ad0932;
-    padding: 6px 6px 6px 6px;
+
+.button-medium {
+    font-size: 20px;
+    background:linear-gradient(to right, #3c81ff 50%, #2262d8 50%);
+    background-position: right bottom;
+    transition: all .1s ease-out;
+    background-size: 200% 100%;
+    padding: 20px;
 }
-.button-secondary:hover {
-    background-color:#ad0932;
+
+.button-medium:hover {
+    background-position: left bottom;
 }
-.button-tertiary {
-    color:white;
-    font-size: 13px;
-    font-family: 'Quando', serif;
-    border-radius: 4px;
-    border: 2px solid #3750c4;
-    background-color: #164080;
-    margin-top:-10px;
-    margin-left:3px;
+
+.button-small {
+    font-size: 14px;
+    background:linear-gradient(to right, #575758 50%, #999999 50%);
+    background-position: right bottom;
+    transition: all .1s ease-out;
+    background-size: 200% 100%;
+    padding: 8px;
 }
-.button-tertiary:hover {
-    border: 2px solid #3750c4;
-    background-color: #3750c4;
+
+.button-small:hover{
+    background-position: left bottom;
+
 }
-.button-quat {
-    color:white;
-    font-size: 13px;
-    font-family: 'Quando', serif;
-    border-radius: 4px;
-    border: 2px solid #3750c4;
-    background-color: #164080;
-    margin-top:15px;
+
+#slide-3 a {
+    margin:100px;
 }
-.button-quat:hover {
-    border: 2px solid #3750c4;
-    background-color: #3750c4;
-}
+
+
 /*tabs*/
 .spinner {
     margin-top:-2px;
@@ -785,10 +789,7 @@ button, .btn {
     margin-top:-8px;
     margin-left:-12px;
 }
-@media screen and (max-width: 400px) {
-}
-@media screen and (max-width: 400px) {
-}
+
 /*store*/
 .main-container {
     background-color: #EEE;
@@ -1250,6 +1251,7 @@ span {
 .landing-card {
     width:130px;
     height:auto;
+    padding-top:100px;
 }
 #play-now-button {
     margin-bottom:20px;
@@ -1341,18 +1343,25 @@ a {
 a:hover {
     color:red;
 }
-.button-big {
-    font-size:35px;
-    background-color:darkred;
-    padding:8px 18px;
-    text-decoration: none;
-    font-family: broadsheet;
-    letter-spacing: 4px;
-    text-transform: uppercase;
+
+a:visited {
+    color: darkred;
 }
+
 header a {
+    color: #EEE;
     text-decoration: none;
 }
+
+header a:hover {
+    color:white;
+    text-decoration: underline;
+}
+
+header a:visited {
+    color:#eee;
+}
+
 .token-stats-number {
     font-size:64px;
 }
@@ -1393,8 +1402,6 @@ em {
     text-align: center;
     vertical-align: middle;
 }
-
-
 
 /*GAME.HTML*/
 #slide-game-1 img{
@@ -1490,6 +1497,9 @@ em {
     margin-left:20px;
     margin-right:20px;
     margin-bottom:20px;
+    min-height: 400px;
+    background-color: white;
+
 }
 
 #blog-thumbnail {
@@ -1504,6 +1514,7 @@ em {
 #entrie-span {
     margin-top:10px;
 }
+
 #about-anatomy-figure {
     max-width:960px;
     margin:0 auto;
