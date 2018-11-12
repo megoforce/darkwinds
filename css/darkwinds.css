@@ -700,28 +700,38 @@ li {
 }
 /*buttons*/
 button {
-    color: white;
+    color: white !important;
+    font-family: broadsheet;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
     border: none;
     -webkit-clip-path: polygon(100% 0%, 99% 16%, 96% 21%, 98% 25%, 100% 43%, 99% 72%, 99% 78%, 100% 85%, 99% 91%, 100% 100%, 92% 99%, 68% 100%, 41% 99%, 11% 98%, 8% 100%, 0 100%, 1% 88%, 0 80%, 1% 66%, 0 47%, 1% 24%, 2% 21%, 2% 10%, 1% 5%, 1% 4%, 5% 0, 70% 0%, 80% 1%);
     clip-path: polygon(100% 0%, 99% 16%, 96% 21%, 98% 25%, 100% 43%, 99% 72%, 99% 78%, 100% 85%, 99% 91%, 100% 100%, 92% 99%, 68% 100%, 41% 99%, 11% 98%, 8% 100%, 0 100%, 1% 88%, 0 80%, 1% 66%, 0 47%, 1% 24%, 2% 21%, 2% 10%, 1% 5%, 1% 4%, 5% 0, 70% 0%, 80% 1%);
     cursor: pointer;
+    margin-top:15px;
+
+}
+.button-big {
+    font-size:35px;
+    background:linear-gradient(to right, red 50%, rgb(160, 2, 2) 50%);
+    background-position: right bottom;
+    background-size: 200% 100%;
+    transition: all .1s ease-out;
+    padding:35px;
+
+}
+.button-big:hover {
+    background-position: left bottom;
 }
 
 .button-medium {
     font-size: 20px;
-    font-family: broadsheet;
-    text-transform: uppercase;
-    border-radius: 5px;
-    letter-spacing: 3px;
-    color: white !important;
     background:linear-gradient(to right, #2262d8 50%, #000 50%);
     background-position: right bottom;
-    transition: all .3s ease-out;
+    transition: all .1s ease-out;
     background-size: 200% 100%;
-    /* background-color: #2262d8; */
-    padding: 15px;
-    text-decoration: none;
-    margin-top:15px;
+    padding: 20px;
 }
 
 .button-medium:hover {
@@ -1304,15 +1314,7 @@ a {
 a:hover {
     color:red;
 }
-.button-big {
-    font-size:35px;
-    background-color:darkred;
-    padding:30px;
-    text-decoration: none;
-    font-family: broadsheet;
-    letter-spacing: 4px;
-    text-transform: uppercase;
-}
+
 header a {
     text-decoration: none;
 }
