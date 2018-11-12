@@ -727,7 +727,7 @@ button {
 
 .button-medium {
     font-size: 20px;
-    background:linear-gradient(to right, #2262d8 50%, #000 50%);
+    background:linear-gradient(to right, #3c81ff 50%, #2262d8 50%);
     background-position: right bottom;
     transition: all .1s ease-out;
     background-size: 200% 100%;
@@ -1315,9 +1315,24 @@ a:hover {
     color:red;
 }
 
+a:visited {
+    color: darkred;
+}
+
 header a {
+    color: #EEE;
     text-decoration: none;
 }
+
+header a:hover {
+    color:white;
+    text-decoration: underline;
+}
+
+header a:visited {
+    color:#eee;
+}
+
 .token-stats-number {
     font-size:64px;
 }
