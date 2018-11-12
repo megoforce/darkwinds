@@ -8,9 +8,7 @@ h1 {
 h2 {
     font-family:broadsheet;
 }
-h3 {
-    line-height: 2;
-}
+
 em {
     color:rgba(44, 44, 44, 0.795);
     text-align: center;
@@ -30,18 +28,19 @@ blockquote p {
     font-size: 25px;
 }
 #title-screen img {
-    width: 70%;
+    width: 100%;
+
 }
 #welcome-logo {
-    margin-top:64px;
-    margin-bottom:64px;
+
     position: absolute;
     z-index:2;
     left:0;
     right:0;
     top:0;
-    padding:100px;
+    padding:10px;
     max-width: 900px;
+    margin-top:100px;
 }
 
 #welcome-logo img {
@@ -118,13 +117,7 @@ padding-bottom:30px;
 #slide-3 a {
     color:white;
 }
-#slide-3-text {
-    height:1000px;
-    padding:32px;
-    padding-top:32px;
 
-    color:black;
-}
 #slide-4 {
     text-align: center;
     color:#111;

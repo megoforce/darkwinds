@@ -76,14 +76,15 @@ h1 {
     text-transform: uppercase;
 }
 h2 {
-    font-size: 45px;
+    font-size: 24px;
     padding-top: 10px;
     padding-bottom:10px;
     text-transform: uppercase;
     letter-spacing: 5px;
 }
 h3 {
-    font-size: 24px;
+    font-size: 20px;
+    line-height:22px;
     font-family: 'Quando', serif;
 }
 h4 {
@@ -1303,8 +1304,10 @@ header {
     text-transform: uppercase;
     margin-bottom:32px;
     height:56px;
+    display: none;
 
 }
+
 header img {
     padding-top:16px;
 }

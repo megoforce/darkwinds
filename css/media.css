@@ -17,7 +17,15 @@
     #book-search {
         display:inline;
     }
-
+    h2 {
+        font-size: 36px;
+    }
+    h3 {
+        line-height: 2;
+    }
+    header {
+        display: block;
+    }
     #title-screen {
         background-image:url(/img/landing/king2.png);
         background-position: right top;
