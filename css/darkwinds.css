@@ -705,15 +705,7 @@ ul {
 li {
     list-style-type: none;
 }
-#loading-screen {
-    text-align: center;
-    padding:64px;
-}
-#loading-screen img {
-    width:100%;
-    max-width:400px;
-    height:auto;
-}
+
 .left-drawing {
     width:100%;
 }
@@ -1067,12 +1059,10 @@ footer img {
    /* Safari */
     filter: blur(16px) opacity(50%);
 }
-#install-metamask {
-    text-align: center;
-}
+
 #install-metamask img {
     width:100%;
-    max-width: 400px;
+    max-width: 700px;
 }
 #unlock-account {
     text-align: center;
@@ -1540,4 +1530,75 @@ em {
 }
 #anatomy-defense {
     margin-top:20px;
+}
+
+/*detect*/
+#dot {
+    height: 40px;
+
+    width: 80px;
+    
+    background-color: transparent;
+    
+    border-radius: 50%;
+    
+    display: inline-block;
+    
+    border-color: darkred;
+    
+    border-style: solid;
+    
+    border-width: 3px;
+    
+    position: absolute;
+    
+    z-index: 10;
+    
+    margin-left: -58px;
+    margin-top:-10px;
+}
+
+#install-metamask, #loading-sreen {
+    max-width:700px;
+    padding:15px;
+    color:white !important;
+    text-align: center;
+    margin: auto;
+}
+#loading-screen #unlock-metamask  {
+    width: 450px;
+}
+
+#install-metamask img {
+    max-width: 700px;
+}
+
+#loading-screen img {
+    width: 700px;
+}
+
+#install-metamask p {
+    color:white !important;
+    font-size: 20px;
+    line-height: 2;
+}
+
+
+#loading-screen p
+ {
+    color:white !important;
+    font-size: 20px;
+    line-height: 2;
+}
+
+#loading-screen h2 {
+    font-size: 25px;
+}
+
+#install-metamask h2 {
+    font-size: 25px;
+}
+
+#loading-screen #find-metamask {
+    width: 800px;
 }
