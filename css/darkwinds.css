@@ -77,8 +77,8 @@ h1 {
 }
 h2 {
     font-size: 45px;
-    padding-top: 20px;
-    padding-bottom:25px;
+    padding-top: 10px;
+    padding-bottom:10px;
     text-transform: uppercase;
     letter-spacing: 5px;
 }
@@ -110,6 +110,16 @@ blockquote {
     min-height: 150px;
     background-position: center;
     padding: 90px 50px 50px 50px;
+}
+hr {
+    border: none;
+    margin: 0 50%;
+    background-image: url(/img/guide/diamond.svg);
+    background-repeat: repeat-y;
+    background-size: 30px 30px;
+    height: 30px;
+    width: 100px;
+    margin-bottom: 20px;
 }
 blockquote:before {
     content: open-quote;
@@ -736,6 +746,20 @@ button {
 
 .button-medium:hover {
     background-position: left bottom;
+}
+
+.button-small {
+    font-size: 14px;
+    background:linear-gradient(to right, #575758 50%, #999999 50%);
+    background-position: right bottom;
+    transition: all .1s ease-out;
+    background-size: 200% 100%;
+    padding: 8px;
+}
+
+.button-small:hover{
+    background-position: left bottom;
+
 }
 
 #slide-3 a {
@@ -1468,6 +1492,9 @@ em {
     margin-left:20px;
     margin-right:20px;
     margin-bottom:20px;
+    min-height: 400px;
+    background-color: white;
+
 }
 
 #blog-thumbnail {

@@ -8,6 +8,9 @@ h1 {
 h2 {
     font-family:broadsheet;
 }
+h3 {
+    line-height: 2;
+}
 em {
     color:rgba(44, 44, 44, 0.795);
     text-align: center;
@@ -93,6 +96,11 @@ blockquote p {
     margin-top:-40px;
 padding-bottom:30px;
 }
+
+.col-1 {
+    margin: auto;
+}
+
 #slide-2 a {
     color:white;
 }
@@ -147,11 +155,33 @@ padding-bottom:30px;
     padding-bottom:160px;
     margin-bottom:-30px;
 }
-#slide-5 h3 {
-    color:#DDD;
-    line-height: 1.5;
+#slide-5 h4 a{
+    color:rgba(0, 0, 0, 0.795);
+    line-height: 2;
     font-weight: normal;
+    letter-spacing: 1px;
 }
+
+#slide-5 h4 a:hover {
+    color:darkred;
+}
+
+#home-single-entrie {
+    line-height: 0.5em;
+    margin:auto;
+    display: inline-grid;
+    text-align: center;
+    width: 300px;
+    margin-left:20px;
+    margin-right:20px;
+    margin-bottom:20px;
+    min-height:400px;
+    background-color:rgb(255, 255, 255);
+}
+/* 
+#home-single-entrie:hover #blog-thumbnail {
+        background-size:182%;  
+} */
 
 #call-to-action h2 {
     color:black;
@@ -162,4 +192,16 @@ padding-bottom:30px;
     background-position: right;
     background-size:300%;
     margin-top:-132px;
+}
+
+#home-blog-thumbnail {
+    width:300px;
+    height:190px;
+    background-size: 172%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}                   
+
+#home-entrie-span {
+    color:rgba(0, 0, 0, 0.678);
 }

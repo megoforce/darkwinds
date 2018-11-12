@@ -26,8 +26,8 @@ layout: default
     <div class="row">        
         <div class="col" id="entries-list">
             {% for post in site.posts %}                    
-            <div id="single-entrie">
-                <div id="blog-thumbnail" style="background-image: url('{{ post.thumbnail }}');"></div>
+            <div id="single-entrie" class="button-cut-1">
+                <div id="blog-thumbnail" class="button-cut-1" style="background-image: url('{{ post.thumbnail }}');"></div>
                 <span id="entrie-span">{{ post.date | date: "%B %e, %Y" }}. Category: {{ post.categories }}<a href="http://erjjones.github.com{{ post.url }}#disqus_thread"></a></span>			
                 <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
             </div>
