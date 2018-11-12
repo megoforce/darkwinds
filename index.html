@@ -90,8 +90,7 @@ layout: none
          ry:0,
          speed:45,
          delta:0
-         };   
-         
+         };         
          
          document.addEventListener('mousemove', function(e){ 
          
@@ -117,9 +116,7 @@ layout: none
          
          this.color = "hsla("+ this.h +","+ this.s +"%,"+ this.l +"%,"+(this.a)+")";
          this.shadowcolor = "hsla("+ this.h +","+ this.s +"%,"+ this.l +"%,"+parseFloat(this.a-0.55)+")";
-         
-         
-         
+             
          this.x = Math.random() * W;
          this.y = Math.random() * H;
          this.direction = {
@@ -268,6 +265,8 @@ layout: none
                <a id="play-now-button" class="button-cut-1 button-big" href="https://corsarium.playdarkwinds.com/detect.html">Play Now!</a>
             </div>
          </div>
+
+<div id="water-background">
          <div id="slide-2" >
             <div class="container">
                <div class="row">
@@ -285,26 +284,30 @@ layout: none
                   <div class="col">
                      <h2>Crypto-collect them all!</h2>
                      <h3>Every Darkwinds card is a ERC721 Ethereum token, which means you have true ownership of them in the Blockchain. Cards are generated at random from 100 initial "First Edition" models and some are very rare.</h3>
-                     <a href="/cards">See all first edition cards</a>
+                     <!-- <a class="button-cut-1 button-medium" href="/cards">See all first edition cards</a> -->
+                     <button class="button-cut button-medium" onclick="window.location.href='/cards'">See all first edition cards</button>
                   </div>
                </div>
             </div>
          </div>
-         <div  id="slide-3" >
+         
+         <div  id="slide-3">
             <div id="slide-3-text">
                <br><br>
                <div class="container">
                   <h2 class="subtitle">Epic Online Battles</h2>
                   <h3>Build your deck and battle against other pirates in the arena. Climb your way to the top of the leaderboard and prepare for the upcoming tournaments. </h3>
-                  <a href="/guide">Learn to play</a>
-               </div>
-            </div>
-            <video autoplay loop muted id="gameplay-video">
-               <source src="https://corsarium.playdarkwinds.com/video/landing.webm" type="video/webm">
-               <source src="https://corsarium.playdarkwinds.com/video/landing.mp4" type="video/mp4">
-               <img src="https://s3.amazonaws.com/mego-blog/darkwinds/darkwinds2018.gif">
-            </video>
+                  <button class="button-cut button-medium" onclick="window.location.href='/guide'">Learn to play</button>
+              
+                  <video autoplay loop muted id="gameplay-video">
+                    <source src="https://corsarium.playdarkwinds.com/video/landing.webm" type="video/webm">
+                    <source src="https://corsarium.playdarkwinds.com/video/landing.mp4" type="video/mp4">
+                    <img src="https://s3.amazonaws.com/mego-blog/darkwinds/darkwinds2018.gif">
+                  </video>              
+                </div>
+            </div>                          
          </div>
+
          <div  id="slide-5" >
             <div class="container">
                <div class="row">
@@ -318,11 +321,14 @@ layout: none
                      {% endfor %} 
                   </div>
                   <div class="col-lg-12">
-                     <a href="/blog">More entries...</a>
-                  </div>
+                    
+                     <button class="button-cut button-medium" onclick="window.location.href='/blog'">More entries...</button>
+
+                    </div>
                </div>
             </div>
          </div>
+        </div>
          <a href="https://opensea.io/category/darkwinds">Check out the marketplace</a>
       </div>
       <div id="call-to-action">
@@ -331,6 +337,7 @@ layout: none
             <a class="button-cut-1 button-big" href="https://corsarium.playdarkwinds.com/detect.html">Play Now!</a>
          </div>
       </div>
+
       <script>
          $( document ).ready(function() {
            document.getElementById('gameplay-video').play();

@@ -699,70 +699,34 @@ li {
     width:100%;
 }
 /*buttons*/
-button, .btn {
+button {
     color: white;
-    background-color:#666;
-    border: 3px solid #666;
-    border-radius: 5px;
-    font-size: 13px;
-    font-family: 'Quando', serif;
-    padding: 8px 16px;
+    border: none;
     -webkit-clip-path: polygon(100% 0%, 99% 16%, 96% 21%, 98% 25%, 100% 43%, 99% 72%, 99% 78%, 100% 85%, 99% 91%, 100% 100%, 92% 99%, 68% 100%, 41% 99%, 11% 98%, 8% 100%, 0 100%, 1% 88%, 0 80%, 1% 66%, 0 47%, 1% 24%, 2% 21%, 2% 10%, 1% 5%, 1% 4%, 5% 0, 70% 0%, 80% 1%);
     clip-path: polygon(100% 0%, 99% 16%, 96% 21%, 98% 25%, 100% 43%, 99% 72%, 99% 78%, 100% 85%, 99% 91%, 100% 100%, 92% 99%, 68% 100%, 41% 99%, 11% 98%, 8% 100%, 0 100%, 1% 88%, 0 80%, 1% 66%, 0 47%, 1% 24%, 2% 21%, 2% 10%, 1% 5%, 1% 4%, 5% 0, 70% 0%, 80% 1%);
+    cursor: pointer;
+}
 
-}
-.button-primary {
-    color: white;
-    background-color: #ffc400;
-    border: 3px solid #eedb9b;
+.button-medium {
+    font-size: 18px;
+    font-family: broadsheet;
+    text-transform: uppercase;
     border-radius: 5px;
-    font-size: 13px;
-    font-family: 'Quando', serif;
-    padding: 4px 4px 4px 4px;
-    width: 100%;
-}
-.button-primary:hover {
-    background-color:#ebce70;
-}
-.button-secondary {
-    font-size: 13px;
-    font-family: 'Quando', serif;
-    border-radius: 5px;
-    color: white;
-    background-color: #681520;
-    border: 2px solid #ad0932;
-    padding: 6px 6px 6px 6px;
-}
-.button-secondary:hover {
-    background-color:#ad0932;
-}
-.button-tertiary {
-    color:white;
-    font-size: 13px;
-    font-family: 'Quando', serif;
-    border-radius: 4px;
-    border: 2px solid #3750c4;
-    background-color: #164080;
-    margin-top:-10px;
-    margin-left:3px;
-}
-.button-tertiary:hover {
-    border: 2px solid #3750c4;
-    background-color: #3750c4;
-}
-.button-quat {
-    color:white;
-    font-size: 13px;
-    font-family: 'Quando', serif;
-    border-radius: 4px;
-    border: 2px solid #3750c4;
-    background-color: #164080;
+    letter-spacing: 3px;
+    color: white !important;
+    background-color: #2262d8;
+    padding: 15px;
+    text-decoration: none;
     margin-top:15px;
 }
-.button-quat:hover {
-    border: 2px solid #3750c4;
-    background-color: #3750c4;
+.button-medium:hover {
 }
+
+#slide-3 a {
+    margin:100px;
+}
+
+
 /*tabs*/
 .spinner {
     margin-top:-2px;
@@ -780,10 +744,7 @@ button, .btn {
     margin-top:-8px;
     margin-left:-12px;
 }
-@media screen and (max-width: 400px) {
-}
-@media screen and (max-width: 400px) {
-}
+
 /*store*/
 .main-container {
     background-color: #EEE;
@@ -1245,6 +1206,7 @@ span {
 .landing-card {
     width:130px;
     height:auto;
+    padding-top:100px;
 }
 #play-now-button {
     margin-bottom:20px;
@@ -1339,7 +1301,7 @@ a:hover {
 .button-big {
     font-size:35px;
     background-color:darkred;
-    padding:8px 18px;
+    padding:30px;
     text-decoration: none;
     font-family: broadsheet;
     letter-spacing: 4px;
@@ -1388,8 +1350,6 @@ em {
     text-align: center;
     vertical-align: middle;
 }
-
-
 
 /*GAME.HTML*/
 #slide-game-1 img{
