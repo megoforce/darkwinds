@@ -76,7 +76,7 @@ blockquote p {
     padding-top:64px;
     -webkit-clip-path: polygon(0 6%, 39% 5%, 100% 1%, 100% 26%, 100% 98%, 10% 97%, 0% 96%);
     clip-path: polygon(0 6%, 39% 5%, 100% 1%, 100% 26%, 100% 98%, 10% 97%, 0% 96%);
-    padding-bottom:128px;
+    padding-bottom:75px;
 }
 #slide-1 h2 {
     text-align: center;
@@ -99,6 +99,7 @@ padding-bottom:30px;
 
 .col-1 {
     margin: auto;
+    padding:30px;
 }
 
 #slide-2 a {
