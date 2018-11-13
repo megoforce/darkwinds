@@ -1,3 +1,10 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
 /* latin-ext */
 @font-face {
     font-family: 'Quando';
@@ -27,7 +34,8 @@ body {
     font-family: 'Quando', serif;
     overflow: hidden;
     margin: 0 0 330px; /* bottom = footer height */
-    
+    overflow-x: hidden;
+
 }
 td {
     text-align: left;
@@ -174,7 +182,8 @@ header {
     background:#7388dc;
     transition: width 0.5s;
     -webkit-transition: width 0.5s;
-    border-radius:40px;    
+    border-radius:40px;   
+    display: none; 
 
 }
 
@@ -731,12 +740,13 @@ button {
 }
 
 .button-medium {
-    font-size: 20px;
+    font-size: 16px;
     background:linear-gradient(to right, #3c81ff 50%, #2262d8 50%);
     background-position: right bottom;
     transition: all .1s ease-out;
     background-size: 200% 100%;
-    padding: 20px;
+    padding: 16px;
+    max-width: 80%;
 }
 
 .button-medium:hover {
@@ -876,12 +886,11 @@ footer {
     position: absolute;
     left: 0;
     bottom: 0;
-    height: 330px;
     width: 100%;
     left: 0;
     overflow: hidden;
-    margin-top:40px;
     color:white;
+    margin-top:300px;
 }
 footer p {
     color:white;
@@ -1217,8 +1226,6 @@ footer h3 {
 
 
 
-
-
 #article-content a{
     color: rgb(53, 53, 53) !important;
     text-shadow: 1px 1px rgba(255, 255, 255, 0.644) !important;
@@ -1268,11 +1275,9 @@ span {
     -webkit-clip-path: polygon(0 0% 4%, 0% 4%0% 4%, 56% 2%, 56% 2%, 56% 2%, 100% 0%, 100% 0%, 100% 0%, 100% 100%, 100% 100%, 100% 100%, 60% 98%, 60% 98%, 60% 98%, 1% 98%, 1% 98%, 1% 98%, 0% 95%, 0% 97%, 0% 97%);
     clip-path: polygon(0 0% 4%, 0% 4%0% 4%, 56% 2%, 56% 2%, 56% 2%, 100% 0%, 100% 0%, 100% 0%, 100% 100%, 100% 100%, 100% 100%, 60% 98%, 60% 98%, 60% 98%, 1% 98%, 1% 98%, 1% 98%, 0% 95%, 0% 97%, 0% 97%);
     text-align: left;
-    margin-top:32px;
     padding-bottom:64px;
     background-image: url(/img/bg/anguilla.jpg);
     background-size: cover;
-    margin-top:-64px;
     padding-top:64px;
 }
 #footer-landing li {
@@ -1613,7 +1618,7 @@ em {
     clip-path: polygon(0 6%, 39% 5%, 100% 1%, 100% 26%, 100% 98%, 10% 97%, 0% 96%);
     padding-top:64px;
     padding-bottom:64px;
-    margin-bottom:-32px;
+    margin-bottom:200px;
     text-align: center;
 }
 
@@ -1637,4 +1642,46 @@ h2 {
 }
 #title-king {
     display: none;
+}
+#welcome-icon {
+    position: absolute;
+    left:0;
+    top:0;
+    right:0;
+    width: 90%;
+    z-index:9999;
+}
+#welcome-logo {
+
+    position: absolute;
+    z-index:9999;
+    left:0;
+    right:0;
+    top:6%;
+    padding:10px;
+    width:80%;
+    left:10%;
+    padding:0;
+    margin:0;
+    margin-top:100px;
+
+}
+#title-screen {
+    padding:0;
+    margin: 0;
+    
+}
+#slide-1 h2 {
+    text-align: center;
+    color:#111;
+    font-size:23px;
+    
+}
+.container {
+    max-width:960px;
+    margin: 0 auto;
+}
+#water-background {
+    background:url(/img/bg/water-dark-2.jpg) no-repeat center center;
+    background-size: cover;
 }

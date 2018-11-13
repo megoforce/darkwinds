@@ -31,18 +31,8 @@ blockquote {
 blockquote p {
     font-size: 25px;
 }
-
-#welcome-logo {
-
-    position: absolute;
-    z-index:9999;
-    left:0;
-    right:0;
-    top:0;
-    padding:10px;
-    max-width: 900px;
-    margin-top:100px;
-
+#landing {
+    overflow: hidden;
 }
 
 #welcome-logo img {
@@ -64,13 +54,14 @@ blockquote p {
 }
 
 #canvas {
-    /*background:url(/img/landing/king.png) no-repeat; */
     background-size: contain;
     left:0;
     right:0;
     height:600px;
     z-index: 6666;
     position: absolute;
+    overflow: hidden;
+    display: none;
 }
 
 #slide-1 {
@@ -83,10 +74,7 @@ blockquote p {
     clip-path: polygon(0 6%, 39% 5%, 100% 1%, 100% 26%, 100% 98%, 10% 97%, 0% 96%);
     padding-bottom:75px;
 }
-#slide-1 h2 {
-    text-align: center;
-    color:#111;
-}
+
 #slide-1 h3 {
     text-align: center;
     color:#111;
@@ -187,12 +175,7 @@ padding-bottom:30px;
     color:black;
 }
 
-#water-background {
-    background:url(/img/bg/water-dark-2.jpg) no-repeat center center;
-    background-position: right;
-    background-size:300%;
-    margin-top:-132px;
-}
+
 
 #home-blog-thumbnail {
     width:300px;
