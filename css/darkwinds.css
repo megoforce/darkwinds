@@ -1635,3 +1635,6 @@ em {
 h2 {
     clear: both;
 }
+#title-king {
+    display: none;
+}

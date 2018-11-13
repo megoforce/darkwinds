@@ -31,20 +31,18 @@ blockquote {
 blockquote p {
     font-size: 25px;
 }
-#title-screen img {
-    width: 100%;
 
-}
 #welcome-logo {
 
     position: absolute;
-    z-index:2;
+    z-index:9999;
     left:0;
     right:0;
     top:0;
     padding:10px;
     max-width: 900px;
     margin-top:100px;
+
 }
 
 #welcome-logo img {
@@ -60,18 +58,21 @@ blockquote p {
 #title-screen {
     text-align: center;
     width:100%;
-    height:400px;
+    height:600px;
     background-position:right bottom;
+    overflow: hidden;
 }
+
 #canvas {
     /*background:url(/img/landing/king.png) no-repeat; */
     background-size: contain;
-    background-position: right; 
-    width: 100%;
-    
+    left:0;
+    right:0;
+    height:600px;
+    z-index: 6666;
+    position: absolute;
 }
-#canvas img {
-}
+
 #slide-1 {
     text-align: center;
     color:#111;
@@ -204,3 +205,17 @@ padding-bottom:30px;
 #home-entrie-span {
     color:rgba(0, 0, 0, 0.678);
 }
+#title-bg {
+    width:100%;
+    height:600px;
+    background: url(/img/bg/battle.jpg)  no-repeat center center fixed; 
+    background-size: cover;
+    animation: animatedBackground 200s linear infinite;
+    background-position: bottom;
+    position: absolute;
+    z-index: 1;
+    }
+    @keyframes animatedBackground {
+    from { background-position: 0 0; }
+    to { background-position: 100% 0; }
+    }

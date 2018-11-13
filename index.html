@@ -13,16 +13,7 @@ layout: none
     <link rel="stylesheet" href="https://use.typekit.net/msi7hrz.css">
     <body>
         <style>
-            body {
-            background: url(/img/bg/battle.jpg)  no-repeat center center fixed; 
-            background-size: cover;
-            animation: animatedBackground 200s linear infinite;
-            background-position: bottom;
-            }
-            @keyframes animatedBackground {
-            from { background-position: 0 0; }
-            to { background-position: 100% 0; }
-            }
+     
         </style>
         <div id="discord-link">
             <a href="https://discord.gg/AdZQ8Zu">
@@ -252,8 +243,10 @@ layout: none
         </script>
         <div id="landing" style="<% if(controller!='welcome') { %> display:none <% } %>">
             <div id="title-screen">
+                <div id="title-bg"></div>
                 <canvas id="canvas"> 
                 </canvas>
+                <img src="/img/landing/king.png" id="title-king"/>
                 <img src="/img/logo/dw_jpn.svg" id="welcome-logo" alt="Darkwinds"/>
             </div>
             <div  id="slide-1" >

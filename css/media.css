@@ -37,7 +37,14 @@
         background-size: auto 100%;
 
     }    
-   
+    #title-king {
+        position:absolute;
+        z-index:2;
+        right:-5%;
+        width:auto;
+        height:600px;
+        display: block;
+    }
     #title-screen h1 {
         padding:8px 200px;
         font-size:40px;
@@ -56,9 +63,15 @@
         margin-left:-30%;
         margin-bottom:16px;
     }
+    #slide-1 h2 {
+        margin-top:40px;
+    }
 }
 
 @media (min-width: 992px) { 
+    #title-king {
+        right:-5%;
+     }
     #book-search {
         width:500px;
     }
