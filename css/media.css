@@ -25,6 +25,9 @@
         margin-top:40px;
 
     }
+    #canvas {
+        display: block;
+    }
     #call-to-action {
         margin-bottom:32px;
     }

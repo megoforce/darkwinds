@@ -53,16 +53,6 @@ blockquote p {
     overflow: hidden;
 }
 
-#canvas {
-    background-size: contain;
-    left:0;
-    right:0;
-    height:600px;
-    z-index: 6666;
-    position: absolute;
-    overflow: hidden;
-    display: none;
-}
 
 #slide-1 {
     text-align: center;

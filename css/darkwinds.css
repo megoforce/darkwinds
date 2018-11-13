@@ -1685,3 +1685,14 @@ h2 {
     background:url(/img/bg/water-dark-2.jpg) no-repeat center center;
     background-size: cover;
 }
+
+#canvas {
+    background-size: contain;
+    left:0;
+    right:0;
+    height:600px;
+    z-index: 6666;
+    position: absolute;
+    overflow: hidden;
+    display: none;
+}
