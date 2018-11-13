@@ -1605,3 +1605,33 @@ em {
 #support {
     margin-top:100px;
 }
+#call-to-action {
+
+    /* background-color: #EEE; */
+    background-image:url(/img/landing/white-txt.png);
+    -webkit-clip-path: polygon(0 6%, 39% 5%, 100% 1%, 100% 26%, 100% 98%, 10% 97%, 0% 96%);
+    clip-path: polygon(0 6%, 39% 5%, 100% 1%, 100% 26%, 100% 98%, 10% 97%, 0% 96%);
+    padding-top:64px;
+    padding-bottom:64px;
+    margin-bottom:-32px;
+    text-align: center;
+}
+
+#call-to-action h1 {
+    margin-bottom:32px;
+    color:#111;
+}
+#landing-header a,#landing-header a:visited {
+    color:white;
+}
+#call-to-action a, #call-to-action a:hover, #call-to-action a:visited {
+    color:white;
+}
+.post-float-left {
+    
+    width:100%;
+    margin-bottom:16px;
+} 
+h2 {
+    clear: both;
+}

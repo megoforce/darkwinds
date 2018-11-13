@@ -7,8 +7,12 @@ h1 {
 }
 h2 {
     font-family:broadsheet;
+    color:whitesmoke;
 }
+h3 {
+    color:whitesmoke;
 
+}
 em {
     color:rgba(44, 44, 44, 0.795);
     text-align: center;

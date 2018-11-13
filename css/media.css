@@ -50,7 +50,12 @@
     .stats-metric {
         padding:32px;
     }  
-    
+    .post-big-image {
+        width: 160%;
+        max-width: 160%;
+        margin-left:-30%;
+        margin-bottom:16px;
+    }
 }
 
 @media (min-width: 992px) { 
@@ -60,7 +65,12 @@
     #title-screen {
         height:600px !important;
     }
-       
+    .post-float-left {
+        float:left;
+        width:40%;
+        margin-left:-20%;
+        margin-right:24px;
+    } 
  }
 
 @media (min-width: 1200px) { 
