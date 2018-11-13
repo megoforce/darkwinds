@@ -1708,4 +1708,12 @@ h2 {
 #footer-logos {
     width: 100%;
     display: flex;
+    
+}
+#footer-logos div {
+    flex-grow: 2;
+    text-align: center;
+}
+#footer p {
+    text-align: center;
 }

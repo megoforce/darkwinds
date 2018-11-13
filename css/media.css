@@ -40,6 +40,7 @@
     }
     .footer-row div {
         width:32%;
+        flex-grow: 2;
     }
     #canvas {
         display: block;
