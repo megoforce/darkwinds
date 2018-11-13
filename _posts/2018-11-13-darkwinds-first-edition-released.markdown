@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "First Edition is out of beta"
+title:  "First Edition is ready"
 date:   2018-11-12 00:30:00 -0400
 categories: Tutorial
 thumbnail: "/img/posts/bahamut-low.jpg"
-excerpt: "We are out of beta and you can finally experience our game without funny glitches"
+excerpt: "Development update: Version 1.0 of Darkwinds is ready and the final 100 cards are here"
 featured_image: "/img/posts/bahamut-low.jpg"
 ---
 <img src="/img/posts/bahamut.jpg" class="post-big-image">
