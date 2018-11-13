@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "First Edition is complete"
+title:  "First Edition is out of beta"
 date:   2018-11-12 00:30:00 -0400
 categories: Tutorial
 thumbnail: "/img/posts/bahamut-low.jpg"
@@ -30,3 +30,8 @@ Also, most of the cards were re imagined with stunning artwork from more than 20
 ## Build your deck
 You can buy Darkwinds, first edition cards today using Ethereum and Metamask.
 
+## What to expect next
+We already have plans for second edition and expansions with added rules to the base game, which we'll discuss in a future post. Meanwhile, we are eager to hear your opinions, ideas and frustrations, so don't forget to <a href="https://discord.gg/WwyCERC">join us on discord</a>.
+
+Thanks for playing
+- The Darkwinds Team
