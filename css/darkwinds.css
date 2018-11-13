@@ -51,6 +51,10 @@ table {
     -webkit-clip-path: polygon(0 59%, 0 3%, 94% 0, 100% 2%, 100% 98%, 2% 100%);
     clip-path: polygon(0 59%, 0 3%, 94% 0, 100% 2%, 100% 98%, 2% 100%);
 }
+p {
+    padding-left:15px;
+    padding-right:15px;
+}
 .ranking-table {
     -webkit-clip-path: none;
     clip-path: none;
@@ -1122,6 +1126,7 @@ footer h3 {
     margin-left: 15px;
     line-height: 2em;
     color: rgba(255, 255, 255, 0.774);
+
 }
 
 
@@ -1695,4 +1700,20 @@ h2 {
     position: absolute;
     overflow: hidden;
     display: none;
+}
+#footer-mego-logo {
+    clear: both;
+    margin: 0 auto;
+}
+#footer-logos {
+    width: 100%;
+    display: flex;
+    
+}
+#footer-logos div {
+    flex-grow: 2;
+    text-align: center;
+}
+#footer p {
+    text-align: center;
 }

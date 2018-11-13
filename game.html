@@ -107,7 +107,10 @@ div[id^="slide-game-"] {
 a {
     text-decoration: underline;
 }
-
+#game-logo {
+    margin:0 auto;
+    text-align: center;
+}
 </style>
 
 <div id="content" class="container-fluid" style="padding:0">
@@ -115,7 +118,11 @@ a {
        <div class="col-12">
           <div id="chapter-1">
              <h2 class="h" style="padding-bottom:0; margin-top: 150px">Introducing</h2>
-             <img style="display: block;width:40%;padding:0;margin-bottom:30px;" src="img/logo/vertical_black.png" />
+             <div class="container">
+                <img src="img/logo/vertical_black.png" id="game-logo"/>
+
+
+             </div>
              <p>Darkwinds is an Ethereum trading card game, that uses the blockchain for card distribution and storage.</p>
              <p>This means all cards issued in the game are a cryptocollectible (ERC721)</p>
              <hr />
