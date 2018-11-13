@@ -1194,8 +1194,9 @@ footer h3 {
     margin-top:72px;
 }
 
-
-
+#landing-header {
+    display:none;
+}
 #title-screen h1 {
     font-size:20px;
     text-transform: uppercase;

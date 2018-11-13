@@ -17,6 +17,9 @@
     #book-search {
         display:inline;
     }
+    #landing-header {
+        display:block;
+    }
     h2 {
         font-size: 36px;
     }
