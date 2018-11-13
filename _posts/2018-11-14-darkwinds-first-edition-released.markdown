@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "First Edition is ready"
-date:   2018-11-12 00:30:00 -0400
+date:   2018-11-14 00:30:00 -0400
 categories: Tutorial
 thumbnail: "/img/posts/bahamut-low.jpg"
 excerpt: "Development update: Version 1.0 of Darkwinds is ready and the final 100 cards are live"
