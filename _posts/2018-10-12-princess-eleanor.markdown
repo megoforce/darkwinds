@@ -8,8 +8,6 @@ excerpt: "This is the story of Eleanor, princess of the Great Isle of Itova, who
 featured_image: "https://playdarkwinds.com/img/posts/storm.jpg"
 
 ---
-
-This is the story of Eleanor, princess of the Great Isle of Itova, who seeks to become the most powerful warrior in the world and to navigate across the Forbidden Seas to show everyone that nothing can come across her aim to dominate the Seven Seas.
  
 Eleanor is the only child of Queen Elizabeth V and King Henry IX.  From a very young age she began to show a deep interest in joining her father in activities like hunting or attending meetings with the crown´s counselors and the army´s high commanders. As the years passed, she became an expert in the arts of war and the sea life. She very much enjoyed sneakinf out of class to go trainning with the soldiers or visiting to the docks to spend time with the sailors. This was the way she learned great skills on how handle weapons and how to manage all kinds of ships.
 
