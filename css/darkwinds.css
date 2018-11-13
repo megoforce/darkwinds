@@ -57,11 +57,7 @@ td {
 th {
     text-align: center;
 }
-h2,h3,h4,h5,h6 {
-    color:#EEE;
 
-    
-}
 h1, h2 {
     font-family: broadsheet;
 }
@@ -1605,4 +1601,7 @@ em {
 
 #loading-screen #find-metamask {
     width: 800px;
+}
+#support {
+    margin-top:100px;
 }
