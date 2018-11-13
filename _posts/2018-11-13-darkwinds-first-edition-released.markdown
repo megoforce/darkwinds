@@ -40,6 +40,6 @@ The current version of the game has many bugfixes and suggestions from players i
 We also streamlined our graphics engine and user interface so it's a fast and stable experience.
 
 ## What to expect next
-We already have plans for second edition and expansions with added rules to the base game, which we'll discuss in a future post. Meanwhile, we are eager to hear your opinions, ideas and frustrations, so don't forget to <a href="https://discord.gg/WwyCERC">join us on discord</a>.
+We already have ideas for expansions with new rules and a second edition, which we'll discuss in a future post. Meanwhile, we are eager to hear your opinions, ideas and frustrations, so don't forget to <a href="https://discord.gg/WwyCERC">join us on discord</a>.
 
 Thanks for playing!
