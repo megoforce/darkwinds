@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "First Edition is ready"
+title:  "Darkwinds is out of beta testing and official game servers are live"
 date:   2018-11-13 00:30:00 -0400
 categories: development
 thumbnail: "/img/posts/bahamut-low.jpg"
@@ -47,7 +47,11 @@ You will be rewarded with experience points for every battle won and in Ranked, 
 
 If you are a plater of Hearthstone, or Magic: The gathering you'll feel very familiar with the gameplay style but with a different set of rules focused on a fast pace and impredictable outcomes.
 
+To play you need a Desktop computer running Chrome or Firefox and visit <a href="https://playdarkwinds.com">playdarkwinds.com</a>. 
+
 ## What to expect next
-We already have ideas for expansions with new rules and a 2nd edition. Meanwhile, we are eager to hear your opinions and ideas, please <a href="https://discord.gg/WwyCERC">join us on Discord</a>.
+We already have ideas for expansions with new rules and a 2nd edition; We are also testing other platforms and technologies, but in the next weeks our focus will be to support this first official version with hotfixes and optimizations.
+
+Meanwhile, we'd love to hear your impressions and ideas: Feel free <a href="https://discord.gg/WwyCERC">join us on Discord</a> and chat with us.
 
 Thanks for playing!
