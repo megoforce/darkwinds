@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "First Edition is ready"
-date:   2018-11-14 00:30:00 -0400
-categories: Tutorial
+date:   2018-11-13 00:30:00 -0400
+categories: development
 thumbnail: "/img/posts/bahamut-low.jpg"
 excerpt: "Development update: Version 1.0 of Darkwinds is ready and the final 100 cards are live"
 featured_image: "/img/posts/bahamut-low.jpg"
@@ -19,8 +19,7 @@ In this "First Edition", players will uncover the story of Princess Eleanor, who
 
 With Darkwinds we attempt to honor classic trading card games while at the same time transport players to an exotic world such as a sea of pirates where honor, madness, rum and luck are the key for survival. We introduced a small but deep ruleset for an "easy to learn, hard to master" experience.
 
-## Final cards
-
+## Publishing of the final First Edition cards
 
 As of today all the properties and abilities of cards are final. Which means we won't be changing the attack rates, spells, health or cost. 
 
@@ -33,9 +32,12 @@ Also, most of the cards were re imagined with stunning artwork from more than 20
 
 Today you can buy all Darkwinds first edition packs and random cards with Ethereum.
 
-## Improved gameplay
+## Gameplay improvements
 
-The current version of the game has many bugfixes and suggestions from players included. We also have competitive matchmaking using the TrueSkill system and simple but profound rules that reward the best strategies. 
+The current version of the game has many bugfixes and suggestions from players included. 
+* We also made our bot lord cochrane a bit wiser (sorry)
+
+## Performance
 
 We also streamlined our graphics engine and user interface so it's a fast and stable experience.
 
