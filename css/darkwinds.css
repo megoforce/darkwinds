@@ -107,18 +107,15 @@ h6 {
     font-size: 8px;
     font-family: 'Quando', serif;
 }
-blockquote {
+#blockquote {
     quotes: "“" "”" "‘" "’";
     font-style: italic;
     font-family: "times new roman";
     font-weight: lighter;
-    font-size: 18px;
+    font-size: 30px;
+    color:rgba(0, 0, 0, 0.34);
     line-height: 2;
-    background-image:url(/img/wallet/ink.png);
-    background-repeat: no-repeat;
-    min-height: 150px;
-    background-position: center;
-    padding: 90px 50px 50px 50px;
+    padding: 25px;
 }
 hr {
     border: none;
