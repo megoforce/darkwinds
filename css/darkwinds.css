@@ -92,7 +92,7 @@ h2 {
 }
 h3 {
     font-size: 20px;
-    line-height:22px;
+    line-height:2;
     font-family: 'Quando', serif;
 }
 h4 {
@@ -492,6 +492,7 @@ p {
     margin-right:auto;
     font-size: 15px;
     color: rgb(61, 61, 61);
+    line-height: 2;
 }
 
 
@@ -1305,7 +1306,6 @@ header {
     margin-bottom:32px;
     height:56px;
     display: none;
-
 }
 
 header img {
