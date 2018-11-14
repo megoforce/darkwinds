@@ -3,11 +3,11 @@ layout: post
 title:  "Darkwinds is out of beta, official game servers are live"
 date:   2018-11-13 00:30:00 -0400
 categories: development
-thumbnail: "/img/posts/bahamut-low.jpg"
+thumbnail: "/img/posts/marriane.jpg"
 excerpt: "Development update: Version 1.0 of Darkwinds, the cryptocollectible trading card game on the Ethereum blockchain, is live and all the first 100 cards are finally revealed."
-featured_image: "/img/posts/bahamut-low.jpg"
+featured_image: "/img/posts/marriane.jpg"
 ---
-<img src="/img/posts/bahamut.jpg" class="post-big-image">
+<img src="/img/posts/marriane.jpg" class="post-big-image">
 <br>
 **Darkwinds is officially live.**
 
