@@ -4,7 +4,7 @@ title:  "First Edition is ready"
 date:   2018-11-13 00:30:00 -0400
 categories: development
 thumbnail: "/img/posts/bahamut-low.jpg"
-excerpt: "Development update: Version 1.0 of Darkwinds -the cryptocollectible trading card game- is live and all the first 100 cards are finally revealed."
+excerpt: "Development update: Version 1.0 of Darkwinds, the cryptocollectible trading card game that makes use of the Ethereum blockchain, is live and all the first 100 cards are finally revealed."
 featured_image: "/img/posts/bahamut-low.jpg"
 ---
 <img src="/img/posts/bahamut.jpg" class="post-big-image">
@@ -44,6 +44,8 @@ Use your cryptocollectibles to assemble a deck and fight your way up to the lead
 Our game servers are open to all Darkwinds cards owners in three modes: Practice, Quick and Ranked.
 
 You will be rewarded with experience points for every battle won and in Ranked, your skill level will be calculated using the [TrueSkill](https://www.microsoft.com/en-us/research/project/trueskill-ranking-system/) system.
+
+If you are a plater of Hearthstone, or Magic: The gathering you'll feel very familiar with the gameplay style but with a different set of rules focused on a fast pace and impredictable outcomes.
 
 ## What to expect next
 We already have ideas for expansions with new rules and a 2nd edition. Meanwhile, we are eager to hear your opinions and ideas, please <a href="https://discord.gg/WwyCERC">join us on Discord</a>.
