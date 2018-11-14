@@ -22,30 +22,28 @@ In this game, you will uncover the story of [Princess Eleanor](https://playdarkw
 In this version we introduce the basic ruleset for an "easy to learn, hard to master" experience, which is gonna be the foundation for the expansions and new editions.
 
 <img src="https://corsarium.playdarkwinds.com/img/cards/20.opt.png" class="post-float-left">
-So we created and designed 100 unique game cards acquirable through our smart contract.
+There's 100 "First Edition" game cards acquirable through our smart contract, with stunning artwork from more than 20 artists. This are the same tokens used in beta testing, but revisited and balanced.
 
 As of today all the properties and abilities of cards are final. It means **we won't be changing the attack rates, spells, health or cost**. 
 
 And since we are commited to the concept of immutable cryptocollectibles, we're extending our smart contracts to include such info, so all Darkwinds cards ever bought will stay the same and nobody can nerf.
 
-Most of the cards were re imagined with stunning artwork from more than 20 artists.
-
 <a href="https://playdarkwinds.com/cards.html">You can look at all the final cards here</a>
 
-Today you can buy Darkwinds First Edition packs that contain random cards with Ethereum.
+
+## Online battle experience
 
 <video autoplay loop muted id="gameplay-video">
 <source src="https://corsarium.playdarkwinds.com/video/landing.webm" type="video/webm">
 <source src="https://corsarium.playdarkwinds.com/video/landing.mp4" type="video/mp4">
 <img src="https://s3.amazonaws.com/mego-blog/darkwinds/darkwinds2018.gif">
-</video>
+</video><br>
 
+Use your cryptocollectibles to assemble a deck and fight your way up to the leaderboard!
 
-## Online battle experience
+Our game servers are open to all Darkwinds cards owners in three modes: Practice, Quick and Ranked.
 
-You can now use your Darkwinds cryptocollectibles to assemble a deck and fight your way up to the leaderboard!
-
-The current version of the game has many bugfixes and suggestions from players included. We Balanced every card according to play testing information and skll levels are calculated using the [TrueSkill](https://www.microsoft.com/en-us/research/project/trueskill-ranking-system/) system.<br><br>
+You will be rewarded with experience points for every battle won and in Ranked, your skill level will be calculated using the [TrueSkill](https://www.microsoft.com/en-us/research/project/trueskill-ranking-system/) system.
 
 
 ## What to expect next
