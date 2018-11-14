@@ -50,7 +50,7 @@ If you are a plater of Hearthstone, or Magic: The gathering you'll feel very fam
 To play you need a Desktop computer running Chrome or Firefox and visit <a href="https://playdarkwinds.com">playdarkwinds.com</a>. 
 
 ## What to expect next
-We already have ideas for expansions with new rules and a 2nd edition; We are also testing other platforms and technologies, but in the next weeks our focus will be to support this first official version with hotfixes and optimizations.
+We already have ideas for expansions with new rules, a 2nd edition, tournaments, versions for other platforms, and more; However, in the short term our focus will be to support this first official version with hotfixes and optimizations. We won't stop working and you'll hear about our future plans pretty soon.
 
 Meanwhile, we'd love to hear your impressions and ideas: Feel free <a href="https://discord.gg/WwyCERC">join us on Discord</a> and chat with us.
 
