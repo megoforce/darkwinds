@@ -4,7 +4,7 @@ title:  "First Edition is ready"
 date:   2018-11-13 00:30:00 -0400
 categories: development
 thumbnail: "/img/posts/bahamut-low.jpg"
-excerpt: "Development update: Version 1.0 of Darkwinds, the cryptocollectible trading card game is live and all the first 100 cards are finally revealed."
+excerpt: "Development update: Version 1.0 of Darkwinds -the cryptocollectible trading card game- is live and all the first 100 cards are finally revealed."
 featured_image: "/img/posts/bahamut-low.jpg"
 ---
 <img src="/img/posts/bahamut.jpg" class="post-big-image">
