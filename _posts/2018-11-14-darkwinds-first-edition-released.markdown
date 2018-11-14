@@ -32,19 +32,21 @@ Most of the cards were re imagined with stunning artwork from more than 20 artis
 
 <a href="https://playdarkwinds.com/cards.html">You can look at all the final cards here</a>
 
-Today you can buy all Darkwinds First Edition packs and random cards with Ethereum.
+Today you can buy Darkwinds First Edition packs that contain random cards with Ethereum.
 
-## Gameplay improvements
+<video autoplay loop muted id="gameplay-video">
+<source src="https://corsarium.playdarkwinds.com/video/landing.webm" type="video/webm">
+<source src="https://corsarium.playdarkwinds.com/video/landing.mp4" type="video/mp4">
+<img src="https://s3.amazonaws.com/mego-blog/darkwinds/darkwinds2018.gif">
+</video>
 
-The current version of the game has many bugfixes and suggestions from players included.
 
--Our bot Lord Cochrane a bit wiser (sorry).<br><br>
--Best strategies are rewarded in Competitive match.  It is calculated using the [TrueSkill](https://www.microsoft.com/en-us/research/project/trueskill-ranking-system/) system.<br><br>
+## Online battle experience
 
+You can now use your Darkwinds cryptocollectibles to assemble a deck and fight your way up to the leaderboard!
 
-## Performance
--Faster graphic engine and new interface.<br><br>
--Stable game experience.
+The current version of the game has many bugfixes and suggestions from players included. We Balanced every card according to play testing information and skll levels are calculated using the [TrueSkill](https://www.microsoft.com/en-us/research/project/trueskill-ranking-system/) system.<br><br>
+
 
 ## What to expect next
 We already have ideas for expansions with new rules and a 2nd edition. Meanwhile, we are eager to hear your opinions and ideas, please <a href="https://discord.gg/WwyCERC">join us on Discord</a>.
