@@ -74,8 +74,8 @@ h1, h2 {
     font-family: broadsheet;
 }
 h1 {
-    font-size: 64px;
-    line-height:56px;
+    font-size: 36px;
+    line-height:32px;
     color: rgb(61, 61, 61);
     margin-bottom:15px;
     text-transform: uppercase;
@@ -1298,9 +1298,20 @@ header {
     text-transform: uppercase;
     margin-bottom:32px;
     height:56px;
+}
+#header-link-list {
     display: none;
 }
-
+#header-left {
+    position: fixed;
+}
+#header-darkwinds {
+    position: fixed;
+    width:100px;
+    height:auto;
+    left:56px;
+    top:0px;
+}
 header img {
     padding-top:16px;
 }

@@ -17,6 +17,18 @@
     #slide-1 h2 {
         font-size:40px;  
 
+    }#header-darkwinds {
+        display: none;
+    }
+    h1 {
+        font-size: 64px;
+        line-height:56px;
+    }
+    #header-left {
+        position: static;
+    }
+    #header-link-list {
+        display: block;
     }
     #discord-link {
         display: block;
