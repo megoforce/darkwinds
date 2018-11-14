@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Darkwinds is out of beta testing and official game servers are live"
+title:  "Darkwinds is out of beta testing, official game servers are live"
 date:   2018-11-13 00:30:00 -0400
 categories: development
 thumbnail: "/img/posts/bahamut-low.jpg"
