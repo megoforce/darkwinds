@@ -4,18 +4,30 @@ p {
 }
 h1 {
     color: rgb(61, 61, 61);
+    font-size: 45px;
+    text-transform: uppercase;
 }
 h2 {
     font-family:broadsheet;
     color:whitesmoke;
+    font-size: 38px;
+    text-transform: uppercase;
 }
 h3 {
     color:whitesmoke;
-
+    font-size: 22px;
+    font-family: quando;
+}
+h4 {
+    font-size: 20px;
 }
 em {
     color:rgba(44, 44, 44, 0.795);
     text-align: center;
+}
+#h3-description{
+    font-family: broadsheet;
+    font-size: 30px;
 }
 img {
     text-align: center !important;
@@ -77,8 +89,12 @@ blockquote p {
 }
 
 #slide-1 h3 {
-    text-align: center;
+    text-transform: uppercase;
     color:#111;
+    letter-spacing: 3px;
+    padding-top:3%;
+    padding-bottom:3%;
+    
 }
 #slide-2 {
     -webkit-clip-path: polygon(0 0, 100% 3%, 100% 100%, 0 98%);

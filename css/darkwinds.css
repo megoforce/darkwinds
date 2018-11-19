@@ -1454,6 +1454,7 @@ em {
     text-align: center;
     font-family: broadsheet;
     color:black;
+    font-size: 24px;
 }
 
 #content h2 {
@@ -1713,5 +1714,5 @@ video {
 }
 #welcome-logo-text{
     display: none;
-    
+
 }
