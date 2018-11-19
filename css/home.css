@@ -137,7 +137,8 @@ padding-bottom:30px;
     color:rgba(0, 0, 0, 0.795);
     line-height: 2;
     font-weight: normal;
-    letter-spacing: 1px;
+    letter-spacing: -1px;
+    font-size: 15px;
 }
 
 #slide-5 h4 a:hover {
@@ -155,6 +156,10 @@ padding-bottom:30px;
     margin-bottom:20px;
     min-height:400px;
     background-color:rgb(255, 255, 255);
+    
+}
+#home-single-entrie a {
+    letter-spacing: -2;
 }
 /* 
 #home-single-entrie:hover #blog-thumbnail {
@@ -164,8 +169,6 @@ padding-bottom:30px;
 #call-to-action h2 {
     color:black;
 }
-
-
 
 #home-blog-thumbnail {
     width:300px;
@@ -177,6 +180,7 @@ padding-bottom:30px;
 
 #home-entrie-span {
     color:rgba(0, 0, 0, 0.678);
+    padding-bottom: 40px;
 }
 #title-bg {
     width:100%;
