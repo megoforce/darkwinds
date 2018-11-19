@@ -1660,21 +1660,7 @@ h2 {
     width: 90%;
     z-index:9999;
 }
-#welcome-logo {
 
-    position: absolute;
-    z-index:9999;
-    left:0;
-    right:0;
-    top:6%;
-    padding:10px;
-    width:80%;
-    left:10%;
-    padding:0;
-    margin:0;
-    margin-top:100px;
-
-}
 #title-screen {
     padding:0;
     margin: 0;
@@ -1724,4 +1710,8 @@ h2 {
 video { 
     width:100%;
     height:auto;
+}
+#welcome-logo-text{
+    display: none;
+    
 }

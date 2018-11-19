@@ -35,7 +35,18 @@ blockquote p {
     overflow: hidden;
 }
 
-#welcome-logo img {
+#welcome-logo {
+    position: relative;
+    z-index: 2;
+
+}
+#welcome-logo-subtitle {
+    z-index: 3;
+    position: relative;
+    text-align: center;
+    padding-top: 1%;
+    letter-spacing: 3px;
+    
 }
 #welcome-king {
     position: absolute;
