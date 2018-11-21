@@ -7,8 +7,7 @@ thumbnail: "/img/posts/marriane-600.jpg"
 excerpt: "Development update: Version 1.0 of Darkwinds, the cryptocollectible trading card game on the Ethereum blockchain, is live and all the first 100 cards are finally revealed."
 featured_image: "https://playdarkwinds.com/img/posts/marriane.jpg"
 ---
-<img src="/img/posts/marriane.jpg" class="post-big-image">
-<br>
+
 **Darkwinds is officially live.**
 
 After an intense first year of development, we're happy to announce that we've achieved our initial goal: to build a fully-featured trading card game on Ethereum with multiplayer matchmaking and competitive leaderboards, thus, no longer in beta (yayyy!).

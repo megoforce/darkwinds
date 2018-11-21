@@ -1241,7 +1241,9 @@ footer h3 {
     text-align: center;
     margin-bottom: 32px;
 }
-
+#post-featured-image {
+    margin-top:-32px;
+}
 span {
     font-size: 12px;
     padding-bottom:10px;
