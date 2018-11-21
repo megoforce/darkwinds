@@ -10,19 +10,21 @@ featured_image: "/img/posts/madre-de-aguas.png"
 ---
 
 
-The best that can happen to you if you open a Darkwinds pack is scoring a rare card. For decades TCGs have been printing a limited amount of some of their models to be coveted by collectors. When card games went digital and the cards exist in a database, rarity can be controlled very fast and it's hard to understand how it happens.
+The best that can happen to you if you open a Darkwinds pack is scoring a rare card. For decades TCGs have been printing a limited amount of some of their models to be coveted by collectors. After card games went digital and cards are created in a database, rarity can be controlled very fast and it's hard to understand how it happens.
 
 ## In the Blockchain age, we can do better
 
-We can write the rules of issuance in a smart contract, guaranteeing every purchaser a transparent chance of obtaining a rare card. 
+If we publish the rules of issuance in a smart contract, guaranteeing every purchaser a transparent chance of obtaining a rare card, we can establish a new kind of relationship with collectors: a honest one.
 
-When a Darkwinds booster chest is purchased all the card models are determined by a pseudo-random number that will only produce rare cards above a treshold. 
+We can also make sure the contract cannot be modified so it's impossible to change the rules.
+
+
+Every time Darkwinds cards are purchased, a pseudo-random number will roll and only produce rare cards above a high treshold. 
 
 <img src="/img/posts/rarity-monte-carlo.png">
 
-When publishing the contract also made sure it's impossible to change the rules.
 
-There can only be 1 million Darkwinds First Edition cards of 100 diferent models. So there are many to be created, but there's a 90% chance that will be one of the first 50 models, so the other half is considered Rare.
+There can only be 1 million Darkwinds First Edition cards of 100 diferent models. So while there are many to be created, only 10% will be models 50 and up, thus considered rare.
 
 Of the 50 rare card models, we call the last 20 ultra-rare because they are even more unlikely to appear. At the time of this writing there are 6 models that have never appeared.
 
