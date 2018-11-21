@@ -10,7 +10,7 @@ featured_image: "/img/posts/madre-de-aguas.png"
 ---
 
 
-The best that can happen to you if you open a Darkwinds random card pack is scoring rare one. For decades TCG games have been printing a limited amount of some of their models to be coveted by collectors. When TCG went digital and the cards exist in a database, rarity can be controlled very fast and it's hard to understand how it happens.
+The best that can happen to you if you open a Darkwinds random card pack is scoring rare one. For decades TCGs have been printing a limited amount of some of their models to be coveted by collectors. When card games went digital and the cards exist in a database, rarity can be controlled very fast and it's hard to understand how it happens.
 
 ## In the Blockchain age, we can do better
 
