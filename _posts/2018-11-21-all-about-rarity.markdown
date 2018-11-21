@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "All about rarity"
-date:   2018-11-21 14:00:00 -0400
+date:   2018-11-21 1:00:00 -0400
 categories: nerdstuff
 thumbnail: "/img/posts/madre-de-aguas.png"
 excerpt: "In Darkwinds some cards are far more common that others. Why does it happen? This post will explain things."
@@ -10,7 +10,7 @@ featured_image: "/img/posts/madre-de-aguas.png"
 ---
 
 
-The best that can happen to you if you open a Darkwinds random card pack is scoring rare one. For decades TCGs have been printing a limited amount of some of their models to be coveted by collectors. When card games went digital and the cards exist in a database, rarity can be controlled very fast and it's hard to understand how it happens.
+The best that can happen to you if you open a Darkwinds pack is scoring rare card. For decades TCGs have been printing a limited amount of some of their models to be coveted by collectors. When card games went digital and the cards exist in a database, rarity can be controlled very fast and it's hard to understand how it happens.
 
 ## In the Blockchain age, we can do better
 
