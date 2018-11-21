@@ -4,7 +4,7 @@ title:  "All about rarity"
 date:   2018-11-20 14:00:00 -0400
 categories: nerdstuff
 thumbnail: "/img/posts/madre-de-aguas.png"
-excerpt: "In Darkwinds some cards are far more common that others. Why does it happen? This post will explain how."
+excerpt: "In Darkwinds some cards are far more common that others. Why does it happen? This post will explain things."
 featured_image: "/img/posts/madre-de-aguas.png"
 
 ---
@@ -26,9 +26,23 @@ There can only be 1 million Darkwinds First Edition cards of 100 diferent models
 
 Of the 50 rare card models, we call the last 20 ultra-rare because they are even more unlikely to appear. At the time of this writing there are 6 models that have never appeared.
 
-We assign rarity in 3 ties: Ruby (Not Rare), Gold (Rare), Diamond (Very Rare)
-
 You can distinguish your cards rarity by looking at the border color.
 
+<div style="display:flex">
+<div style="flex-grow:2;text-align:center;padding:8px">
+<img src="https://corsarium.playdarkwinds.com/img/cards/19.opt.png">
+<h4 style="margin-top:8px">Black (Not Rare)</h4>
+</div>
+<div style="flex-grow:2;text-align:center;padding:8px">
+<img src="https://corsarium.playdarkwinds.com/img/cards/51.opt.png">
+<h4 style="margin-top:8px">Silver (Rare)</h4>
 
-If you are into technical details you can also look at <a href="/whitepaper/darkwinds.pdf">our whitepaper</a>
+</div>
+<div style="flex-grow:2;text-align:center;padding:8px">
+<img src="https://corsarium.playdarkwinds.com/img/cards/92.opt.png">
+<h4 style="margin-top:8px">Gold (Very Rare)</h4>
+
+</div>
+</div>
+
+If you'd like to dig deeper into the card generation function you can check out <a href="/whitepaper/darkwinds.pdf">our whitepaper</a>
