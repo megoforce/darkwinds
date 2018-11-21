@@ -19,7 +19,7 @@ If we publish the rules of issuance in a smart contract, guaranteeing every purc
 We can also make sure the contract cannot be modified so it's impossible to change the rules.
 
 
-Every time Darkwinds cards are purchased, a pseudo-random number will roll and only produce rare cards above a high treshold. 
+Every time a Darkwinds cards is generated, a pseudo-random number will roll and only produce a rare one above a high treshold. 
 
 <img src="/img/posts/rarity-monte-carlo.png">
 
