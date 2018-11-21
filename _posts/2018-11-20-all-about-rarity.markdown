@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "All about rarity"
-date:   2018-11-20 14:00:00 -0400
+date:   2018-11-21 14:00:00 -0400
 categories: nerdstuff
 thumbnail: "/img/posts/madre-de-aguas.png"
 excerpt: "In Darkwinds some cards are far more common that others. Why does it happen? This post will explain things."
