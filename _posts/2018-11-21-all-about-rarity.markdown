@@ -26,7 +26,7 @@ Every time Darkwinds cards are purchased, a pseudo-random number will roll and o
 
 There can only be 1 million Darkwinds First Edition cards of 100 diferent models. So while there are many to be created, only 10% will be models 50 and up, thus considered rare.
 
-Of the 50 rare card models, we call the last 20 ultra-rare because they are even more unlikely to appear. At the time of this writing there are 6 models that have never appeared.
+Of the 50 rare card models, we call the last 20 "Gold" because they are even more unlikely to appear. At the time of this writing there are 6 models that have never appeared.
 
 You can distinguish your cards rarity by looking at the border color.
 
