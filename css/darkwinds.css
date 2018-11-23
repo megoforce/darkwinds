@@ -41,6 +41,18 @@ td {
     text-align: left;
     padding: 2px 8px;
 }
+ul {
+    list-style-image: url('/img/guide/diamond.svg');
+    max-width:500px;
+    margin: 0 auto;
+    margin-bottom:16px;
+}
+li {
+    font-family: 'Quando', serif;
+    font-size: 15px;
+    font-weight: 100;
+    margin-bottom: 10px;
+}
 table {
     text-align: center;
     background-color:#EEE;
