@@ -1,45 +1,56 @@
 ---
 layout: post
-title:  "First Edition is ready"
-date:   2018-11-14 00:30:00 -0400
-categories: Tutorial
-thumbnail: "/img/posts/bahamut-low.jpg"
-excerpt: "Development update: Version 1.0 of Darkwinds is ready and the final 100 cards are live"
-featured_image: "/img/posts/bahamut-low.jpg"
+title:  "Darkwinds is out of beta, official game servers are live"
+date:   2018-11-13 00:30:00 -0400
+categories: development
+thumbnail: "/img/posts/marriane-600.jpg"
+excerpt: "Development update: Version 1.0 of Darkwinds, the cryptocollectible trading card game on the Ethereum blockchain, is live and all the first 100 cards are finally revealed."
+featured_image: "https://playdarkwinds.com/img/posts/marriane.jpg"
 ---
-<img src="/img/posts/bahamut.jpg" class="post-big-image">
-Darkwinds is officially live.
 
-After an intense first year of development, we are happy to inform you that we have achieved our initial goal of building a fully-featured 
-trading card game on Ethereum with multiplayer matchmaking and competitive leaderboards, thus, no longer in beta. 
+**Darkwinds is officially live.**
 
-We also created and designed 100 unique game cards acquirable through our smart contract.
+After an intense first year of development, we're happy to announce that we've achieved our initial goal: to build a fully-featured trading card game on Ethereum with multiplayer matchmaking and competitive leaderboards, thus, no longer in beta (yayyy!).
 
-In this "First Edition", players will uncover the story of Princess Eleanor, who is navigating the seas on the quest to find her father, King Enrique IX de Itova, after he dissappeard in the middle of a black magic storm. Ever since, forgotten pirates, powerful sorcerers and giant creatures have come to conquer the bigest of Thard's kingdoms. 
+With Darkwinds we attempt to honor classic trading card games, but at the same time transport you to an exotic world dominated by pirates where honor, madness, rum and luck are vital. 
 
-With Darkwinds we attempt to honor classic trading card games while at the same time transport players to an exotic world such as a sea of pirates where honor, madness, rum and luck are the key for survival. We introduced a small but deep ruleset for an "easy to learn, hard to master" experience.
+In this game, you will uncover the story of [Princess Eleanor](https://playdarkwinds.com/lore/2018/10/12/princess-eleanor.html), who is navigating the seas on the quest to find her father, King Enrique IX de Itova, after he dissappeard in the middle of a black magic storm. Ever since, forgotten pirates, powerful sorcerers and giant creatures have come to conquer the biggest of Thard's kingdoms. 
 
-## Final cards
+## First Edition
 
-
-As of today all the properties and abilities of cards are final. Which means we won't be changing the attack rates, spells, health or cost. 
+In this version we introduce the basic ruleset for an "easy to learn, hard to master" experience, which is gonna be the foundation for the expansions and new editions.
 
 <img src="https://corsarium.playdarkwinds.com/img/cards/20.opt.png" class="post-float-left">
-And since we are commited to the concept of immutable cryptocollectibles, we are extending our smart contracts to include such info, so all Darkwinds cards ever bought will stay the same and nobody can nerf.
+There's 100 "First Edition" game cards acquirable through our smart contract, with stunning artwork from more than 20 artists. This are the same tokens used in beta testing, but revisited and balanced.
 
-Also, most of the cards were re imagined with stunning artwork from more than 20 artists.
+As of today all the properties and abilities of cards are final. It means **we won't be changing the attack rates, spells, health or cost**. 
+
+And since we are commited to the concept of immutable cryptocollectibles, we're extending our smart contracts to include such info, so all Darkwinds cards ever bought will stay the same and nobody can nerf.
 
 <a href="https://playdarkwinds.com/cards.html">You can look at all the final cards here</a>
 
-Today you can buy all Darkwinds first edition packs and random cards with Ethereum.
 
-## Improved gameplay
+## Online battle experience
 
-The current version of the game has many bugfixes and suggestions from players included. We also have competitive matchmaking using the TrueSkill system and simple but profound rules that reward the best strategies. 
+<video autoplay loop muted id="gameplay-video">
+<source src="https://corsarium.playdarkwinds.com/video/landing.webm" type="video/webm">
+<source src="https://corsarium.playdarkwinds.com/video/landing.mp4" type="video/mp4">
+<img src="https://s3.amazonaws.com/mego-blog/darkwinds/darkwinds2018.gif">
+</video><br>
 
-We also streamlined our graphics engine and user interface so it's a fast and stable experience.
+Use your cryptocollectibles to assemble a deck and fight your way up to the leaderboard!
+
+Our game servers are open to all Darkwinds cards owners in three modes: Practice, Quick and Ranked.
+
+You will be rewarded with experience points for every battle won and in Ranked, your skill level will be calculated using the [TrueSkill](https://www.microsoft.com/en-us/research/project/trueskill-ranking-system/) system.
+
+If you are a plater of Hearthstone, or Magic: The gathering you'll feel very familiar with the gameplay style but with a different set of rules focused on a fast pace and impredictable outcomes.
+
+To play you need a Desktop computer running Chrome or Firefox and visit <a href="https://playdarkwinds.com">playdarkwinds.com</a>. 
 
 ## What to expect next
-We already have ideas for expansions with new rules and a second edition, which we'll discuss in a future post. Meanwhile, we are eager to hear your opinions, ideas and frustrations, so don't forget to <a href="https://discord.gg/WwyCERC">join us on discord</a>.
+We already have ideas for expansions with new rules, a 2nd edition, tournaments, versions for other platforms, and more; However, in the short term our focus will be to support this first official version with hotfixes and optimizations. We won't stop working and you'll hear about our future plans pretty soon.
+
+Meanwhile, we'd love to hear your impressions and ideas: Feel free <a href="https://discord.gg/WwyCERC">join us on Discord</a> and chat with us.
 
 Thanks for playing!

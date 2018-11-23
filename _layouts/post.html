@@ -24,7 +24,7 @@
         color: black;
         width: 100%;
         text-align: center;
-        line-height: 20px;
+        line-height: 24px;
         font-size: 20px;
     }
   </style>
@@ -37,12 +37,14 @@
                 
             </div>
         </br>
+        <img id="post-featured-image" src="{{page.featured_image}}" />
         <h1>{{page.title}}</h1>
         <h3>{{page.excerpt}}</h3>
 
         <div id="post-meta">{{ page.date | date: "%B %e, %Y" }}. Category: {{ page.categories }}</div>
 
         {{ content }} 
+        <hr>
     </div>
     {% include footer.html %}
     </body>

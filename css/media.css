@@ -11,18 +11,31 @@
         flex-grow: 2;
         text-align: right;
     }
+
 }
 
 @media (min-width: 768px) { 
+    h1 {
+        margin-top:72px;
+    }
     #slide-1 h2 {
         font-size:40px;  
 
+    }#header-darkwinds {
+        display: none;
+    }
+    h1 {
+        font-size: 64px;
+        line-height:56px;
+    }
+    #header-left {
+        position: static;
+    }
+    #header-link-list {
+        display: block;
     }
     #discord-link {
         display: block;
-    }
-    #welcome-logo {
-        max-height:350px;
     }
     footer {
         height: 330px;
@@ -63,9 +76,8 @@
     #welcome-icon {
         display: none;
     }
-    #welcome-logo {
-        top:110px;
-        margin-top:0;
+    #welcome-logo-text{
+        display: none;
     }
     #title-screen {
         background-image:url(/img/landing/king2.png);
@@ -121,14 +133,29 @@
         width:40%;
         margin-left:-20%;
         margin-right:24px;
-    } 
+    }
+    #welcome-logo-text {
+        display: inherit;
+        margin: auto;
+        padding-top: 100px;
+        width:75%;
+    }
+    #welcome-logo-subtitle {
+        font-size: 25px;
+    }
  }
 
 @media (min-width: 1200px) { 
     #book-search {
         width:600px;
     }
-    #title-screen {
-
+    #welcome-logo-text {
+        display: inherit;
+        width: 72%;
+        margin: auto;
+        padding-top: 100px;
+    }
+    #welcome-logo-subtitle {
+        font-size: 35px;
     }
  }
