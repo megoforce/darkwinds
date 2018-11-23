@@ -3,7 +3,7 @@ layout: post
 title:  "The art of deck building"
 date:   2018-11-23 00:38:00 -0400
 categories: strategy
-thumbnail: "https://playdarkwinds.com/img/posts/art03.jpeg"
+thumbnail: "https://playdarkwinds.com/img/posts/art03-600.jpeg"
 excerpt: "The art and essence of Darkwinds"
 featured_image: "https://playdarkwinds.com/img/posts/art03.jpeg"
 
@@ -30,5 +30,48 @@ Dont overlook the luck factor. Sometimes you're out of luck and your oponent mig
 
 ## Look in the market for your missing card
 If the only thing missing from your dream deck is a specific card, remember that the magic of NFTs is that you can trade them outside the game. You can look for a specific card and buy it in <a href="https://opensea.io/category/darkwinds">the Darkwinds marketplace</a>.
+
+## Want some examples?
+The Darkwinds game design team built a couple of examples so you can see what we are talking about.
+
+### The Deceitful Explorer
+With this deck, you will have enough staying power to slowly sink your opponent. Your own health will not be at risk with a combination of blocking Buccaneers and healing Spells, which you can also use to further boost your blockading allies. A card like Kraken stalls your rival's play, shifting its focus while you prepare your last play: a Black Dagger will allow you to stab your rival when it least expects. <a href="https://opensea.io/bundles/the-deceitful-explorer-black-friday-sale">Check it out at OpenSea!</a>
+
+- 1x Kraken
+- 1x Elgard The Vicar
+- 1x Private Jeimi
+- 1x Healing Shadow
+- 1x Silent Waters
+- 1x Golden Astrolabe
+- 1x Bahamut
+- 1x Lady Elizard
+- 1x Deckshine Gordon
+- 1x Black Dagger
+
+### The Dreaded Murderer
+Why trust others when you can wreck havok yourself? This deck is all about the splashy, high-risk high-reward plays. Your rival has big blocking allies? No worries. Go over them with this deck's Assault spells, including two that damage ALL of your rival's (and yours, but you don't care right?) Buccaneers, and finish spectacularly with a powerful Mental Cannon, making your rival wonder what kind of $#*% has just happened.
+
+- 1x Mental Cannon
+- 2x Serf Serena
+- 1x Milton, The Short One
+- 1x Shrapnel
+- 1x Lazy Eye Tybault
+- 1x Sword of Maddness
+- 1x Extra Limb
+- 1x Spectral
+- 1x Blue Powder
+
+### The Damned Plunderer
+If you sink your opponent first, you don't have to worry much about your health, right? This cards will allow you to swiftly deal damage, with little to no regard to their own health. Given the right conditions, you can deal enormous amounts of damage as fast as possible. The Black Corsair is there to help you push the envelope with its quick 3 points of damage. A couple of spells won't hurt, so you have a heal and damaging spell to complement your allies.
+
+- 1x Black Corsair
+- 1x Barrel Philips
+- 1x Marianne Morningstar
+- 1x Tristan The Sharp
+- 1x Miss Selora
+- 1x Milton, The Short One
+- 1x Manuk Smile Of Steel
+- 1x Cannon Ball
+- 1x Old Bandages
 
 Good luck. You will need it!
