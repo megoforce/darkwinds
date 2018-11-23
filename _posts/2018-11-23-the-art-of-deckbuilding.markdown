@@ -3,7 +3,7 @@ layout: post
 title:  "The art of deck building"
 date:   2018-11-23 00:38:00 -0400
 categories: strategy
-thumbnail: "https://playdarkwinds.com/img/posts/art03-600.jpeg"
+thumbnail: "https://playdarkwinds.com/img/posts/art03-600.png"
 excerpt: "The art and essence of Darkwinds"
 featured_image: "https://playdarkwinds.com/img/posts/art03.jpeg"
 
